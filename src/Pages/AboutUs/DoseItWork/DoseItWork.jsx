@@ -34,7 +34,7 @@ const DoseItWork = () => {
               </p>
             </div>
             <h1 className="text-[#161C2D] text-center text-[21px] font-bold leading-[32px] tracking-[-0.5px] pt-[46px] pb-[14px]">
-              Get Requirements
+              Analyze
             </h1>
             <p className=" text-[#161C2D] text-center text-[17px] font-medium leading-[29px] tracking-[-0.2px] opacity-70">
               With lots of unique blocks, you can easily build a page easily
@@ -48,7 +48,7 @@ const DoseItWork = () => {
               </p>
             </div>
             <h1 className="text-[#161C2D] text-center text-[21px] font-bold leading-[32px] tracking-[-0.5px] pt-[46px] pb-[14px]">
-              Get Requirements
+              Start Rolling!
             </h1>
             <p className=" text-[#161C2D] text-center text-[17px] font-medium leading-[29px] tracking-[-0.2px] opacity-70">
               With lots of unique blocks, you can easily build a page easily
@@ -62,7 +62,7 @@ const DoseItWork = () => {
               </p>
             </div>
             <h1 className="text-[#161C2D] text-center text-[21px] font-bold leading-[32px] tracking-[-0.5px] pt-[46px] pb-[14px]">
-              Get Requirements
+              Testing & Delivery
             </h1>
             <p className=" text-[#161C2D] text-center text-[17px] font-medium leading-[29px] tracking-[-0.2px] opacity-70">
               With lots of unique blocks, you can easily build a page easily
