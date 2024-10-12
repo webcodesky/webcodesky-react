@@ -1,7 +1,43 @@
+import logo from "../../../assets/webcodesky.png";
+
 const Footer = () => {
   return (
-    <div>
-      <h2>This is footer</h2>
+    <div className="bg-[#252B42] flex flex-col">
+      <div className="flex h-[142px] py-[40px] justify-center items-center self-stretch gap-[570px]">
+        <div>
+          <img src={logo} alt="" width={300} height={200} />
+        </div>
+        <div>
+          <img src={logo} alt="" width={300} height={200} />
+        </div>
+      </div>
+      <div className="flex flex-row py-[70px] px-[350px] items-start gap-[30px] text-white">
+        <div className="flex w-[148px] flex-col items-start">
+          <h1 className="text-white font-montserrat text-[16px] font-bold leading-[24px] tracking-[0.1px]">
+            Company Info
+          </h1>
+        </div>
+        <div className="flex w-[152px] flex-col items-start">
+          <h1 className="text-white font-montserrat text-[16px] font-bold leading-[24px] tracking-[0.1px]">
+            Legal
+          </h1>
+        </div>
+        <div className="flex w-[148px] flex-col items-start">
+          <h1 className="text-white font-montserrat text-[16px] font-bold leading-[24px] tracking-[0.1px]">
+            Features
+          </h1>
+        </div>
+        <div className="flex w-[152px] flex-col items-start">
+          <h1 className="text-white font-montserrat text-[16px] font-bold leading-[24px] tracking-[0.1px]">
+            Resources
+          </h1>
+        </div>
+        <div>
+          <h1 className="text-white font-montserrat text-[16px] font-bold leading-[24px] tracking-[0.1px]">
+            Get In Touch
+          </h1>
+        </div>
+      </div>
     </div>
   );
 };
