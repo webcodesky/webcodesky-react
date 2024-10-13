@@ -3,7 +3,9 @@ import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home/Home";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import ContactUs from "../Pages/ContactUs/ContactUs";
-import AboutUs from "../Pages/AboutUs/AboutUs";
+import AboutHome from "../Pages/AboutUs/AboutHome/AboutHome";
+import BlogPage from "../Pages/BlogPages/BlogPageHome/BlogPage";
+import BlogDetails from "../Pages/BlogPages/BlogDetails/BlogDetails";
 
 const router = createBrowserRouter([
   {
@@ -21,7 +23,15 @@ const router = createBrowserRouter([
       },
       {
         path: "/about",
-        element: <AboutUs></AboutUs>,
+        element: <AboutHome></AboutHome>,
+      },
+      {
+        path: "/blog",
+        element: <BlogPage></BlogPage>,
+      },
+      {
+        path: "/blog-details",
+        element: <BlogDetails></BlogDetails>,
       },
     ],
   },
