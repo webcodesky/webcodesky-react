@@ -1,9 +1,11 @@
+import Banner from "../Banner/Banner";
+import PopularServices from "../PopularServices/PopularServices";
+
 const Home = () => {
   return (
     <div>
-      <h1>This is home </h1>
-      <h2>add development branch</h2>
-      <h3>add shahidhasan branch</h3>
+      <Banner/>
+      <PopularServices />
     </div>
   );
 };
