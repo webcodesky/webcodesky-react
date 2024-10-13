@@ -20,14 +20,29 @@
     font-style: normal;
   }
 
-/* @layer base{
-    h1{}
-    h2{}
+  .mont {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+  }
+  .mont-bold {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+  }
+
+@layer base{
+    h1{
+        @apply font-bold text-black text-[40px] leading-[57px] tracking-[0.2px]
+    }
+    /* h2{}
     h3{}
     h4{}
     h5{}
-    p{}
-} */
+    p{} */
+}
 
 @layer components {
   .btn {

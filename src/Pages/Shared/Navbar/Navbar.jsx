@@ -13,9 +13,9 @@ const Navbar = () => {
   return (
     <Container>
       <div className="text-white md:w-[1216px] fixed z-10">
-        <div className="flex md:gap-[198px] items-center h-16 ">
+        <div className="flex md:gap-[198px] justify-between items-center h-16 ">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="">
             <Link to="/" className="text-2xl font-bold text-blue-600 ">
               <img
                 className="rounded-md"

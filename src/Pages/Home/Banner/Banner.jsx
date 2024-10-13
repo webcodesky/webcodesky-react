@@ -26,7 +26,9 @@ const Banner = () => {
           </button>
         </div>
       </div>
+      <div className="-mt-[80px] pb-[30px]">
       <BannerProject />
+      </div>
     </div>
   );
 };
