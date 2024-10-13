@@ -130,8 +130,8 @@ const ContactUs = () => {
           </div>
 
           {/* contact form */}
-          <div className="pt-[40px] flex justify-center">
-            <div className="w-full max-w-[1062px] flex-shrink-0 rounded-[10px] bg-[#FFF] absolute">
+          <div className="py-[40px] flex justify-center">
+            <div className="w-full max-w-[1062px] flex-shrink-0 rounded-[10px] bg-[#FFF] ">
               <form className="flex flex-col w-full p-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                   {/* First & Last Name */}
@@ -218,7 +218,7 @@ const ContactUs = () => {
                 <div className="flex justify-start pb-[36px]">
                   <button
                     type="submit"
-                    className="flex w-full max-w-[203.789px] h-[59px] justify-center items-center flex-shrink-0 bg-orange-500 text-white text-center font-poppins text-[17px] font-bold leading-[32px] tracking-[-0.6px] shadow-[0px_34px_33px_-23px_rgba(22,28,45,0.13)] rounded-[8px] transition duration-300 ease-in-out hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-300"
+                    className="flex w-full max-w-[203.789px] h-[59px] justify-center items-center flex-shrink-0 bg-[#FF6600] text-white text-center font-poppins text-[17px] font-bold leading-[32px] tracking-[-0.6px] shadow-[0px_34px_33px_-23px_rgba(22,28,45,0.13)] rounded-[8px] transition duration-300 ease-in-out hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-300"
                   >
                     Send
                   </button>
@@ -227,7 +227,9 @@ const ContactUs = () => {
             </div>
           </div>
         </Container>
-        <div className="rounded-[25px] bg-gradient-to-b from-[#FFF6EA] to-[rgba(255, 232, 199, 0.50)] h-[330px] md:-mt-[150px]relative pt-[330px] mt-[300px]"></div>
+        <div className="hidden md:block">
+          <p className=" rounded-[25px] bg-gradient-to-b from-[#FFF6EA] to-[rgba(255, 232, 199, 0.50)] h-[330px] md:-mt-[170px]"></p>
+        </div>
       </div>
     </>
   );
