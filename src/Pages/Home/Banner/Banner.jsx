@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="relative bg-[#FFFFFF]">
       <div className="container mx-auto min-h-screen px-4 sm:px-6 lg:px-8">
         <p className="text-[18px] font-medium  pt-[140px]">
-          We Build Your Dream Website
+          We Build YourDream Website
         </p>
         <span className="dm-sans-b font-bold text-[40px] md:text-[190px] tracking-[-4%]">
           Web <span className="text-[#FF6600]">Code</span> Sky
@@ -27,7 +27,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="-mt-[80px] pb-[30px]">
-      <BannerProject />
+        <BannerProject />
       </div>
     </div>
   );

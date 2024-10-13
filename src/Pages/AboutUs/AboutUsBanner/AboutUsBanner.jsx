@@ -53,13 +53,11 @@ const AboutUsBanner = () => {
           {/* Video Section */}
           <div className="relative flex-1 max-sm:pt-2.5 ">
             <iframe
-              width="100%"
-              height="auto"
+              className="w-[100%] h-[auto] md:w-[501px] md:h-[346px] rounded-[10px] bg-gradient-to-b from-transparent to-[rgba(56,56,56,0.84)]"
               src="https://www.youtube.com/embed?v=llxa64il1-8&list=RDKSVF1jpHXpI"
               title="YouTube Video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-              className="rounded-[10px] aspect-video"
             ></iframe>
 
             <div className="absolute left-14 bg-white p-2 rounded-md shadow-md md:top-[-30px] md:left-[-60px]">

@@ -3,7 +3,7 @@ import Container from "../../../Components/Ui/Container/Container";
 const AboutClientSatisfaction = () => {
   return (
     <>
-      <div className="px-4 md:px-[67px] mt-[100px] pb-8 md:pt-[68px] md:pb-[68px] rounded-[25px] bg-gradient-to-b from-[#FFF6EA] to-[rgba(255,232,199,0.20)]">
+      <div className="px-4 md:px-[67px] max-sm:mt-[100px] pb-8 md:pt-[68px] md:pb-[68px]  bg-gradient-to-b from-[#FFF6EA] to-[rgba(255,232,199,0.20)]">
         <Container>
           <div className="flex flex-wrap justify-center items-center gap-6">
             {/* Satisfaction Metric 1 */}
