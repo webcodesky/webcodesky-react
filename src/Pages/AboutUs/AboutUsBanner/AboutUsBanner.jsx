@@ -3,25 +3,26 @@ import Container from "../../../Components/Ui/Container/Container";
 
 const AboutUsBanner = () => {
   return (
-    <div className="md:pt-[203px] bg-[#F5F5F5]">
+    <div className="pt-[100px] md:pt-[203px] bg-[#F5F5F5]">
       <Container>
-        <div className="flex md:gap-[100px]">
+        <div className="max-sm:flex-1  md:flex md:gap-[100px]">
           <div>
-            <h2 className="text-[#737373] text-[20px] font-[700] leading-[20px] tracking-[0.2px]">
+            <h2 className="text-[#737373] text-[16px] md:text-[20px] font-[700] leading-[22px] md:leading-[24px] tracking-[0.2px] max-sm:pb-2.5">
               Who we Are?
             </h2>
-            <h1 className="text-[#000] text-[64px] font-[700] leading-normal tracking-[-2.56px] text-left md:py-[30px]">
+            <h1 className="text-[#000] text-[32px] md:text-[64px] font-[700] leading-tight md:leading-normal tracking-[-1px] md:tracking-[-2.56px] text-center md:text-left md:py-[30px] pb-2.5">
               Growing <span className="text-[#F60]">Web Agency</span>
             </h1>
-            <p className="text-[#737373] text-[20px] font-[500] leading-[20px] tracking-[0.2px] w-[584px] md:pb-[60px]">
-              Provide Top-noch Web solution over the world.Provide Top-noch Web
-              solution over the world.
+            <p className="text-[#737373] text-[16px] md:text-[20px] font-[500] leading-[22px] md:leading-[28px] tracking-[0.2px] w-full md:w-[584px] text-center md:text-left md:pb-[60px] pb-2.5">
+              Provide Top-notch Web solutions over the world. Provide Top-notch
+              Web solutions over the world.
             </p>
-            <div className="flex items-center md:gap-[26px] md:pb-[141px]">
+
+            <div className="flex flex-col md:flex-row items-center gap-4 md:gap-[26px] md:pb-[141px]">
               <div>
-                <button className="w-[232px] h-[71px] flex-shrink-0 rounded-[50px] border-[0.5px] border-[#D3D4D5] bg-[#F60] text-white text-[24px] font-normal leading-[100%] flex justify-center items-center gap-4">
+                <button className="w-[180px] h-[50px] md:w-[232px] md:h-[71px] flex-shrink-0 rounded-[50px] border-[0.5px] border-[#D3D4D5] bg-[#F60] text-white text-[18px] md:text-[24px] font-normal leading-[100%] flex justify-center items-center md:gap-4">
                   <p>Get a Quote</p>
-                  <p className="w-[48px] h-[48px] flex-shrink-0 rounded-[35px] bg-white flex justify-center items-center text-[#F60]">
+                  <p className="w-[40px] h-[40px] md:w-[48px] md:h-[48px] flex-shrink-0 rounded-[35px] bg-white flex justify-center items-center text-[#F60]">
                     <MdCallMade />
                   </p>
                 </button>
@@ -43,27 +44,25 @@ const AboutUsBanner = () => {
                     fill="#FF6600"
                   />
                 </svg>
-                <span className="text-black text-[18px] font-semibold leading-[28.5px]">
+                <span className="text-black text-[16px] md:text-[18px] font-semibold leading-[28.5px]">
                   Learn More
                 </span>
               </div>
             </div>
           </div>
           {/* Video Section */}
-          <div className="relative flex-1">
+          <div className="relative flex-1 max-sm:pt-2.5 ">
             <iframe
-              width="501px"
-              height="346px"
+              width="100%"
+              height="auto"
               src="https://www.youtube.com/embed?v=llxa64il1-8&list=RDKSVF1jpHXpI"
-              title="Youtube Video"
+              title="YouTube Video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-              className="rounded-[10px]"
+              className="rounded-[10px] aspect-video"
             ></iframe>
-            {/* <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 inline-flex p-[34.8px] px-[36.8px] items-center  bg-[#F60] rounded-full">
-              v
-            </div> */}
-            <div className="absolute -top-[30px] -left-16 bg-white p-2 rounded-md shadow-md">
+
+            <div className="absolute left-14 bg-white p-2 rounded-md shadow-md md:top-[-30px] md:left-[-60px]">
               <span className="text-gray-600 text-sm">
                 1,000,000 Happy Clients
               </span>

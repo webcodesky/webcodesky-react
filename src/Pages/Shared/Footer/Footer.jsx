@@ -3,14 +3,17 @@ import Container from "../../../Components/Ui/Container/Container";
 
 const Footer = () => {
   return (
-    <div className="bg-[#252B42] flex flex-col">
+    <div className="bg-[#252B42]">
       <Container>
-        <div className="flex h-[142px] py-[40px] justify-center items-center self-stretch gap-[570px]">
+        <div className="md:flex py-[40px] justify-between">
           <div>
             <img src={logo} alt="" width={300} height={200} />
           </div>
           <div>
-            <img src={logo} alt="" width={300} height={200} />
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
           </div>
         </div>
         <div className="md:flex flex-row py-[70px] md:px-[350px] items-start gap-[30px] text-white">

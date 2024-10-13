@@ -5,24 +5,24 @@ import Container from "../../Components/Ui/Container/Container";
 const ContactUs = () => {
   return (
     <>
-      <div className="bg-[#F5F5F5] ">
+      <div className="bg-[#F5F5F5] max-sm:pt-[100px]">
         <Container>
-          <h1 className="text-[#F60] text-center text-[96px] font-bold leading-none tracking-[-3.84px] md:pt-[120px]">
-            Contact Us{" "}
-            <span className="text-black text-[96px] font-bold leading-none tracking-[-3.84px]">
+          <h1 className="text-[#F60] text-center text-[48px] md:text-[96px] font-bold leading-none tracking-[-1.92px] md:tracking-[-3.84px] md:pt-[120px]">
+            Contact{" "}
+            <span className="text-black text-[48px] md:text-[96px] font-bold leading-none tracking-[-1.92px] md:tracking-[-3.84px]">
               Us
             </span>
           </h1>
-          <p className="text-[#737373] text-[20px] font-medium leading-[20px] tracking-[0.2px] text-center pt-[30px] pb-[73px]">
+          <p className="text-[#737373] text-[16px] md:text-[20px] font-medium leading-[24px] md:leading-[28px] tracking-[0.2px] text-center pt-[20px] md:pt-[30px] pb-[40px] md:pb-[73px]">
             We’ll Design your website with ReactJs,{" "}
-            <span className="text-[#737373] text-[20px] font-bold ">
-              Super Fast , Responsive
+            <span className="text-[#737373] text-[16px] md:text-[20px] font-bold">
+              Super Fast, Responsive
             </span>
           </p>
-          <div className="md:flex gap-[60px] justify-center">
+
+          <div className="flex flex-col md:flex-row gap-[30px] md:gap-[60px] justify-center p-4">
             <div className="flex gap-4">
               <span className="text-[#FF6600] w-[50.886px] h-[54px] flex-shrink-0">
-                {/* <MdCall /> */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="51"
@@ -44,13 +44,13 @@ const ContactUs = () => {
                 </svg>
               </span>
               <div>
-                <h1 className="text-[#161C2D] text-[24px] font-bold leading-[34px] tracking-[-0.5px] ">
+                <h1 className="text-[#161C2D] text-[20px] md:text-[24px] font-bold leading-[28px] md:leading-[34px] tracking-[-0.5px]">
                   Call Us
                 </h1>
-                <p className="text-[#161C2D] text-[21px] font-medium leading-[32px] tracking-[-0.5px] opacity-70">
+                <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
                   +1-940-394-2948
                 </p>
-                <p className="text-[#161C2D] text-[21px] font-medium leading-[32px] tracking-[-0.5px] opacity-70">
+                <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
                   +1-940-394-2948
                 </p>
               </div>
@@ -82,13 +82,13 @@ const ContactUs = () => {
                 </svg>
               </span>
               <div>
-                <h1 className="text-[#161C2D] text-[24px] font-bold leading-[34px] tracking-[-0.5px] ">
+                <h1 className="text-[#161C2D] text-[20px] md:text-[24px] font-bold leading-[28px] md:leading-[34px] tracking-[-0.5px]">
                   Email us
                 </h1>
-                <p className="text-[#161C2D] text-[21px] font-medium leading-[32px] tracking-[-0.5px] opacity-70">
+                <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
                   support@brainwave.io
                 </p>
-                <p className="text-[#161C2D] text-[21px] font-medium leading-[32px] tracking-[-0.5px] opacity-70">
+                <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
                   contact@brainwave.io
                 </p>
               </div>
@@ -116,23 +116,24 @@ const ContactUs = () => {
                 </svg>
               </span>
               <div>
-                <h1 className="text-[#161C2D] text-[24px] font-bold leading-[34px] tracking-[-0.5px] ">
+                <h1 className="text-[#161C2D] text-[20px] md:text-[24px] font-bold leading-[28px] md:leading-[34px] tracking-[-0.5px]">
                   Visit us
                 </h1>
-                <p className="text-[#161C2D] text-[21px] font-medium leading-[32px] tracking-[-0.5px] opacity-70">
+                <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
                   34 Madison Street,
                 </p>
-                <p className="text-[#161C2D] text-[21px] font-medium leading-[32px] tracking-[-0.5px] opacity-70">
+                <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
                   NY, USA 10005
                 </p>
               </div>
             </div>
           </div>
+
           {/* contact form */}
           <div className="pt-[40px] flex justify-center">
-            <div className="w-[1062px] flex-shrink-0 rounded-[10px] bg-[#FFF] absolute">
+            <div className="w-full max-w-[1062px] flex-shrink-0 rounded-[10px] bg-[#FFF] absolute">
               <form className="flex flex-col w-full p-6">
-                <div className="grid grid-cols-2 gap-4 mb-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                   {/* First & Last Name */}
                   <div>
                     <label
@@ -217,7 +218,7 @@ const ContactUs = () => {
                 <div className="flex justify-start pb-[36px]">
                   <button
                     type="submit"
-                    className="flex w-[203.789px] h-[59px] justify-center items-center flex-shrink-0 bg-orange-500 text-white text-center font-poppins text-[17px] font-bold leading-[32px] tracking-[-0.6px] shadow-[0px_34px_33px_-23px_rgba(22,28,45,0.13)] rounded-[8px] "
+                    className="flex w-full max-w-[203.789px] h-[59px] justify-center items-center flex-shrink-0 bg-orange-500 text-white text-center font-poppins text-[17px] font-bold leading-[32px] tracking-[-0.6px] shadow-[0px_34px_33px_-23px_rgba(22,28,45,0.13)] rounded-[8px] transition duration-300 ease-in-out hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-300"
                   >
                     Send
                   </button>
@@ -226,7 +227,7 @@ const ContactUs = () => {
             </div>
           </div>
         </Container>
-        <div className="rounded-[25px] bg-gradient-to-b from-[#FFF6EA] to-[rgba(255, 232, 199, 0.50)] h-[330px] -mt-[150px]relative pt-[330px] mt-[300px]"></div>
+        <div className="rounded-[25px] bg-gradient-to-b from-[#FFF6EA] to-[rgba(255, 232, 199, 0.50)] h-[330px] md:-mt-[150px]relative pt-[330px] mt-[300px]"></div>
       </div>
     </>
   );

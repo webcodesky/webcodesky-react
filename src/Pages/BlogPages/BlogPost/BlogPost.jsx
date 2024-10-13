@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const BlogPost = () => {
   return (
     <Container>
-      <div className="md:pb-[55px]">
+      <div className="md:py-[55px]">
         <div className=" mx-auto flex flex-col md:flex-row md:gap-[47px] gap-5">
           {/* Card Section (75% width) */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -153,7 +153,7 @@ const BlogPost = () => {
           </div>
 
           {/* Other Topic Section (25% width) */}
-          <div className="md:w-[424px] bg-[#F5F5F5] rounded-[15px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] p-4">
+          <div className="md:w-[444px] bg-[#F5F5F5] rounded-[15px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] p-4 max-h-[600px] overflow-auto">
             <h2 className="text-[#252B42] text-[40px] font-bold leading-[57px] tracking-[0.2px]  ps-[15px]">
               Recent <span className="text-[#F60]">Post</span>
             </h2>
