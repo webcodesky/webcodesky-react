@@ -218,7 +218,7 @@ const ContactUs = () => {
                 <div className="flex justify-start pb-[36px]">
                   <button
                     type="submit"
-                    className="flex w-full max-w-[203.789px] h-[59px] justify-center items-center flex-shrink-0 bg-orange-500 text-white text-center font-poppins text-[17px] font-bold leading-[32px] tracking-[-0.6px] shadow-[0px_34px_33px_-23px_rgba(22,28,45,0.13)] rounded-[8px] transition duration-300 ease-in-out hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-300"
+                    className="flex w-full max-w-[203.789px] h-[59px] justify-center items-center flex-shrink-0 bg-[#FF6600] text-white text-center font-poppins text-[17px] font-bold leading-[32px] tracking-[-0.6px] shadow-[0px_34px_33px_-23px_rgba(22,28,45,0.13)] rounded-[8px] transition duration-300 ease-in-out hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-300"
                   >
                     Send
                   </button>

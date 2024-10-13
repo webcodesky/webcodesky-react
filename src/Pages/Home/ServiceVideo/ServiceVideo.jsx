@@ -25,7 +25,7 @@ const ServiceVideo = () => {
         </div>
       </Container>
       <div className="hidden md:block">
-        <p className="hidden md:block rounded-[25px] bg-gradient-to-b from-[#FFF6EA] to-[rgba(255, 232, 199, 0.50)] h-[407px] md:-mt-[290px]"></p>
+        <p className="hidden md:block bg-gradient-to-t from-[#FFF6EA] to-[#ffe8c780] h-[407px] md:-mt-[290px]"></p>
       </div>
     </>
   );
