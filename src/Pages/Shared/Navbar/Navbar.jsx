@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <Container>
-      <div className="text-white md:w-[1216px] fixed z-10">
+      <div className="text-white  fixed z-10">
         <div className="flex md:gap-[198px] justify-between items-center h-16 ">
           {/* Logo */}
           <div className="">
@@ -21,8 +21,8 @@ const Navbar = () => {
                 className="rounded-md"
                 src={logo}
                 alt="logo"
-                width={300}
-                height={200}
+                width={208}
+                height={89}
               />
             </Link>
           </div>

@@ -4,14 +4,14 @@ import BannerProject from "../BannerProject/BannerProject";
 const Banner = () => {
   return (
     <div className="relative bg-[#FFFFFF]">
-      <div className="container mx-auto min-h-screen">
-        <p className="text-[18px] font-medium pt-[72px]">
+      <div className="container mx-auto min-h-screen px-4 sm:px-6 lg:px-8">
+        <p className="text-[18px] font-medium  pt-[140px]">
           We Build Your Dream Website
         </p>
-        <h1 className="dm-sans-b font-bold text-[40px] md:text-[190px] tracking-[-4%]">
+        <span className="dm-sans-b font-bold text-[40px] md:text-[190px] tracking-[-4%]">
           Web <span className="text-[#FF6600]">Code</span> Sky
-        </h1>
-        <p className="ps-[72px] pt-[30px] w-[638px] leading-5 tracking-[0.2px]">
+        </span>
+        <p className="md:ps-[72px] pt-[30px] md:w-[638px] leading-5 tracking-[0.2px]">
           Problems trying to resolve the conflict between the two major realms
           of Classical physics: Newtonian mechanics{" "}
         </p>
