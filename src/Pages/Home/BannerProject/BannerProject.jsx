@@ -17,54 +17,54 @@ const BannerProject = () => {
   return (
     <div className="relative">
       <div className="container mx-auto ">
-        <div className="relative flex justify-center mx-auto gap-4 ">
+        <div className="relative flex flex-wrap justify-center mx-auto gap-4 ">
           <div className="flex flex-col gap-4">
-            <div className="h-[297px] w-[236px] rounded-xl ">
+            <div className="md:h-[297px] md:w-[236px] rounded-xl ">
               <img src={img3} alt="" />
             </div>
-            <div className="h-[297px] w-[236px] rounded-xl ">
+            <div className="md:h-[297px] md:w-[236px] rounded-xl ">
               <img src={img4} alt="" />
             </div>
           </div>
-          <div className="flex flex-col gap-4 mt-[80px]">
-          <div className="h-[297px] w-[236px] rounded-xl ">
+          <div className="flex flex-col gap-4 md:mt-[80px]">
+          <div className="md:h-[297px] md:w-[236px] rounded-xl ">
               <img src={img5} alt="" />
             </div>
-            <div className="h-[297px] w-[236px] rounded-xl ">
+            <div className="md:h-[297px] md:w-[236px] rounded-xl ">
               <img src={img6} alt="" />
             </div>
           </div>
-          <div className="flex flex-col gap-4 mt-[230px]">
-          <div className="h-[297px] w-[236px] rounded-xl ">
+          <div className="flex flex-col gap-4 md:mt-[230px]">
+          <div className="md:h-[297px] md:w-[236px] rounded-xl ">
               <img src={img7} alt="" />
             </div>
-            <div className="h-[297px] w-[236px] rounded-xl ">
+            <div className="md:h-[297px] md:w-[236px] rounded-xl ">
               <img src={img8} alt="" />
             </div>
           </div>
-          <div className="flex flex-col gap-4 mt-[80px]">
-          <div className="h-[297px] w-[236px] rounded-xl ">
+          <div className="flex flex-col gap-4 md:mt-[80px]">
+          <div className="md:h-[297px] md:w-[236px] rounded-xl ">
               <img src={img9} alt="" />
             </div>
-            <div className="h-[297px] w-[236px] rounded-xl ">
+            <div className="md:h-[297px] md:w-[236px] rounded-xl ">
               <img src={img10} alt="" />
             </div>
           </div>
           <div className="flex flex-col gap-4">
-          <div className="h-[297px] w-[236px] rounded-xl ">
+          <div className="md:h-[297px] md:w-[236px] rounded-xl ">
               <img src={img11} alt="" />
             </div>
-            <div className="h-[297px] w-[236px] rounded-xl ">
+            <div className="md:h-[297px] md:w-[236px] rounded-xl ">
               <img src={img12} alt="" />
             </div>
           </div>
           {/* <div className=" absolute -top-[320px] -left-[235px] flex flex-col gap-4">
-              <div className="bg-red-500 h-[297px] w-[236px] rounded-xl "></div>
-              <div className="bg-red-300 h-[297px] w-[236px] rounded-xl"></div>
+              <div className="bg-red-500 md:h-[297px] md:w-[236px] rounded-xl "></div>
+              <div className="bg-red-300 md:h-[297px] md:w-[236px] rounded-xl"></div>
             </div>
             <div className=" absolute -top-[320px] -right-[235px] flex flex-col gap-4 ">
-              <div className="bg-red-500 h-[297px] w-[236px] rounded-xl "></div>
-              <div className="bg-red-300 h-[297px] w-[236px] rounded-xl"></div>
+              <div className="bg-red-500 md:h-[297px] md:w-[236px] rounded-xl "></div>
+              <div className="bg-red-300 md:h-[297px] md:w-[236px] rounded-xl"></div>
             </div> */}
         </div>
       </div>
