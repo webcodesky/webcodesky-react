@@ -26,7 +26,6 @@ const PeopleComments = () => {
             slidesPerView: 2.5,
             spaceBetween: 30,
           },
-         
         }}
         centeredSlides={true}
         pagination={{
@@ -67,8 +66,8 @@ const PeopleComments = () => {
                 22 Years
               </p>
               <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px]">
-                The salad is fresh!!! Don't ask about the sauce again, it's
-                really delicious, it's going to be routine. I recommend this
+                The salad is fresh!!! Do not ask about the sauce again, it is
+                really delicious, it is going to be routine. I recommend this
                 salad to all of you guys! because they really take care of the
                 quality.
               </p>
@@ -107,8 +106,8 @@ const PeopleComments = () => {
                 22 Years
               </p>
               <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px]">
-                The salad is fresh!!! Don't ask about the sauce again, it's
-                really delicious, it's going to be routine. I recommend this
+                The salad is fresh!!! Do not ask about the sauce again, it is
+                really delicious, it is going to be routine. I recommend this
                 salad to all of you guys! because they really take care of the
                 quality.
               </p>
@@ -147,8 +146,8 @@ const PeopleComments = () => {
                 22 Years
               </p>
               <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px]">
-                The salad is fresh!!! Don't ask about the sauce again, it's
-                really delicious, it's going to be routine. I recommend this
+                The salad is fresh!!! Do not ask about the sauce again, it is
+                really delicious, it is going to be routine. I recommend this
                 salad to all of you guys! because they really take care of the
                 quality.
               </p>
@@ -187,8 +186,8 @@ const PeopleComments = () => {
                 22 Years
               </p>
               <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px]">
-                The salad is fresh!!! Don't ask about the sauce again, it's
-                really delicious, it's going to be routine. I recommend this
+                The salad is fresh!!! Do not ask about the sauce again, it is
+                really delicious, it is going to be routine. I recommend this
                 salad to all of you guys! because they really take care of the
                 quality.
               </p>
@@ -227,8 +226,8 @@ const PeopleComments = () => {
                 22 Years
               </p>
               <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px]">
-                The salad is fresh!!! Don't ask about the sauce again, it's
-                really delicious, it's going to be routine. I recommend this
+                The salad is fresh!!! Do not ask about the sauce again, it is
+                really delicious, it is going to be routine. I recommend this
                 salad to all of you guys! because they really take care of the
                 quality.
               </p>

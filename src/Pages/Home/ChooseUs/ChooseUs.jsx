@@ -3,16 +3,17 @@ import Container from "../../../Components/Ui/Container/Container";
 const ChooseUs = () => {
   return (
     <Container>
-      <div className="pt-[125px] pb-10 text-center">
+      <div className="md:pt-[74px] pb-10 text-center">
         <h1 className="text-[32px] font-bold">
           WHY <span className="text-[#F60]">CHOOSE</span> US
         </h1>
         <p className="mont text-[#737373] mt-4 mb-10 mx-auto w-full max-w-[600px]">
-          Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics.
+          Problems trying to resolve the conflict between the two major realms
+          of Classical physics: Newtonian mechanics.
         </p>
       </div>
 
-      <div className="flex gap-[30px] justify-center">
+      <div className="flex flex-col md:flex-row gap-[30px] justify-center">
         <div className="md:w-[328px] w-full md:h-[385px] border border-[#A9D6FF] rounded-[10px] mb-[74px]">
           {/* Icon and title */}
           <div className="flex justify-center gap-[15px] px-[50px] py-[30px] items-center bg-[rgba(96,76,195,0.3)] rounded-t-[10px]">
