@@ -1,4 +1,5 @@
 import Banner from "../Banner/Banner";
+import ChooseUs from "../ChooseUs/ChooseUs";
 import MeetOurTeam from "../MeetOurTeam/MeetOurTeam";
 import PeopleSaying from "../PeopleSaying/PeopleSaying";
 import PopularServices from "../PopularServices/PopularServices";
@@ -10,8 +11,9 @@ const Home = () => {
       <Banner />
       <PopularServices />
       <PeopleSaying />
-      <ServiceVideo></ServiceVideo>
-      <MeetOurTeam></MeetOurTeam>
+      <ServiceVideo />
+      <MeetOurTeam />
+      <ChooseUs />
     </div>
   );
 };
