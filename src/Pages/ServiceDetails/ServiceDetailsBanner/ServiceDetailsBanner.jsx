@@ -4,7 +4,7 @@ import img3 from "../../../assets/popularCard/react-service.png";
 
 const ServiceDetailsBanner = () => {
     return (
-        <div className="relative bg-[#FFFFFF] pt-[168px] pb-[148px]">
+        <div className="relative bg-[#FFFFFF] pt-[168px] pb-[0px]">
             <div className="container mx-auto min-h-screen px-4 sm:px-6 lg:px-8 items-center ">
                 <h1 className="dm-sans-b font-bold text-[40px] text-center md:text-[96px] tracking-[-4%]">
                 React <span className="text-[#FF6600]">Development</span></h1>
