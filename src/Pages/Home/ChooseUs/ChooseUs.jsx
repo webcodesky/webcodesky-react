@@ -12,7 +12,7 @@ const ChooseUs = () => {
         </p>
       </div>
 
-      <div className="flex gap-[30px] justify-center">
+      <div className="flex flex-col md:flex-row gap-4 md:gap-[30px] justify-center">
         <div className="md:w-[328px] w-full md:h-[385px] border border-[#A9D6FF] rounded-[10px] mb-[74px]">
           {/* Icon and title */}
           <div className="flex justify-center gap-[15px] px-[50px] py-[30px] items-center bg-[rgba(96,76,195,0.3)] rounded-t-[10px]">
