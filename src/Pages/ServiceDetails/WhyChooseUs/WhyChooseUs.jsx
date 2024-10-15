@@ -12,7 +12,9 @@ const WhyChooseUs = () => {
                     <div className="icon-setion">
                         <img src="" alt="" srcset="" />
                     </div>
-                    <div className="icon-box-content"></div>
+                    <div className="icon-box-content">
+                        .ti
+                    </div>
                 </div>
             </div>
         </div>
