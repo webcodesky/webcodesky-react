@@ -5,7 +5,7 @@ import '../ServiceFeatures/ServiceFeatures.css'
 const ServiceFeatures = () => {
     return (
         <div>
-            <div className='flex md:flex-row justify-around'>
+            <div className='flex md:flex-row flex-col-reverse justify-around'>
                 <div>
                     <img src="/src/assets/serviceDetails/userFriendly.png" alt="userFriendly" />
                 </div>
@@ -24,7 +24,7 @@ const ServiceFeatures = () => {
                     </div>
                 </div>
             </div>
-            <div className='features-wrapper flex md:flex-row-reverse justify-around '>
+            <div className='features-wrapper flex md:flex-row-reverse flex-col-reverse justify-around '>
                 <div className='img-div'>
                     <img src="/src/assets/serviceDetails/API-Integration.png" alt="userFriendly" />
                     <div className='img-div-animation-div'></div>
