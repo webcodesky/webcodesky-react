@@ -19,7 +19,7 @@ const ServiceDetailsBanner = () => {
                         <BsFillArrowUpRightCircleFill />
                         </span>
                     </button>
-                    <button className="flex justify-center md:mt-[30px] md:mt-[10px] border-[1px] border-[#f5f5f5] rounded-[50px] md:gap-5">
+                    <button className="flex justify-center md:mt-[30px] mt-[10px] border-[1px] border-[#f5f5f5] rounded-[50px] md:gap-5">
                         <span className="dm-sans text-black hover:text-white text-[24px] leading-[100%] px-[25px] py-[27px]">
                         Contact Us
                         </span>
