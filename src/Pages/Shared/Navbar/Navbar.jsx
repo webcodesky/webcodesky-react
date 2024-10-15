@@ -33,7 +33,7 @@ const Navbar = () => {
               Home
             </Link>
             <Link
-              to="/services"
+              to="/service"
               className="text-[#23272E] font-medium hover:text-blue-600"
             >
               Services
