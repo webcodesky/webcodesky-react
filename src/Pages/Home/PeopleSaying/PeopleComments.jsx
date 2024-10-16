@@ -12,18 +12,18 @@ const PeopleComments = () => {
     <div>
       <Swiper
         slidesPerView={1}
-        spaceBetween={10}
+        spaceBetween={0}
         breakpoints={{
           320: {
             slidesPerView: 1.5,
             spaceBetween: 10,
           },
           640: {
-            slidesPerView: 1.5,
+            slidesPerView: 2.5,
             spaceBetween: 20,
           },
           1024: {
-            slidesPerView: 2.5,
+            slidesPerView: 3.5,
             spaceBetween: 30,
           },
          
@@ -32,6 +32,11 @@ const PeopleComments = () => {
         pagination={{
           clickable: true,
         }}
+        autoplay={{
+          delay: 500, // You can adjust the delay for autoplay
+          disableOnInteraction: false,
+        }}
+        loop={true}
         modules={[Pagination]}
         className="mySwiper"
       >

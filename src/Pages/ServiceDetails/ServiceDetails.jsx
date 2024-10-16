@@ -4,6 +4,7 @@ import ServiceFeatures from './ServiceFeatures/ServiceFeatures';
 import Container from '../../Components/Ui/Container/Container';
 import WhyChooseUs from './WhyChooseUs/WhyChooseUs';
 import FAQAccordion from './FAQ/FAQ';
+import PeopleSaying from '../Home/PeopleSaying/PeopleSaying';
 
 const ServiceDetails = () => {
     return (
@@ -16,8 +17,9 @@ const ServiceDetails = () => {
             <WhyChooseUs></WhyChooseUs>
             <Container>
                 <FAQAccordion></FAQAccordion>
-                
             </Container>
+            <PeopleSaying />
+
         </div>
     );
 };
