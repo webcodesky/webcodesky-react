@@ -4,7 +4,7 @@ import coverImage from "../../../assets/cover.png";
 const Appointment = () => {
   return (
     <div
-      className="bg-cover bg-center h-screen w-screen"
+      className="bg-cover bg-center h-[800px] md:h-screen w-screen"
       style={{ backgroundImage: `url(${coverImage})` }}
     >
       <Container>
@@ -12,7 +12,7 @@ const Appointment = () => {
           <div className="">
             <p className="pt-10 mont-bold text-[16px]">Contact Us</p>
             <h1>Make an Appointment</h1>
-            <div className="grid grid-cols-2 gap-5 mb-10  mt-10">
+            <div className="grid md:grid-cols-2 gap-5 mb-10  mt-10">
               <input
                 type="text"
                 placeholder="Full Name"
@@ -41,10 +41,10 @@ const Appointment = () => {
                 type="text"
                 id="message"
                 placeholder="Message"
-                className="w-[598px] h-[140px] p-[10px_21px] rounded-[5px] border border-[#BDBDBD] bg-[#F9F9F9]"
+                className=" w-[285px] md:w-[598px] h-[100px] md:h-[140px] p-[10px_21px] rounded-[5px] border border-[#BDBDBD] bg-[#F9F9F9]"
               />
             </div>
-            <button className="btn mt-10">Book Appointment</button>
+            <button className="btn-sm md:btn mt-10">Book Appointment</button>
           </div>
           <div></div>
         </div>

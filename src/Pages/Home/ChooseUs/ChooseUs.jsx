@@ -1,4 +1,7 @@
 import Container from "../../../Components/Ui/Container/Container";
+import img1 from "../../../assets/Chooseicn1.png";
+import img2 from "../../../assets/Chooseicn2.png";
+import img3 from "../../../assets/Chooseicn3.png";
 
 const ChooseUs = () => {
   return (
@@ -18,7 +21,7 @@ const ChooseUs = () => {
           {/* Icon and title */}
           <div className="flex justify-center gap-[15px] px-[50px] py-[30px] items-center  rounded-t-[10px]">
             <div className="flex w-[72px] h-[72px] justify-center items-center [23px_20px_22.647px_20px] rounded-[200px] bg-white">
-              icon
+              <img src={img1} alt="" />
             </div>
             <div className="mont-bold text-[16px] font-bold leading-[24px] tracking-[0.1px]">
               Web Development
@@ -42,8 +45,8 @@ const ChooseUs = () => {
         <div className="md:w-[328px] w-full h-full bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] mb-[74px]">
           {/* Icon and title */}
           <div className="flex justify-center gap-[15px] px-[50px] py-[30px] items-center  rounded-t-[10px]">
-            <div className="flex w-[72px] h-[72px] justify-center items-center p-[23px_20px_22.647px_20px] rounded-[200px] bg-white">
-              icon
+            <div className="flex w-[72px] h-[72px] justify-center items-center p-[20px] rounded-full bg-white">
+              <img src={img2} alt="" />
             </div>
             <div className="mont-bold text-[16px] font-bold leading-[24px] tracking-[0.1px]">
               National top 50 firms
@@ -67,8 +70,8 @@ const ChooseUs = () => {
         <div className="md:w-[328px] w-full h-full bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] mb-[74px]">
           {/* Icon and title */}
           <div className="flex justify-center gap-[15px] px-[50px] py-[30px] items-center  rounded-t-[10px]">
-            <div className="flex w-[72px] h-[72px] justify-center items-center p-[23px_20px_22.647px_20px] rounded-[200px] bg-white">
-              icon
+            <div className="flex w-[72px] h-[72px] justify-center items-center p-[20px] rounded-full bg-white">
+              <img src={img3} alt="" />
             </div>
             <div className="mont-bold text-[16px] font-bold leading-[24px] tracking-[0.1px]">
               Digital Marketing
