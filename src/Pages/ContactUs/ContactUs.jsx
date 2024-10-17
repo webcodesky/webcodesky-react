@@ -1,8 +1,52 @@
-// import { MdCall } from "react-icons/md";
-
+import emailjs from "@emailjs/browser";
 import Container from "../../Components/Ui/Container/Container";
+import { useRef } from "react";
+import Swal from "sweetalert2";
 
 const ContactUs = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_7vjzf6n",
+        "template_ypb4iod",
+        form.current,
+        "7Ww2gQY6DMlyTpApN"
+      )
+      .then(
+        () => {
+          Swal.fire({
+            icon: "success",
+            title: "Email Sent Successfully!",
+            text: "Your message has been sent.",
+            showClass: {
+              popup: "animate__animated animate__fadeInUp animate__faster",
+            },
+            hideClass: {
+              popup: "animate__animated animate__fadeOutDown animate__faster",
+            },
+          });
+          form.current.reset();
+        },
+        (error) => {
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: `Something went wrong: ${error.text}`,
+            showClass: {
+              popup: "animate__animated animate__fadeInUp animate__faster",
+            },
+            hideClass: {
+              popup: "animate__animated animate__fadeOutDown animate__faster",
+            },
+          });
+        }
+      );
+  };
+
   return (
     <>
       <div className="bg-[#F5F5F5] max-sm:pt-[100px]">
@@ -19,7 +63,6 @@ const ContactUs = () => {
               Super Fast, Responsive
             </span>
           </p>
-
           <div className="flex flex-col md:flex-row gap-[30px] md:gap-[60px] justify-center p-4">
             <div className="flex gap-4">
               <span className="text-[#FF6600] w-[50.886px] h-[54px] flex-shrink-0">
@@ -128,11 +171,14 @@ const ContactUs = () => {
               </div>
             </div>
           </div>
-
-          {/* contact form */}
+          {/* contact form  */}
           <div className="py-[40px] flex justify-center">
-            <div className="w-full max-w-[1062px] flex-shrink-0 rounded-[10px] bg-[#FFF] ">
-              <form className="flex flex-col w-full p-6">
+            <div className="w-full max-w-[1062px] flex-shrink-0 rounded-[10px] bg-[#FFF]">
+              <form
+                ref={form}
+                onSubmit={sendEmail}
+                className="flex flex-col w-full p-6"
+              >
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                   {/* First & Last Name */}
                   <div>
@@ -144,6 +190,7 @@ const ContactUs = () => {
                     </label>
                     <input
                       type="text"
+                      name="user_name"
                       id="name"
                       placeholder="i.e. John Doe"
                       className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -160,6 +207,7 @@ const ContactUs = () => {
                     </label>
                     <input
                       type="email"
+                      name="user_email"
                       id="email"
                       placeholder="i.e. john@mail.com"
                       className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -176,6 +224,7 @@ const ContactUs = () => {
                     </label>
                     <input
                       type="text"
+                      name="user_phone"
                       id="phone"
                       placeholder="i.e. +1-234-567-7890"
                       className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -192,6 +241,7 @@ const ContactUs = () => {
                     </label>
                     <input
                       type="text"
+                      name="subject"
                       id="subject"
                       placeholder="i.e. I need help"
                       className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -208,6 +258,7 @@ const ContactUs = () => {
                     Message
                   </label>
                   <textarea
+                    name="message"
                     id="message"
                     placeholder="Type your message"
                     className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-24"
@@ -218,6 +269,7 @@ const ContactUs = () => {
                 <div className="flex justify-start pb-[36px]">
                   <button
                     type="submit"
+                    value="send"
                     className="flex w-full max-w-[203.789px] h-[59px] justify-center items-center flex-shrink-0 bg-[#FF6600] text-white text-center font-poppins text-[17px] font-bold leading-[32px] tracking-[-0.6px] shadow-[0px_34px_33px_-23px_rgba(22,28,45,0.13)] rounded-[8px] transition duration-300 ease-in-out hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-300"
                   >
                     Send
@@ -228,7 +280,7 @@ const ContactUs = () => {
           </div>
         </Container>
         <div className="hidden md:block">
-          <p className=" rounded-[25px] bg-gradient-to-b from-[#FFF6EA] to-[rgba(255, 232, 199, 0.50)] h-[330px] md:-mt-[170px]"></p>
+          <p className="rounded-[25px] bg-gradient-to-b from-[#FFF6EA] to-[rgba(255, 232, 199, 0.50)] h-[330px] md:-mt-[170px]"></p>
         </div>
       </div>
     </>
