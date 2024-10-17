@@ -54,7 +54,7 @@ const AboutUsBanner = () => {
           <div className="relative flex-1 max-sm:pt-2.5 ">
             <iframe
               className="w-[100%] h-[auto] md:w-[501px] md:h-[346px] rounded-[10px] bg-gradient-to-b from-transparent to-[rgba(56,56,56,0.84)]"
-              src="https://www.youtube.com/embed?v=llxa64il1-8&list=RDKSVF1jpHXpI"
+              src="https://www.youtube.com/embed/DFmhX5h6Lig?rel=0"
               title="YouTube Video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen

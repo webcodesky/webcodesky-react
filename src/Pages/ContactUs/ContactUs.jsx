@@ -29,6 +29,7 @@ const ContactUs = () => {
               popup: "animate__animated animate__fadeOutDown animate__faster",
             },
           });
+          form.current.reset();
         },
         (error) => {
           Swal.fire({
@@ -170,7 +171,7 @@ const ContactUs = () => {
               </div>
             </div>
           </div>
-
+          {/* contact form  */}
           <div className="py-[40px] flex justify-center">
             <div className="w-full max-w-[1062px] flex-shrink-0 rounded-[10px] bg-[#FFF]">
               <form
