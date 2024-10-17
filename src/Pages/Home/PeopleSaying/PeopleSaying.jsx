@@ -6,11 +6,11 @@ import PeopleComments from "./PeopleComments";
 const PeopleSaying = () => {
   return (
     <div className="bg-[#FFF6EA]">
-      <Container>
+      <div className="max-w-[1560px] items-center mx-auto">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-[80px] pt-[60px] lg:pt-[120px] pb-[40px] lg:pb-[82px]">
-          <div className="flex-[1]">
+          <div className="flex-[1] max-w-[415px]">
             <h1 className="text-2xl lg:text-4xl font-bold">
-              What Are People Saying
+              What Are People <br/>Saying
               <span className="text-[#FF6600]"> About Us</span>
             </h1>
             <p className="mont pt-6 lg:pt-[30px] pb-6 lg:pb-[32px] text-[#CCCCCC]">
@@ -33,7 +33,7 @@ const PeopleSaying = () => {
             <PeopleComments />
           </div>
         </div>
-      </Container>
+      </div>
     </div>
   );
 };

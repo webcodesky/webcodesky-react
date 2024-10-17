@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <Container>
-      <div className="text-white  fixed z-10">
+      <div className="text-white  fixed z-10 bg-[#ffffffE0]">
         <div className="flex md:gap-[198px] justify-between items-center h-16 ">
           {/* Logo */}
           <div className="">
@@ -33,7 +33,7 @@ const Navbar = () => {
               Home
             </Link>
             <Link
-              to="/services"
+              to="/service"
               className="text-[#23272E] font-medium hover:text-blue-600"
             >
               Services
