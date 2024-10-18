@@ -17,11 +17,7 @@ const MeetOurTeam = () => {
         </p>
 
         <div className="pt-5 md:pt-10">
-          <div className="pb-10 md:pr-[92px] md:text-right">
-            <button className="hidden md:inline-block bg-orange-500 text-white px-4 py-1 font-normal leading-[32px] tracking-[-0.6px] rounded-[8px]">
-              See More Member
-            </button>
-          </div>
+          <div className="pb-10 md:pr-[92px] md:text-right"></div>
           <div className=" flex flex-col md:flex-row md:gap-[30px] justify-center items-center">
             <div className="flex flex-col items-center w-[328px] border border-[#EEE] bg-white">
               <img src={teamMember} alt="" />
@@ -92,6 +88,11 @@ const MeetOurTeam = () => {
           </div>
           <div className="text-center block md:hidden pt-4">
             <button className=" justify-center items-center flex-shrink-0 bg-orange-500 text-white text-center px-4 py-1 font-normal leading-[32px] tracking-[-0.6px] rounded-[8px] ">
+              See More Member
+            </button>
+          </div>
+          <div className="flex justify-center mt-10">
+            <button className="hidden md:inline-block bg-orange-500 text-white px-4 py-1 font-normal leading-[32px] tracking-[-0.6px] rounded-[8px]">
               See More Member
             </button>
           </div>

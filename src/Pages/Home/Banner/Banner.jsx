@@ -8,7 +8,6 @@ const Banner = () => {
         <p className="text-[18px] font-medium pt-[80px] md:pt-[140px] text-left md:pl-28">
           We Build Your Dream Website
         </p>
-
         <span className="dm-sans-b font-bold text-[40px] md:text-[190px] tracking-[-4%]">
           Web <span className="text-[#FF6600]">Code</span> Sky
         </span>
