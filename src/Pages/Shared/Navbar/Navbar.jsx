@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../../../assets/webcodesky.png";
+import logo from "../../../assets/webcodesky2.png";
 import { Link } from "react-router-dom";
 import Container from "../../../Components/Ui/Container/Container";
 
@@ -96,7 +96,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden">
+          <div className="md:hidden bg-gray-200 rounded-lg p-3">
             <Link
               to="/"
               className="block px-2 py-2 text-[#23272E] hover:bg-gray-100 hover:text-blue-600"
@@ -132,20 +132,20 @@ const Navbar = () => {
             >
               Blog
             </Link>
-            <div className="flex flex-col gap-2 w-[50%]">
-              <button className="border-[1px] rounded-3xl px-5 py-1 hover:bg-[#FF6600] flex">
+            <div className="flex flex-col gap-2 w-auto">
+              <button className="btn-xs">
                 <Link
                   to="/contact"
-                  className="block px-2 py-2 text-[#23272E]"
+                  className="text-[#23272E]"
                   onClick={() => setIsOpen(false)}
                 >
                   Contact Us
                 </Link>
               </button>
-              <button className="border-[1px] rounded-3xl px-5 py-1 hover:bg-[#FF6600] flex">
+              <button className="btn-xs">
                 <Link
                   to="/contact"
-                  className="block px-2 py-2 text-[#23272E]"
+                  className=" text-[#23272E]"
                   onClick={() => setIsOpen(false)}
                 >
                   Contact

@@ -8,13 +8,12 @@ const Banner = () => {
         <p className="text-[18px] font-medium pt-[80px] md:pt-[140px] text-left md:pl-28">
           We Build Your Dream Website
         </p>
-
         <span className="dm-sans-b font-bold text-[40px] md:text-[190px] tracking-[-4%]">
           Web <span className="text-[#FF6600]">Code</span> Sky
         </span>
         <p className="leading-5 tracking-[0.2px] text-left  md:pl-36 md:px-[900px]">
-          Problems trying to resolve the conflict between the two major realms
-          of Classical physics: Newtonian mechanics
+          We believe you're in the right place. Here, we deliver quality work
+          built on honesty and trust
         </p>
 
         <div className="flex justify-center">

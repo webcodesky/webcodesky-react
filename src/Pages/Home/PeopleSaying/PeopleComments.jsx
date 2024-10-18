@@ -105,10 +105,10 @@ const PeopleComments = () => {
                 </span>
               </div>
               <h2 className="text-[#2B2B2B] text-[24px] font-medium leading-[31.992px]">
-                Selena Gomz
+              Jennifer Sina
               </h2>
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
-                22 Years
+                21 Years
               </p>
               <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px]">
                 The salad is fresh!!! Do not ask about the sauce again, it is
@@ -145,10 +145,10 @@ const PeopleComments = () => {
                 </span>
               </div>
               <h2 className="text-[#2B2B2B] text-[24px] font-medium leading-[31.992px]">
-                Selena Gomz
+              David Ken
               </h2>
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
-                22 Years
+                24 Years
               </p>
               <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px]">
                 The salad is fresh!!! Do not ask about the sauce again, it is
@@ -225,10 +225,10 @@ const PeopleComments = () => {
                 </span>
               </div>
               <h2 className="text-[#2B2B2B] text-[24px] font-medium leading-[31.992px]">
-                Selena Gomz
+              Jennifer Sina
               </h2>
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
-                22 Years
+                21 Years
               </p>
               <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px]">
                 The salad is fresh!!! Do not ask about the sauce again, it is
