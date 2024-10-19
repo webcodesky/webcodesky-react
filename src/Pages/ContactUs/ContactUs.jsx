@@ -18,17 +18,45 @@ const ContactUs = () => {
       )
       .then(
         () => {
-          Swal.fire({
-            icon: "success",
-            title: "Email Sent Successfully!",
-            text: "Your message has been sent.",
-            showClass: {
-              popup: "animate__animated animate__fadeInUp animate__faster",
+          // Extract form data to send to the server
+          const formData = new FormData(form.current);
+          const savedUser = {
+            name: formData.get("user_name"),
+            email: formData.get("user_email"),
+            phone: formData.get("user_phone"),
+            subject: formData.get("subject"),
+            message: formData.get("message"),
+          };
+
+          // Sending the saved user data to the server
+          fetch("https://webcodesky-server-nine.vercel.app/contact-users", {
+            method: "POST",
+            headers: {
+              "content-type": "application/json",
             },
-            hideClass: {
-              popup: "animate__animated animate__fadeOutDown animate__faster",
-            },
-          });
+            body: JSON.stringify(savedUser),
+          })
+            .then((res) => res.json())
+            .then((data) => {
+              if (data.insertedId) {
+                // After data is successfully saved, show only one alert
+                Swal.fire({
+                  icon: "success",
+                  title: "Email Sent Successfully!",
+                  //   text: "Your message has been sent and data has been saved.",
+                  showClass: {
+                    popup:
+                      "animate__animated animate__fadeInUp animate__faster",
+                  },
+                  hideClass: {
+                    popup:
+                      "animate__animated animate__fadeOutDown animate__faster",
+                  },
+                });
+              }
+            });
+
+          // Reset the form after submission
           form.current.reset();
         },
         (error) => {
@@ -194,6 +222,7 @@ const ContactUs = () => {
                       id="name"
                       placeholder="i.e. John Doe"
                       className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                      required
                     />
                   </div>
 
@@ -211,6 +240,7 @@ const ContactUs = () => {
                       id="email"
                       placeholder="i.e. john@mail.com"
                       className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                      required
                     />
                   </div>
 
@@ -228,6 +258,7 @@ const ContactUs = () => {
                       id="phone"
                       placeholder="i.e. +1-234-567-7890"
                       className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                      required
                     />
                   </div>
 
@@ -245,6 +276,7 @@ const ContactUs = () => {
                       id="subject"
                       placeholder="i.e. I need help"
                       className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                      required
                     />
                   </div>
                 </div>
@@ -262,6 +294,7 @@ const ContactUs = () => {
                     id="message"
                     placeholder="Type your message"
                     className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-24"
+                    required
                   />
                 </div>
 
