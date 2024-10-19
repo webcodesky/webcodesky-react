@@ -4,8 +4,15 @@ import cardImg from "../../../assets/image 1.png";
 import blogImg from "../../../assets/blog-details-img.png";
 import blogMessageImg from "../../../assets/message-img.png";
 import blogFlowerImg from "../../../assets/flower.png";
+import { useLoaderData } from "react-router-dom";
 
 const BlogDetails = () => {
+  const blogDetails = useLoaderData();
+  console.log(blogDetails);
+
+  if (!blogDetails) {
+    return <div>Loading...</div>;
+  }
   return (
     <>
       <div className="md:pt-[210px] pt-[90px]  bg-[#F5F5F5] ">
@@ -14,7 +21,7 @@ const BlogDetails = () => {
             <div className="md:flex md:gap-[109px]">
               <div className="md:w-1/2">
                 <h1 className="text-[#191919] text-[28px] md:text-[40px] font-semibold leading-tight">
-                  Your portfolio is stopping you from getting that job
+                  {blogDetails.article.title}
                 </h1>
                 <p className="text-[#737373] text-[16px] md:text-[20px] font-medium leading-[1.5] tracking-[0.2px] pt-3 pb-4 md:pt-5 md:pb-7">
                   Provide top-notch web solutions across the globe. Provide

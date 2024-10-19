@@ -29,7 +29,7 @@ const ContactUs = () => {
           };
 
           // Sending the saved user data to the server
-          fetch("http://localhost:5000/contact-users", {
+          fetch("https://webcodesky-server-nine.vercel.app/contact-users", {
             method: "POST",
             headers: {
               "content-type": "application/json",

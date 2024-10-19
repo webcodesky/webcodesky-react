@@ -1,9 +1,8 @@
-import React from 'react';
-import Container from '../../../Components/Ui/Container/Container';
+import Container from "../../../Components/Ui/Container/Container";
 
 const ServiceBanner = () => {
-    return (
-        <div className="pt-[80px] md:pt-[206px] bg-[#F5F5F5]">
+  return (
+    <div className="pt-[80px] md:pt-[206px] bg-[#F5F5F5]">
       <Container>
         <div>
           {/* Title */}
@@ -19,8 +18,7 @@ const ServiceBanner = () => {
         </div>
       </Container>
     </div>
-    );
+  );
 };
 
 export default ServiceBanner;
-

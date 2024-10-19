@@ -19,7 +19,7 @@ const Navbar = () => {
   const fetchServiceDetails = async (service) => {
     try {
       const response = await fetch(
-        `http://localhost:5000/service-details/${service}`
+        `https://webcodesky-server-nine.vercel.app/service-details/${service}`
       );
       if (!response.ok) {
         throw new Error("Network response was not ok");
@@ -110,7 +110,7 @@ const Navbar = () => {
               to="/blog"
               className="text-[#23272E] font-medium hover:text-blue-600"
             >
-              Blog
+              Blogs
             </Link>
             <div className="flex gap-2">
               <Link to="/contact">

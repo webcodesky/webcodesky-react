@@ -1,4 +1,3 @@
-import React from "react";
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 import img3 from "../../../assets/popularCard/react-service.png";
 

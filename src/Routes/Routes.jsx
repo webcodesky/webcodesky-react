@@ -31,9 +31,14 @@ const router = createBrowserRouter([
         path: "/blog",
         element: <BlogPage></BlogPage>,
       },
+
       {
-        path: "/blog-details",
+        path: "/blog-details/:id",
         element: <BlogDetails></BlogDetails>,
+        loader: ({ params }) =>
+          fetch(
+            `https://webcodesky-server-nine.vercel.app/blog-details/${params.id}`
+          ),
       },
       {
         path: "/service",
