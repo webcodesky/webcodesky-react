@@ -1,0 +1,29 @@
+.img-div{
+    position: relative;
+}
+.img-div img{
+    position: relative;
+    z-index: 1;
+}
+.img-div-animation-div{
+    height: 216px;
+    width: 175px;
+    position: absolute;
+    z-index: 0;
+    top: -20px;
+    right: 0;
+    border-radius: 10px;
+    opacity: 0.0766;
+    background: #473BF0;
+    transition-duration: 2s;
+
+}
+/* .img-div:hover .img-div-animation-div{
+    height: 90%;
+    width: 100%;
+} */
+.features-wrapper:hover .img-div-animation-div{
+    height: 95%;
+    width: 100%;
+    transition-duration: 2s;
+}
