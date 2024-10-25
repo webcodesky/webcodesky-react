@@ -1,6 +1,7 @@
 import { ImFacebook2 } from "react-icons/im";
 import Container from "../../../Components/Ui/Container/Container";
 import teamMember from "../../../assets/teamMember/meet-our-team.png";
+import teamMember1 from "../../../assets/teamMember/md.shahid hasan.png";
 import { FaInstagram, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -64,7 +65,7 @@ const MeetOurTeam = () => {
               </div>
             </div>
             <div className="flex flex-col items-center w-[328px] border border-[#EEE] bg-white">
-              <img src={teamMember} alt="" />
+              <img className="h-[230px] w-[325px]" src={teamMember1} alt="" />
               <div className="py-10 flex flex-col justify-center items-center">
                 <h2 className="text-[#252B42] text-center text-[16px] font-bold leading-[24px] tracking-[0.1px]">
                   MD. Shahid Hasan
@@ -91,7 +92,7 @@ const MeetOurTeam = () => {
               See More Member
             </button>
           </div>
-          <div className="flex justify-center mt-10">
+          <div className="flex justify-center mt-10 hidden">
             <button className="hidden md:inline-block bg-orange-500 text-white px-4 py-1 font-normal leading-[32px] tracking-[-0.6px] rounded-[8px]">
               See More Member
             </button>
