@@ -1,8 +1,8 @@
 import { ImFacebook2 } from "react-icons/im";
 import Container from "../../../Components/Ui/Container/Container";
 import mahmud from "../../../assets/teamMember/MahmudHasan.jpg";
-import tuhin from "../../../assets/teamMember/tuhin.jpg";
-import shahid from "../../../assets/teamMember/shahid.jpg";
+import tuhin from "../../../assets/teamMember/tahmidtuhin.webp";
+import shahid from "../../../assets/teamMember/shahid.png";
 import { FaInstagram, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -22,7 +22,7 @@ const MeetOurTeam = () => {
           <div className="pb-10 md:pr-[92px] md:text-right"></div>
           <div className=" flex flex-col md:flex-row md:gap-[30px] justify-center items-center">
             <div className="flex flex-col items-center w-[270px] rounded-t-xl border border-[#EEE] bg-white">
-              <img className="rounded-t-xl w-full h-[320px]" src={mahmud} alt="" />
+              <img className="rounded-t-xl w-full h-auto" src={mahmud} alt="" />
               <div className="py-10 flex flex-col justify-center items-center">
                 <h2 className="text-[#252B42] text-center text-[16px] font-bold leading-[24px] tracking-[0.1px]">
                   Mahmud Hasan Alif
@@ -44,7 +44,7 @@ const MeetOurTeam = () => {
               </div>
             </div>
             <div className="flex flex-col items-center w-[270px] rounded-t-xl border border-[#EEE] bg-white">
-              <img className="rounded-t-xl w-full h-[320px]" src={tuhin} alt="" />
+              <img className="rounded-t-xl w-full h-auto" src={tuhin} alt="" />
               <div className="py-10 flex flex-col justify-center items-center">
                 <h2 className="text-[#252B42] text-center text-[16px] font-bold leading-[24px] tracking-[0.1px]">
                   Al Tahmiduzzaman Tuhin
@@ -66,7 +66,7 @@ const MeetOurTeam = () => {
               </div>
             </div>
             <div className="flex flex-col items-center w-[270px] rounded-t-xl border border-[#EEE] bg-white">
-              <img className="rounded-t-xl w-full h-[320px]" src={shahid} alt="" />
+              <img className="rounded-t-xl w-full h-auto" src={shahid} alt="" />
               <div className="py-10 flex flex-col justify-center items-center">
                 <h2 className="text-[#252B42] text-center text-[16px] font-bold leading-[24px] tracking-[0.1px]">
                   MD. Shahid Hasan

@@ -15,7 +15,7 @@ const BlogPost = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await fetch("http://localhost:5000/blogs");
+        const response = await fetch("http://localhost:5000/blog");
         if (!response.ok) {
           throw new Error("Failed to fetch blogs");
         }
@@ -74,7 +74,7 @@ const BlogPost = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {/* Card 1 */}
             {currentPosts.map((blog) => (
-              <Link to={`/blog-details/${blog._id}`} key={blog._id}>
+              <Link to={`/blog/${blog._id}`} key={blog._id}>
                 <div className="w-full md:w-[359px] rounded-[15px] bg-[#F5F5F5] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] flex-shrink-0 p-4 h-auto md:h-[525px] ">
                   <div>
                     {/* Main Image */}
