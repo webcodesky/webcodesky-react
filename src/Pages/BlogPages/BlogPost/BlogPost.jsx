@@ -15,9 +15,7 @@ const BlogPost = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await fetch(
-          "https://webcodesky-server-nine.vercel.app/blogs"
-        );
+        const response = await fetch("http://localhost:5000/blogs");
         if (!response.ok) {
           throw new Error("Failed to fetch blogs");
         }

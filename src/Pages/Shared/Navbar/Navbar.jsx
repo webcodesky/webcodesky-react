@@ -19,7 +19,7 @@ const Navbar = () => {
   const fetchServiceDetails = async (service) => {
     try {
       const response = await fetch(
-        `https://webcodesky-server-nine.vercel.app/service-details/${service}`
+        `http://localhost:5000/service-details/${service}`
       );
       if (!response.ok) {
         throw new Error("Network response was not ok");
@@ -36,7 +36,7 @@ const Navbar = () => {
 
   return (
     <Container>
-      <div className="text-white  fixed z-10 bg-[#ffffffE0]">
+      <div className="text-white  fixed z-10 bg-[#ffffffE0] rounded-3xl">
         <div className="flex md:gap-[198px] justify-between items-center h-16 ">
           {/* Logo */}
           <div className="">
@@ -65,31 +65,31 @@ const Navbar = () => {
                 className="dropdown-content w-[200px] bg-[#ffa162] p-5 rounded"
               >
                 <li className="text-[#23272E] font-medium hover:text-blue-600">
-                  <Link
+                  <a
                     onClick={() => fetchServiceDetails("EcommerceWebsite")}
                     role="button"
                     tabIndex={0}
                   >
                     Ecommerce Website
-                  </Link>
+                  </a>
                 </li>
                 <li className="pt-3 text-[#23272E] font-medium hover:text-blue-600">
-                  <Link
+                  <a
                     onClick={() => fetchServiceDetails("WordPressWebsite")}
                     role="button"
                     tabIndex={0}
                   >
                     WordPress Website
-                  </Link>
+                  </a>
                 </li>
                 <li className="pt-3 text-[#23272E] font-medium hover:text-blue-600">
-                  <Link
+                  <a
                     onClick={() => fetchServiceDetails("WebDesign")}
                     role="button"
                     tabIndex={0}
                   >
                     Web Design
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
