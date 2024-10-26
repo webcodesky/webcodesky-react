@@ -1,8 +1,8 @@
-import "../Banner/Banner.css";
+import "./BannerProject.css";
 
 const BannerProject = () => {
   return (
-    <div className="relative max-sm:pt-[1350px] md:pt-[200px]">
+    <div className="relative max-sm:pt-[1350px] md:pt-[10px]">
       <div className="container mx-auto px-4">
         <div className="relative flex flex-wrap justify-center gap-4">
           {/* Always visible (initial 4 cards on mobile) */}
@@ -11,7 +11,7 @@ const BannerProject = () => {
             <div className="box box2 h-[250px] w-[180px] md:h-[297px] md:w-[236px] rounded-xl"></div>
           </div>
 
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 md:mt-[80px]">
             <div className="box box3 h-[250px] w-[180px] md:h-[297px] md:w-[236px] rounded-xl"></div>
             <div className="box box4 h-[250px] w-[180px] md:h-[297px] md:w-[236px] rounded-xl"></div>
           </div>

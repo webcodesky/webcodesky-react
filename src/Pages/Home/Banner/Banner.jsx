@@ -12,7 +12,7 @@ const Banner = () => {
           Web <span className="text-[#FF6600]">Code</span> Sky
         </span>
         <p className="leading-5 tracking-[0.2px] text-left  md:pl-36 md:px-[900px]">
-          We believe you're in the right place. Here, we deliver quality work
+          We believe you re in the right place. Here, we deliver quality work
           built on honesty and trust
         </p>
 

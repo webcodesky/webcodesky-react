@@ -1,6 +1,6 @@
 import { useState } from "react";
-import logo from "../../../assets/webcodesky2.png";
-import { Link } from "react-router-dom";
+import logo from "../../../assets/webcodesky.png";
+import { Link, useNavigate } from "react-router-dom";
 import Container from "../../../Components/Ui/Container/Container";
 
 const Navbar = () => {
@@ -10,9 +10,33 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const navigate = useNavigate();
+
+  // const [serviceDetails, setServiceDetails] = useState(null);
+  // console.log(serviceDetails);
+
+  // Function to fetch service details
+  const fetchServiceDetails = async (service) => {
+    try {
+      const response = await fetch(
+        `http://localhost:5000/service-details/${service}`
+      );
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+      const data = await response.json();
+      // setServiceDetails(data);
+
+      // Navigate to the service details page with state
+      navigate("/service-details", { state: { serviceDetails: data } });
+    } catch (error) {
+      console.error("Error fetching service details:", error);
+    }
+  };
+
   return (
     <Container>
-      <div className="text-white  fixed z-10 bg-[#ffffffE0]">
+      <div className="text-white  fixed z-10 bg-[#ffffffE0] rounded-3xl">
         <div className="flex md:gap-[198px] justify-between items-center h-16 ">
           {/* Logo */}
           <div className="">
@@ -32,12 +56,44 @@ const Navbar = () => {
             <Link to="/" className="text-[#23272E] hover:text-blue-600">
               Home
             </Link>
-            <Link
-              to="/service"
-              className="text-[#23272E] font-medium hover:text-blue-600"
-            >
-              Services
-            </Link>
+            <div className="dropdown dropdown-hover">
+              <div className="text-[#23272E] font-medium hover:text-blue-600">
+                Services
+              </div>
+              <ul
+                tabIndex={0}
+                className="dropdown-content w-[200px] bg-[#ffa162] p-5 rounded"
+              >
+                <li className="text-[#23272E] font-medium hover:text-blue-600">
+                  <a
+                    onClick={() => fetchServiceDetails("EcommerceWebsite")}
+                    role="button"
+                    tabIndex={0}
+                  >
+                    Ecommerce Website
+                  </a>
+                </li>
+                <li className="pt-3 text-[#23272E] font-medium hover:text-blue-600">
+                  <a
+                    onClick={() => fetchServiceDetails("WordPressWebsite")}
+                    role="button"
+                    tabIndex={0}
+                  >
+                    WordPress Website
+                  </a>
+                </li>
+                <li className="pt-3 text-[#23272E] font-medium hover:text-blue-600">
+                  <a
+                    onClick={() => fetchServiceDetails("WebDesign")}
+                    role="button"
+                    tabIndex={0}
+                  >
+                    Web Design
+                  </a>
+                </li>
+              </ul>
+            </div>
+
             <Link
               to="/about"
               className="text-[#23272E] font-medium hover:text-blue-600"
@@ -54,7 +110,7 @@ const Navbar = () => {
               to="/blog"
               className="text-[#23272E] font-medium hover:text-blue-600"
             >
-              Blog
+              Blogs
             </Link>
             <div className="flex gap-2">
               <Link to="/contact">

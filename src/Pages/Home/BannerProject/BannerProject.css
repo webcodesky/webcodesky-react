@@ -1,0 +1,66 @@
+.box {
+  background-color: rgb(134, 48, 126);
+  background-position: top;
+  transition: ease-in-out 4s;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.box.box1 {
+  background: url("/src/assets/bannerImage/Agency-Landing-Page.png");
+  background-size: cover;
+}
+.box.box2 {
+  background: url("/src/assets/bannerImage/Blinqpay.png");
+  background-size: cover;
+}
+.box.box3 {
+  background: url("/src/assets/bannerImage/Brokers-LP.png");
+  background-size: cover;
+}
+.box.box4 {
+  background: url("/src/assets/bannerImage/Figma-Land.png");
+  background-size: cover;
+}
+.box.box5 {
+  background: url("/src/assets/bannerImage/Foodieland.png");
+  background-size: cover;
+}
+.box.box6 {
+  background: url("/src/assets/bannerImage/TourHub.png");
+  background-size: cover;
+}
+.box.box7 {
+  background: url("/src/assets/bannerImage/Green-Bank.png");
+  background-size: cover;
+}
+.box.box8 {
+  background: url("/src/assets/bannerImage/Hounter.png");
+  background-size: cover;
+}
+.box.box9 {
+  background: url("/src/assets/bannerImage/Salad.png");
+  background-size: cover;
+}
+.box.box10 {
+  background: url("/src/assets/bannerImage/scooter.png");
+  background-size: cover;
+}
+.box.box11 {
+  background: url("/src/assets/bannerImage/Zaira.png");
+  background-size: cover;
+}
+.box.box12 {
+  background: url("/src/assets/bannerImage/Miss_Fit.png");
+  background-size: cover;
+}
+.box.box13 {
+  background: url("/src/assets/bannerImage/Furniture.png");
+  background-size: cover;
+}
+.box.box14 {
+  background: url("/src/assets/bannerImage/Blinqpay.png");
+  background-size: cover;
+}
+
+.container .box:hover {
+  background-position: bottom;
+}
