@@ -3,7 +3,7 @@ import Container from "../../Components/Ui/Container/Container";
 import { useRef } from "react";
 import Swal from "sweetalert2";
 
-const ContactUs = () => {
+const GetAQuote = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -80,9 +80,9 @@ const ContactUs = () => {
       <div className="bg-[#F5F5F5] max-sm:pt-[100px]">
         <Container>
           <h1 className="text-[#F60] text-center text-[48px] md:text-[96px] font-bold leading-none tracking-[-1.92px] md:tracking-[-3.84px] md:pt-[120px]">
-            Contact{" "}
+            Get A{" "}
             <span className="text-black text-[48px] md:text-[96px] font-bold leading-none tracking-[-1.92px] md:tracking-[-3.84px]">
-              Us
+              Quote
             </span>
           </h1>
           <p className="text-[#737373] text-[16px] md:text-[20px] font-medium leading-[24px] md:leading-[28px] tracking-[0.2px] text-center pt-[20px] md:pt-[30px] pb-[40px] md:pb-[73px]">
@@ -320,4 +320,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default GetAQuote;
