@@ -13,7 +13,7 @@ const PopularServicesCard = () => {
 
     // or refs...
     // gsap.to(circle.current, { rotation: "-=360", duration: 3 });
-  }
+  }                          
 ); 
 
   return (

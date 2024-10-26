@@ -3,3 +3,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* OverFlow X Offer */
+html, body {
+    overflow-x: hidden;
+}
