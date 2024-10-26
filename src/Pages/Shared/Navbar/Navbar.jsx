@@ -118,10 +118,11 @@ const Navbar = () => {
                   Contact Us{" "}
                 </button>
               </Link>
-
-              <button className="w-[149px] h-[43px] flex-shrink-0 rounded-full border-[0.5px] border-[#d3d4d5] bg-[#f60] text-white text-[16px] font-normal leading-[100%]">
-                <Link to="/getquote">Get a Quote</Link>
-              </button>
+              <Link to="/getquote">
+                <button className="w-[149px] h-[43px] flex-shrink-0 rounded-full border-[0.5px] border-[#d3d4d5] bg-[#f60] text-white text-[16px] font-normal leading-[100%]">
+                  Get a Quote
+                </button>
+              </Link>
             </div>
           </div>
 

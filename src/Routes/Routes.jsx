@@ -9,6 +9,7 @@ import BlogDetails from "../Pages/BlogPages/BlogDetails/BlogDetails";
 import Service from "../Pages/Service/Service";
 import ServiceDetails from "../Pages/ServiceDetails/ServiceDetails";
 import OurWorks from "../Pages/OurWorks/OurWorks";
+import GetAQuote from "../Pages/GetAQuote/GetAQuote";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <ContactUs></ContactUs>,
+      },
+      {
+        path: "/getquote",
+        element: <GetAQuote></GetAQuote>,
       },
       {
         path: "/about",
