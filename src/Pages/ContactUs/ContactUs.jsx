@@ -119,11 +119,11 @@ const ContactUs = () => {
                   Call Us
                 </h1>
                 <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
-                  +1-940-394-2948
+                  +880 1860-861105
                 </p>
-                <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
+                {/* <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
                   +1-940-394-2948
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="flex gap-4">
@@ -157,14 +157,14 @@ const ContactUs = () => {
                   Email us
                 </h1>
                 <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
-                  support@brainwave.io
+                  webcodesky1@gmail.com
                 </p>
-                <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
+                {/* <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
                   contact@brainwave.io
-                </p>
+                </p> */}
               </div>
             </div>
-            <div className="flex gap-4">
+            {/* <div className="flex gap-4">
               <span className="text-[#FF6600] w-[50.886px] h-[54px] flex-shrink-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -197,7 +197,7 @@ const ContactUs = () => {
                   NY, USA 10005
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
           {/* contact form  */}
           <div className="py-[40px] flex justify-center">
