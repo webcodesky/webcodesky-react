@@ -8,6 +8,7 @@ import BlogPage from "../Pages/BlogPages/BlogPageHome/BlogPage";
 import BlogDetails from "../Pages/BlogPages/BlogDetails/BlogDetails";
 import Service from "../Pages/Service/Service";
 import ServiceDetails from "../Pages/ServiceDetails/ServiceDetails";
+import OurWorks from "../Pages/OurWorks/OurWorks";
 
 const router = createBrowserRouter([
   {
@@ -36,9 +37,7 @@ const router = createBrowserRouter([
         path: "/blog-details/:id",
         element: <BlogDetails></BlogDetails>,
         loader: ({ params }) =>
-          fetch(
-            `https://webcodesky-server-nine.vercel.app/blog-details/${params.id}`
-          ),
+          fetch(`http://localhost:5000/blog-details/${params.id}`),
       },
       {
         path: "/service",
@@ -47,6 +46,10 @@ const router = createBrowserRouter([
       {
         path: "/service-details",
         element: <ServiceDetails></ServiceDetails>,
+      },
+      {
+        path: "/works",
+        element: <OurWorks></OurWorks>,
       },
     ],
   },

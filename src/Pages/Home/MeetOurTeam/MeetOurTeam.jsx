@@ -93,7 +93,7 @@ const MeetOurTeam = () => {
               See More Member
             </button>
           </div>
-          <div className="flex justify-center mt-10">
+          <div className="flex justify-center mt-10 hidden">
             <button className="hidden md:inline-block bg-orange-500 text-white px-4 py-1 font-normal leading-[32px] tracking-[-0.6px] rounded-[8px]">
               See More Member
             </button>
