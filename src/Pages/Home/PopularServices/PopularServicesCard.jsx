@@ -2,11 +2,23 @@ import img1 from "../../../assets/popularCard/pop1.png";
 import img2 from "../../../assets/popularCard/pop2.png";
 import img3 from "../../../assets/popularCard/pop3.png";
 import { FaStar } from "react-icons/fa";
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
 
 const PopularServicesCard = () => {
+
+  useGSAP(() => {
+    // use selectors...
+    gsap.to(".service-card", { rotation: "+=360", duration: 3 });
+
+    // or refs...
+    // gsap.to(circle.current, { rotation: "-=360", duration: 3 });
+  }
+); 
+
   return (
       <div className="flex flex-wrap justify-center gap-[31px] mx-auto mt-10 pb-[77px]">
-        <div className="w-full md:w-[382px] md:h-[482px] border-2 bg-[#F5F5F5] rounded-lg shadow-2xl">
+        <div className="w-full service-card md:w-[382px] md:h-[482px] border-2 bg-[#F5F5F5] rounded-lg shadow-2xl">
           <img src={img1} alt="" />
           <div className="p-4">
             <div className="flex justify-between items-center">
@@ -38,7 +50,7 @@ const PopularServicesCard = () => {
           </div>
         </div>
 
-        <div className="w-full md:w-[382px] md:h-[482px] border-2 bg-[#F5F5F5] rounded-lg shadow-2xl">
+        <div className="w-full service-card md:w-[382px] md:h-[482px] border-2 bg-[#F5F5F5] rounded-lg shadow-2xl">
           <img src={img2} alt="" />
           <div className="p-4">
             <div className="flex justify-between items-center">
@@ -70,7 +82,7 @@ const PopularServicesCard = () => {
           </div>
         </div>
 
-        <div className="w-full md:w-[382px] md:h-[482px] border-2 bg-[#F5F5F5] rounded-lg shadow-2xl">
+        <div className="w-full service-card md:w-[382px] md:h-[482px] border-2 bg-[#F5F5F5] rounded-lg shadow-2xl">
           <img src={img3} alt="" />
           <div className="p-4">
             <div className="flex justify-between items-center">
