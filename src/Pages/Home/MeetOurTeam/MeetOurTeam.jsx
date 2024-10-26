@@ -1,6 +1,7 @@
 import { ImFacebook2 } from "react-icons/im";
 import Container from "../../../Components/Ui/Container/Container";
 import teamMember from "../../../assets/teamMember/meet-our-team.png";
+import mahmud from "../../../assets/teamMember/MahmudHasan.jpg";
 import { FaInstagram, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -19,8 +20,8 @@ const MeetOurTeam = () => {
         <div className="pt-5 md:pt-10">
           <div className="pb-10 md:pr-[92px] md:text-right"></div>
           <div className=" flex flex-col md:flex-row md:gap-[30px] justify-center items-center">
-            <div className="flex flex-col items-center w-[328px] border border-[#EEE] bg-white">
-              <img src={teamMember} alt="" />
+            <div className="flex flex-col items-center w-[328px]  border border-[#EEE] bg-white">
+              <img className="rounded-t-xl" src={mahmud} alt="" />
               <div className="py-10 flex flex-col justify-center items-center">
                 <h2 className="text-[#252B42] text-center text-[16px] font-bold leading-[24px] tracking-[0.1px]">
                   Mahmud Hasan Alif
