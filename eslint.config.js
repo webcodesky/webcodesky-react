@@ -1,4 +1,5 @@
 import js from "@eslint/js";
+
 import globals from "globals";
 import react from "eslint-plugin-react";
 import reactHooks from "eslint-plugin-react-hooks";
@@ -29,6 +30,7 @@ export default [
       ...react.configs["jsx-runtime"].rules,
       ...reactHooks.configs.recommended.rules,
       "react/jsx-no-target-blank": "off",
+      "no-undef": "off",
       "react/prop-types": "off",
       "react/no-unknown-property": "off",
       "react-refresh/only-export-components": [
