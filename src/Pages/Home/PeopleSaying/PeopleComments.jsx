@@ -22,8 +22,16 @@ const PeopleComments = () => {
             slidesPerView: 2.5,
             spaceBetween: 20,
           },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
           1024: {
-            slidesPerView: 3.5,
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1536: {
+            slidesPerView: 3,
             spaceBetween: 30,
           },
         }}
@@ -46,7 +54,7 @@ const PeopleComments = () => {
               src={img1}
               alt=""
             />
-            <div className="md:w-[269px] md:h-[402px] flex-shrink-0 rounded-[8px] bg-[#FFF] p-6 mt-20 space-y-2">
+            <div className=" md:w-[269px] md:h-[402px] flex-shrink-0 rounded-[8px] bg-[#FFF] p-6 mt-20 space-y-2">
               <div className="flex pt-[45px] pb-6">
                 <span className="text-[#8FD14F]">
                   <FaStar />
@@ -64,13 +72,13 @@ const PeopleComments = () => {
                   <FaRegStar />
                 </span>
               </div>
-              <h2 className="text-[#2B2B2B] text-[24px] font-medium leading-[31.992px]">
+              <h2 className="text-[#2B2B2B] text-[20px] font-medium leading-[31.992px]">
                 Selena Gomz
               </h2>
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
                 22 Years
               </p>
-              <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px]">
+              <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
                 The salad is fresh!!! Do not ask about the sauce again, it is
                 really delicious, it is going to be routine. I recommend this
                 salad to all of you guys! because they really take care of the
@@ -104,13 +112,13 @@ const PeopleComments = () => {
                   <FaRegStar />
                 </span>
               </div>
-              <h2 className="text-[#2B2B2B] text-[24px] font-medium leading-[31.992px]">
-              Jennifer Sina
+              <h2 className="text-[#2B2B2B] text-[20px] font-medium leading-[31.992px]">
+                Jennifer Sina
               </h2>
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
                 21 Years
               </p>
-              <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px]">
+              <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
                 The salad is fresh!!! Do not ask about the sauce again, it is
                 really delicious, it is going to be routine. I recommend this
                 salad to all of you guys! because they really take care of the
@@ -144,13 +152,13 @@ const PeopleComments = () => {
                   <FaRegStar />
                 </span>
               </div>
-              <h2 className="text-[#2B2B2B] text-[24px] font-medium leading-[31.992px]">
-              David Ken
+              <h2 className="text-[#2B2B2B] text-[20px] font-medium leading-[31.992px]">
+                David Ken
               </h2>
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
                 24 Years
               </p>
-              <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px]">
+              <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
                 The salad is fresh!!! Do not ask about the sauce again, it is
                 really delicious, it is going to be routine. I recommend this
                 salad to all of you guys! because they really take care of the
@@ -184,13 +192,13 @@ const PeopleComments = () => {
                   <FaRegStar />
                 </span>
               </div>
-              <h2 className="text-[#2B2B2B] text-[24px] font-medium leading-[31.992px]">
+              <h2 className="text-[#2B2B2B] text-[20px] font-medium leading-[31.992px]">
                 Selena Gomz
               </h2>
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
                 22 Years
               </p>
-              <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px]">
+              <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
                 The salad is fresh!!! Do not ask about the sauce again, it is
                 really delicious, it is going to be routine. I recommend this
                 salad to all of you guys! because they really take care of the
@@ -224,13 +232,13 @@ const PeopleComments = () => {
                   <FaRegStar />
                 </span>
               </div>
-              <h2 className="text-[#2B2B2B] text-[24px] font-medium leading-[31.992px]">
-              Jennifer Sina
+              <h2 className="text-[#2B2B2B] text-[20px] font-medium leading-[31.992px]">
+                Jennifer Sina
               </h2>
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
                 21 Years
               </p>
-              <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px]">
+              <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
                 The salad is fresh!!! Do not ask about the sauce again, it is
                 really delicious, it is going to be routine. I recommend this
                 salad to all of you guys! because they really take care of the
