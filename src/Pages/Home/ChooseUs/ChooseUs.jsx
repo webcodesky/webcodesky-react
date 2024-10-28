@@ -7,7 +7,7 @@ const ChooseUs = () => {
   return (
     <Container>
       <div className="md:pt-[74px] pb-10 text-center">
-        <h1 className="text-[32px] font-bold">
+        <h1 className="">
           WHY <span className="text-[#F60]">CHOOSE</span> US
         </h1>
         <p className="mont text-[#737373] mt-4 mb-10 mx-auto w-full max-w-[600px]">
@@ -16,10 +16,10 @@ const ChooseUs = () => {
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row gap-[30px] justify-center">
-        <div className="md:w-[328px] w-full h-full bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] mb-[74px]">
+      <div className="flex flex-col md:flex-row gap-5 md:gap-[30px] justify-center">
+        <div className="md:w-[328px] w-full h-full bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] md:mb-[74px]">
           {/* Icon and title */}
-          <div className="flex justify-center gap-[15px] px-[50px] py-[30px] items-center  rounded-t-[10px]">
+          <div className="flex justify-center gap-[15px] px-5 md:px-[50px] py-5 md:py-[30px] items-center  rounded-t-[10px]">
             <div className="flex w-[72px] h-[72px] justify-center items-center [23px_20px_22.647px_20px] rounded-[200px] bg-white">
               <img src={img1} alt="" />
             </div>
@@ -42,9 +42,9 @@ const ChooseUs = () => {
             </span>
           </div>
         </div>
-        <div className="md:w-[328px] w-full h-full bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] mb-[74px]">
+        <div className="md:w-[328px] w-full h-full bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] md:mb-[74px]">
           {/* Icon and title */}
-          <div className="flex justify-center gap-[15px] px-[50px] py-[30px] items-center  rounded-t-[10px]">
+          <div className="flex justify-center gap-[15px] px-5 md:px-[50px] py-5 md:py-[30px] items-center  rounded-t-[10px]">
             <div className="flex w-[72px] h-[72px] justify-center items-center p-[20px] rounded-full bg-white">
               <img src={img2} alt="" />
             </div>
@@ -67,9 +67,9 @@ const ChooseUs = () => {
             </span>
           </div>
         </div>
-        <div className="md:w-[328px] w-full h-full bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] mb-[74px]">
+        <div className="md:w-[328px] w-full h-full bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] md:mb-[74px]">
           {/* Icon and title */}
-          <div className="flex justify-center gap-[15px] px-[50px] py-[30px] items-center  rounded-t-[10px]">
+          <div className="flex justify-center gap-[15px] px-5 md:px-[50px] py-5 md:py-[30px] items-center  rounded-t-[10px]">
             <div className="flex w-[72px] h-[72px] justify-center items-center p-[20px] rounded-full bg-white">
               <img src={img3} alt="" />
             </div>

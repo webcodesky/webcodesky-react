@@ -30,12 +30,12 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 40px;
   }
+ 
 
 @layer base{
     h1{
-        @apply font-bold text-black text-[40px] leading-[57px] tracking-[0.2px];
+        @apply font-bold text-black text-[25px] md:text-[40px] md:leading-[57px] tracking-[0.2px];
     }
     /* h2{}
     h3{}
@@ -50,8 +50,8 @@
     @apply text-[14px] font-bold tracking-[0.2px] text-white;
   }
   .btn-sm {
-    @apply border-[1px] rounded-[5px] px-5 py-[10px] bg-[#FF6600];
-    @apply text-[10px] font-semibold leading-[18px] tracking-[0.2px] text-white;
+    @apply flex items-center border-[1px] rounded-[5px] px-6 py-[12px] bg-[#FF6600];
+    @apply text-[10px] font-semibold  tracking-[0.2px] text-white;
   }
   .btn-xs {
     @apply border-[1px] rounded-[5px] px-3 py-2 bg-[#FF6600];

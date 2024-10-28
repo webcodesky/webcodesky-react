@@ -5,8 +5,8 @@ import { FaStar } from "react-icons/fa";
 
 const PopularServicesCard = () => {
   return (
-    <div className="flex flex-wrap justify-center gap-5 md:gap-5 2xl:[31px] mx-auto mt-10 pb-[77px]">
-      <div className="w-full md:w-[375px] 2x:w-[382px] md:h-[482px] border-2 bg-[#F5F5F5] rounded-lg shadow-2xl">
+    <div className="grid md:grid-cols-3 justify-center gap-5 md:gap-5 2xl:[31px] mx-auto mt-10 pb-[77px]">
+      <div className="w-full  border-2 bg-[#F5F5F5] rounded-lg shadow-2xl">
         <img src={img1} alt="" />
         <div className="p-4">
           <div className="flex justify-between items-center">
@@ -38,7 +38,7 @@ const PopularServicesCard = () => {
         </div>
       </div>
 
-      <div className="w-full md:w-[375px] md:h-[482px] border-2 bg-[#F5F5F5] rounded-lg shadow-2xl">
+      <div className="w-full border-2 bg-[#F5F5F5] rounded-lg shadow-2xl">
         <img src={img2} alt="" />
         <div className="p-4">
           <div className="flex justify-between items-center">
@@ -70,7 +70,7 @@ const PopularServicesCard = () => {
         </div>
       </div>
 
-      <div className="w-full md:w-[375px] md:h-[482px] border-2 bg-[#F5F5F5] rounded-lg shadow-2xl">
+      <div className="w-full border-2 bg-[#F5F5F5] rounded-lg shadow-2xl">
         <img src={img3} alt="" />
         <div className="p-4">
           <div className="flex justify-between items-center">
