@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import logo from "../../../assets/webcodesky.png";
 import { Link, useNavigate } from "react-router-dom";
 import Container from "../../../Components/Ui/Container/Container";
+import { RiArrowDropDownLine } from "react-icons/ri";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +10,21 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const dropdownRef = useRef(null);
 
+  const toggleDropdown = () => setIsDropdownOpen(!isDropdownOpen);
+
+  // Close dropdown if clicked outside
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsDropdownOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
   const navigate = useNavigate();
 
   // const [serviceDetails, setServiceDetails] = useState(null);
@@ -36,8 +51,8 @@ const Navbar = () => {
 
   return (
     <Container>
-      <div className="text-white  fixed z-10 bg-[#ffffffE0] rounded-3xl">
-        <div className="flex md:gap-[198px] justify-between items-center h-16 ">
+      <div className="text-white  fixed z-10 bg-[#fff] rounded-3xl">
+        <div className="flex justify-between items-center h-16 w-full px-4 md:gap-[198px] max-sm:w-full gap-5">
           {/* Logo */}
           <div className="">
             <Link to="/" className="text-2xl font-bold text-blue-600 ">
@@ -56,44 +71,52 @@ const Navbar = () => {
             <Link to="/" className="text-[#23272E] hover:text-blue-600">
               Home
             </Link>
-            <div className="dropdown dropdown-hover">
-              <div className="text-[#23272E] font-medium hover:text-blue-600">
-                Services
-              </div>
-              <ul
-                tabIndex={0}
-                className="dropdown-content w-[200px] bg-[#ffa162] p-5 rounded"
+            <div className="relative" ref={dropdownRef}>
+              <button
+                onClick={toggleDropdown}
+                className="text-[#23272E] hover:text-blue-600 font-medium flex justify-center items-center gap-2"
               >
-                <li className="text-[#23272E] font-medium hover:text-blue-600">
+                Services <RiArrowDropDownLine />
+              </button>
+
+              {isDropdownOpen && (
+                <div className="absolute mt-2 w-48 bg-white border rounded shadow-lg">
                   <a
-                    onClick={() => fetchServiceDetails("EcommerceWebsite")}
+                    onClick={() => {
+                      fetchServiceDetails("EcommerceWebsite");
+                      toggleDropdown();
+                    }}
                     role="button"
                     tabIndex={0}
+                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-blue-600 hover:text-white"
                   >
                     Ecommerce Website
                   </a>
-                </li>
-                <li className="pt-3 text-[#23272E] font-medium hover:text-blue-600">
                   <a
-                    onClick={() => fetchServiceDetails("WordPressWebsite")}
+                    onClick={() => {
+                      fetchServiceDetails("WordPressWebsite");
+                      toggleDropdown();
+                    }}
                     role="button"
                     tabIndex={0}
+                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-blue-600 hover:text-white"
                   >
                     WordPress Website
                   </a>
-                </li>
-                <li className="pt-3 text-[#23272E] font-medium hover:text-blue-600">
                   <a
-                    onClick={() => fetchServiceDetails("WebDesign")}
+                    onClick={() => {
+                      fetchServiceDetails("WebDesign");
+                      toggleDropdown();
+                    }}
                     role="button"
                     tabIndex={0}
+                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-blue-600 hover:text-white"
                   >
                     Web Design
                   </a>
-                </li>
-              </ul>
+                </div>
+              )}
             </div>
-
             <Link
               to="/about"
               className="text-[#23272E] font-medium hover:text-blue-600"
@@ -161,13 +184,52 @@ const Navbar = () => {
             >
               Home
             </Link>
-            <Link
-              to="/services"
-              className="block px-2 py-2 text-[#23272E] hover:bg-gray-100 hover:text-blue-600"
-              onClick={() => setIsOpen(false)}
-            >
-              Services
-            </Link>
+            <div className="relative" ref={dropdownRef}>
+              <button
+                onClick={toggleDropdown}
+                className="text-[#23272E] hover:text-blue-600 font-medium flex justify-center items-center gap-2"
+              >
+                Services <RiArrowDropDownLine />
+              </button>
+
+              {isDropdownOpen && (
+                <div className="absolute mt-2 w-48 bg-white border rounded shadow-lg">
+                  <a
+                    onClick={() => {
+                      fetchServiceDetails("EcommerceWebsite");
+                      toggleDropdown();
+                    }}
+                    role="button"
+                    tabIndex={0}
+                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-blue-600 hover:text-white"
+                  >
+                    Ecommerce Website
+                  </a>
+                  <a
+                    onClick={() => {
+                      fetchServiceDetails("WordPressWebsite");
+                      toggleDropdown();
+                    }}
+                    role="button"
+                    tabIndex={0}
+                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-blue-600 hover:text-white"
+                  >
+                    WordPress Website
+                  </a>
+                  <a
+                    onClick={() => {
+                      fetchServiceDetails("WebDesign");
+                      toggleDropdown();
+                    }}
+                    role="button"
+                    tabIndex={0}
+                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-blue-600 hover:text-white"
+                  >
+                    Web Design
+                  </a>
+                </div>
+              )}
+            </div>
             <Link
               to="/about"
               className="block px-2 py-2 text-[#23272E] hover:bg-gray-100 hover:text-blue-600"

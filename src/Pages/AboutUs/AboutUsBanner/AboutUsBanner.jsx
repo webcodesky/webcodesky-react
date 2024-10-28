@@ -1,11 +1,24 @@
 import { MdCallMade } from "react-icons/md";
 import Container from "../../../Components/Ui/Container/Container";
+import { useState } from "react";
 
 const AboutUsBanner = () => {
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const handleLearnMoreClick = () => {
+    // Toggle the isPlaying state
+    setIsPlaying((prev) => !prev);
+  };
+
+  // Set the video source based on whether it is playing or paused
+  const videoSrc = isPlaying
+    ? "https://www.youtube.com/embed/DFmhX5h6Lig?rel=0&autoplay=1"
+    : "https://www.youtube.com/embed/DFmhX5h6Lig?rel=0";
+
   return (
     <div className="pt-[100px] md:pt-[203px] bg-[#F5F5F5]">
       <Container>
-        <div className="max-sm:flex-1  md:flex md:gap-[100px]">
+        <div className="max-sm:flex-1 md:flex md:gap-[100px]">
           <div>
             <h2 className="text-[#737373] text-[16px] md:text-[20px] font-[700] leading-[22px] md:leading-[24px] tracking-[0.2px] max-sm:pb-2.5">
               Who we Are?
@@ -27,7 +40,10 @@ const AboutUsBanner = () => {
                   </p>
                 </button>
               </div>
-              <div className="flex items-center gap-2">
+              <div
+                className="flex items-center gap-2 cursor-pointer"
+                onClick={handleLearnMoreClick}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="48"
@@ -45,16 +61,16 @@ const AboutUsBanner = () => {
                   />
                 </svg>
                 <span className="text-black text-[16px] md:text-[18px] font-semibold leading-[28.5px]">
-                  Learn More
+                  {isPlaying ? "Pause Video" : "Learn More"}
                 </span>
               </div>
             </div>
           </div>
           {/* Video Section */}
-          <div className="relative flex-1 max-sm:pt-2.5 ">
+          <div className="relative flex-1 max-sm:pt-2.5">
             <iframe
               className="w-[100%] h-[auto] md:w-[501px] md:h-[346px] rounded-[10px] bg-gradient-to-b from-transparent to-[rgba(56,56,56,0.84)]"
-              src="https://www.youtube.com/embed/DFmhX5h6Lig?rel=0"
+              src={videoSrc} // Use the videoSrc based on isPlaying state
               title="YouTube Video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
