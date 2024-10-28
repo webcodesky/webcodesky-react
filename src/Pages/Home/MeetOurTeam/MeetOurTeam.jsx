@@ -10,7 +10,7 @@ const MeetOurTeam = () => {
   return (
     <Container>
       <div className=" py-10 md:py-20">
-        <h1 className="text-[#252B42] text-center text-[32px] md:text-[40px] font-bold leading-[57px] tracking-[0.2px]">
+        <h1 className="text-[#252B42] text-center text-[25px] md:text-[40px] font-bold leading-[57px] tracking-[0.2px]">
           Meet Our Team
         </h1>
         <p className="mx-auto pt-2.5 text-[#737373] text-center text-[14px] font-medium leading-[20px] tracking-[0.2px] w-full max-w-[600px]">
