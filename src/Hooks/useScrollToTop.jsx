@@ -8,7 +8,7 @@ const useScrollToTop = () => {
     window.scrollTo(0, 0);
   }, [pathname]);
 
-  return null; // This component doesn't render anything
+  return null;
 };
 
 export default useScrollToTop;

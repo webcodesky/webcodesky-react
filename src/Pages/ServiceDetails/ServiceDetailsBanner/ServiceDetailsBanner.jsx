@@ -12,7 +12,7 @@ const ServiceDetailsBanner = ({ serviceDetails }) => {
           <span className="text-[#FF6600] ">Development</span>
         </h1>
         <p className="md:ps-[72px] pt-[30px] leading-5 tracking-[0.2px] text-center">
-          We’ll Design your website with ReactJs, Super Fast , Responsive
+          {service.keyDescription}
         </p>
         <div className="flex justify-center md:gap-5 gap-2 md:flex-row flex-col">
           <button className="flex items-center justify-center mt-[30px] border-[1px] rounded-[50px] hover:bg-[#FF6600] md:gap-5 gap-2">
