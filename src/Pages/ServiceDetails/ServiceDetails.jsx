@@ -10,6 +10,8 @@ const ServiceDetails = () => {
   const location = useLocation();
   const { serviceDetails } = location.state || {};
 
+  console.log(serviceDetails);
+
   // Check if data is available
   if (!serviceDetails) {
     return <p>No service details available.</p>;

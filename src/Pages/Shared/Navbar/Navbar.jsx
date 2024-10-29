@@ -55,7 +55,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16 w-full px-4 md:gap-[198px] max-sm:w-full gap-5">
           {/* Logo */}
           <div className="">
-            <Link to="/" className="text-2xl font-bold text-blue-600 ">
+            <Link to="/" className="text-2xl font-bold text-[#f60] ">
               <img
                 className="rounded-md"
                 src={logo}
@@ -68,13 +68,13 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8 font-medium justify-center items-center">
-            <Link to="/" className="text-[#23272E] hover:text-blue-600">
+            <Link to="/" className="text-[#23272E] hover:text-[#f60]">
               Home
             </Link>
             <div className="relative" ref={dropdownRef}>
               <button
                 onClick={toggleDropdown}
-                className="text-[#23272E] hover:text-blue-600 font-medium flex justify-center items-center gap-2"
+                className="text-[#23272E] hover:text-[#f60] font-medium flex justify-center items-center gap-2"
               >
                 Services <RiArrowDropDownLine />
               </button>
@@ -83,14 +83,14 @@ const Navbar = () => {
                 <div className="absolute mt-2 w-48 bg-white border rounded shadow-lg">
                   <a
                     onClick={() => {
-                      fetchServiceDetails("EcommerceWebsite");
+                      fetchServiceDetails("ReactDevelopment");
                       toggleDropdown();
                     }}
                     role="button"
                     tabIndex={0}
-                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-blue-600 hover:text-white"
+                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-[#f60] hover:text-white"
                   >
-                    Ecommerce Website
+                    React Development
                   </a>
                   <a
                     onClick={() => {
@@ -99,39 +99,72 @@ const Navbar = () => {
                     }}
                     role="button"
                     tabIndex={0}
-                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-blue-600 hover:text-white"
+                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-[#f60] hover:text-white"
                   >
                     WordPress Website
                   </a>
                   <a
                     onClick={() => {
-                      fetchServiceDetails("WebDesign");
+                      fetchServiceDetails("BusinessWebsite");
                       toggleDropdown();
                     }}
                     role="button"
                     tabIndex={0}
-                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-blue-600 hover:text-white"
+                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-[#f60] hover:text-white"
                   >
-                    Web Design
+                    Business Website
+                  </a>
+                  <a
+                    onClick={() => {
+                      fetchServiceDetails("FrontendDevelopment");
+                      toggleDropdown();
+                    }}
+                    role="button"
+                    tabIndex={0}
+                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-[#f60] hover:text-white"
+                  >
+                    Frontend Development
+                  </a>
+                  <a
+                    onClick={() => {
+                      fetchServiceDetails("FullStackDevelopment");
+                      toggleDropdown();
+                    }}
+                    role="button"
+                    tabIndex={0}
+                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-[#f60] hover:text-white"
+                  >
+                    FullStack Development
+                  </a>
+                  <a
+                    onClick={() => {
+                      fetchServiceDetails("EcommerceWebsite");
+                      toggleDropdown();
+                    }}
+                    role="button"
+                    tabIndex={0}
+                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-[#f60] hover:text-white"
+                  >
+                    Ecommerce Website
                   </a>
                 </div>
               )}
             </div>
             <Link
               to="/about"
-              className="text-[#23272E] font-medium hover:text-blue-600"
+              className="text-[#23272E] font-medium hover:text-[#f60]"
             >
               About Us
             </Link>
             <Link
               to="/works"
-              className="text-[#23272E] font-medium hover:text-blue-600"
+              className="text-[#23272E] font-medium hover:text-[#f60]"
             >
               Our Works
             </Link>
             <Link
               to="/blog"
-              className="text-[#23272E] font-medium hover:text-blue-600"
+              className="text-[#23272E] font-medium hover:text-[#f60]"
             >
               Blogs
             </Link>
@@ -153,7 +186,7 @@ const Navbar = () => {
           <div className="flex md:hidden">
             <button
               onClick={toggleMenu}
-              className="text-[#23272E] hover:text-blue-600 focus:outline-none focus:text-blue-600"
+              className="text-[#23272E] hover:text-[#f60] focus:outline-none focus:text-[#f60]"
             >
               <svg
                 className="w-6 h-6"
@@ -179,7 +212,7 @@ const Navbar = () => {
           <div className="md:hidden bg-gray-200 rounded-lg p-3">
             <Link
               to="/"
-              className="block px-2 py-2 text-[#23272E] hover:bg-gray-100 hover:text-blue-600"
+              className="block px-2 py-2 text-[#23272E] hover:bg-gray-100 hover:text-[#f60]"
               onClick={() => setIsOpen(false)}
             >
               Home
@@ -187,7 +220,7 @@ const Navbar = () => {
             <div className="relative" ref={dropdownRef}>
               <button
                 onClick={toggleDropdown}
-                className="text-[#23272E] hover:text-blue-600 font-medium flex justify-center items-center gap-2"
+                className="text-[#23272E] hover:text-[#f60] font-medium flex justify-center items-center gap-2"
               >
                 Services <RiArrowDropDownLine />
               </button>
@@ -201,7 +234,7 @@ const Navbar = () => {
                     }}
                     role="button"
                     tabIndex={0}
-                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-blue-600 hover:text-white"
+                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-[#f60] hover:text-white"
                   >
                     Ecommerce Website
                   </a>
@@ -212,7 +245,7 @@ const Navbar = () => {
                     }}
                     role="button"
                     tabIndex={0}
-                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-blue-600 hover:text-white"
+                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-[#f60] hover:text-white"
                   >
                     WordPress Website
                   </a>
@@ -223,7 +256,7 @@ const Navbar = () => {
                     }}
                     role="button"
                     tabIndex={0}
-                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-blue-600 hover:text-white"
+                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-[#f60] hover:text-white"
                   >
                     Web Design
                   </a>
@@ -232,21 +265,21 @@ const Navbar = () => {
             </div>
             <Link
               to="/about"
-              className="block px-2 py-2 text-[#23272E] hover:bg-gray-100 hover:text-blue-600"
+              className="block px-2 py-2 text-[#23272E] hover:bg-gray-100 hover:text-[#f60]"
               onClick={() => setIsOpen(false)}
             >
               About
             </Link>
             <Link
               to="/works"
-              className="block px-2 py-2 text-[#23272E] hover:bg-gray-100 hover:text-blue-600"
+              className="block px-2 py-2 text-[#23272E] hover:bg-gray-100 hover:text-[#f60]"
               onClick={() => setIsOpen(false)}
             >
               Our Works
             </Link>
             <Link
               to="/blog"
-              className="block px-2 py-2 text-[#23272E] hover:bg-gray-100 hover:text-blue-600"
+              className="block px-2 py-2 text-[#23272E] hover:bg-gray-100 hover:text-[#f60]"
               onClick={() => setIsOpen(false)}
             >
               Blog

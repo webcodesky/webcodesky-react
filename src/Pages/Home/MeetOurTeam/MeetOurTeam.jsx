@@ -9,22 +9,16 @@ import { Link } from "react-router-dom";
 const MeetOurTeam = () => {
   return (
     <Container>
-<<<<<<< HEAD
       <div className=" pt-10 pb-5 md:py-20">
         <h1 className="text-[#252B42] text-center text-[32px] md:text-[40px] font-bold leading-[57px] tracking-[0.2px]">
-=======
-      <div className=" py-10 md:py-20">
-        <h1 className="text-[#252B42] text-center text-[25px] md:text-[40px] font-bold leading-[57px] tracking-[0.2px]">
->>>>>>> cb1950946341d3cfb71e16432b704a4ab724da1c
           Meet Our Team
         </h1>
         <p className="mx-auto pt-2.5 text-[#737373] text-center text-[14px] font-medium leading-[20px] tracking-[0.2px] w-full max-w-[600px]">
-          Problems trying to resolve the conflict between the two major
-          realms of Classical physics: Newtonian mechanics
+          Problems trying to resolve the conflict between the two major realms
+          of Classical physics: Newtonian mechanics
         </p>
 
         <div className="pt-5 md:pt-10">
-<<<<<<< HEAD
           <div className=" flex flex-col md:flex-row md:gap-[30px] justify-center items-center">
             <div className="flex flex-col items-center w-[270px] rounded-t-xl border border-[#EEE] bg-white p-5 ">
               <img
@@ -33,13 +27,6 @@ const MeetOurTeam = () => {
                 alt=""
               />
               <div className="pt-10 pb-5 flex flex-col justify-center items-center">
-=======
-          <div className="pb-10 md:pr-[92px] md:text-right"></div>
-          <div className=" flex flex-col md:flex-row gap-5 md:gap-[40px] justify-center items-center">
-            <div className="flex flex-col items-center w-[200px] rounded-t-xl border border-[#EEE] bg-white">
-              <img className="rounded-t-xl w-full h-[250px]" src={mahmud} alt="" />
-              <div className="py-10 flex flex-col justify-center items-center">
->>>>>>> cb1950946341d3cfb71e16432b704a4ab724da1c
                 <h2 className="text-[#252B42] text-center text-[16px] font-bold leading-[24px] tracking-[0.1px]">
                   Mahmud Hasan Alif
                 </h2>
@@ -59,7 +46,6 @@ const MeetOurTeam = () => {
                 </div>
               </div>
             </div>
-<<<<<<< HEAD
             <div className="flex flex-col max-sm:my-10 items-center w-[270px] rounded-t-xl border border-[#EEE] bg-white p-5">
               <img
                 className="rounded-t-xl w-full h-[250px] bg-slate-700"
@@ -67,11 +53,6 @@ const MeetOurTeam = () => {
                 alt=""
               />
               <div className="pt-10 pb-5 flex flex-col justify-center items-center">
-=======
-            <div className="flex flex-col items-center w-[200px] rounded-t-xl border border-[#EEE] bg-white">
-              <img className="rounded-t-xl w-full h-[250px]" src={tuhin} alt="" />
-              <div className="py-10 flex flex-col justify-center items-center">
->>>>>>> cb1950946341d3cfb71e16432b704a4ab724da1c
                 <h2 className="text-[#252B42] text-center text-[16px] font-bold leading-[24px] tracking-[0.1px]">
                   Al Tahmiduzzaman Tuhin
                 </h2>
@@ -91,7 +72,6 @@ const MeetOurTeam = () => {
                 </div>
               </div>
             </div>
-<<<<<<< HEAD
             <div className="flex flex-col items-center w-[270px] rounded-t-xl border border-[#EEE] bg-white p-5 ">
               <img
                 className="rounded-t-xl w-full h-[250px] bg-slate-700"
@@ -99,11 +79,6 @@ const MeetOurTeam = () => {
                 alt=""
               />
               <div className="pt-10 pb-5 flex flex-col justify-center items-center">
-=======
-            <div className="flex flex-col items-center w-[200px] rounded-t-xl border border-[#EEE] bg-white">
-              <img className="rounded-t-xl w-full h-[250px]" src={shahid} alt="" />
-              <div className="py-10 flex flex-col justify-center items-center">
->>>>>>> cb1950946341d3cfb71e16432b704a4ab724da1c
                 <h2 className="text-[#252B42] text-center text-[16px] font-bold leading-[24px] tracking-[0.1px]">
                   MD. Shahid Hasan
                 </h2>

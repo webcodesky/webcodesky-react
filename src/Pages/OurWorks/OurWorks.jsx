@@ -80,7 +80,7 @@ const OurWorks = () => {
 
         {/* Tab Content */}
         <div className="mt-10 text-gray-800 text-center">
-          <p className="transition-opacity duration-500 ease-in-out opacity-100">
+          <p className="transition-opacity duration-500 ease-in-out opacity-100 grid grid-cols-1 md:grid-cols-3 gap-4">
             {categorys.map((category) => (
               <WorksCard key={category._id} category={category}></WorksCard>
             ))}
