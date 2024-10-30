@@ -5,13 +5,13 @@ const ServiceDetailsBanner = ({ serviceDetails }) => {
   const service = (serviceDetails && serviceDetails[0]) || {};
   //   console.log(service.title);
   return (
-    <div className="relative bg-[#FFFFFF] md:pt-[168px] pt-[90px] pb-[0px]">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 items-center ">
-        <h1 className="font-bold text-[28px] text-center md:text-[96px] tracking-[-4%] leading-[100%] ">
+    <div className="relative bg-[#FFFFFF] md:pt-[120px] pt-[90px] pb-[0px]">
+      <div className="container mx-auto sm:px-6 lg:px-8 items-center ">
+        <h1 className="font-bold text-[28px] text-center md:text-[96px] md:tracking-[-4%] md:leading-[100%] ">
           {service.serviceTitle}
           <span className="text-[#FF6600] ">Development</span>
         </h1>
-        <p className="md:ps-[72px] pt-[30px] leading-5 tracking-[0.2px] text-center">
+        <p className="md:px-36 pt-[30px] leading-5 tracking-[0.2px] text-justify">
           {service.keyDescription}
         </p>
         <div className="flex justify-center md:gap-5 gap-2 md:flex-row flex-col">

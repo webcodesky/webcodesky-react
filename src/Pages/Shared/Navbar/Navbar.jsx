@@ -229,14 +229,14 @@ const Navbar = () => {
                 <div className="absolute mt-2 w-48 bg-white border rounded shadow-lg">
                   <a
                     onClick={() => {
-                      fetchServiceDetails("EcommerceWebsite");
+                      fetchServiceDetails("ReactDevelopment");
                       toggleDropdown();
                     }}
                     role="button"
                     tabIndex={0}
                     className="block px-4 py-2 text-sm text-[#23272E] hover:bg-[#f60] hover:text-white"
                   >
-                    Ecommerce Website
+                    React Development
                   </a>
                   <a
                     onClick={() => {
@@ -251,14 +251,47 @@ const Navbar = () => {
                   </a>
                   <a
                     onClick={() => {
-                      fetchServiceDetails("WebDesign");
+                      fetchServiceDetails("BusinessWebsite");
                       toggleDropdown();
                     }}
                     role="button"
                     tabIndex={0}
                     className="block px-4 py-2 text-sm text-[#23272E] hover:bg-[#f60] hover:text-white"
                   >
-                    Web Design
+                    Business Website
+                  </a>
+                  <a
+                    onClick={() => {
+                      fetchServiceDetails("FrontendDevelopment");
+                      toggleDropdown();
+                    }}
+                    role="button"
+                    tabIndex={0}
+                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-[#f60] hover:text-white"
+                  >
+                    Frontend Development
+                  </a>
+                  <a
+                    onClick={() => {
+                      fetchServiceDetails("FullStackDevelopment");
+                      toggleDropdown();
+                    }}
+                    role="button"
+                    tabIndex={0}
+                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-[#f60] hover:text-white"
+                  >
+                    FullStack Development
+                  </a>
+                  <a
+                    onClick={() => {
+                      fetchServiceDetails("EcommerceWebsite");
+                      toggleDropdown();
+                    }}
+                    role="button"
+                    tabIndex={0}
+                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-[#f60] hover:text-white"
+                  >
+                    Ecommerce Website
                   </a>
                 </div>
               )}

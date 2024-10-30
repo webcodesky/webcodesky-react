@@ -4,6 +4,7 @@ import WorksCard from "./WorksCard/WorksCard";
 
 const OurWorks = () => {
   const [categorys, setCategory] = useState([]);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   //   console.log(categorys);
 
@@ -22,6 +23,28 @@ const OurWorks = () => {
     setActiveTab(tabName);
   };
   // Tab labels and corresponding content
+
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const getLeftPosition = () => {
+    if (windowWidth >= 768) {
+      return activeTab === "FullWebsite"
+        ? "calc(52.5% - 150px)"
+        : "calc(55.5% - 50px)";
+    } else if (windowWidth <= 768) {
+      return activeTab === "FullWebsite"
+        ? "calc(25% - 50px)"
+        : "calc(75% - 50px)";
+    } else {
+      return activeTab === "FullWebsite"
+        ? "calc(52.5% - 150px)"
+        : "calc(55.5% - 50px)";
+    }
+  };
 
   return (
     <>
@@ -56,24 +79,29 @@ const OurWorks = () => {
           >
             Landing Page
           </button>
-          <button
+          {/* <button
             onClick={() => handleTabClick("Portfolio")}
             className="text-black font-bold text-[16px] pb-2"
           >
             Portfolio
-          </button>
+          </button> */}
 
           {/* Underline for active tab */}
-          <div
+          {/* <div
             className={`absolute bottom-0 h-[2px] bg-[#f60] transition-all duration-300`}
             style={{
               width: "100px",
               left:
                 activeTab === "FullWebsite"
-                  ? "calc(48% - 150px)"
-                  : activeTab === "LandingPage"
-                  ? "calc(51% - 50px)"
-                  : "calc(54% + 50px)",
+                  ? "calc(52.5% - 150px)"
+                  : "calc(55.5% - 50px)",
+            }}
+          ></div> */}
+          <div
+            className="absolute bottom-0 h-[2px] bg-[#f60] transition-all duration-300"
+            style={{
+              width: "100px",
+              left: getLeftPosition(),
             }}
           ></div>
         </div>

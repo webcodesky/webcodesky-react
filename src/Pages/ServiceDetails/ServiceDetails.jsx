@@ -6,8 +6,10 @@ import WhyChooseUs from "./WhyChooseUs/WhyChooseUs";
 import FAQAccordion from "./FAQ/FAQ";
 import PeopleSaying from "../Home/PeopleSaying/PeopleSaying";
 import Facilities from "./Facilities/Facilities";
+import useScrollToTop from "../../Hooks/useScrollToTop";
 
 const ServiceDetails = () => {
+  useScrollToTop();
   const location = useLocation();
   const { serviceDetails } = location.state || {};
 
