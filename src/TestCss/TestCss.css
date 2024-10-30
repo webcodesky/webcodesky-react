@@ -35,7 +35,7 @@
 
 @layer base{
     h1{
-        @apply font-bold text-black text-[25px] md:text-[40px] md:leading-[57px] tracking-[0.2px];
+        @apply font-bold text-black text-[18px] md:text-[37px] lg:text-[40px] md:leading-[57px] tracking-[0.2px];
     }
     /* h2{}
     h3{}
@@ -54,7 +54,7 @@
     @apply text-[10px] font-semibold  tracking-[0.2px] text-white;
   }
   .btn-xs {
-    @apply border-[1px] rounded-[5px] px-3 py-2 bg-[#FF6600];
+    @apply flex justify-center items-center border-[1px] rounded-[5px] px-3 py-2 bg-[#FF6600];
     @apply text-[10px] font-semibold leading-[14px] tracking-[0.2px] text-white;
   }
   .btn-rounded {

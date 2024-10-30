@@ -1,6 +1,6 @@
 import Container from "../../../Components/Ui/Container/Container";
 import coverImage from "../../../assets/cover.png";
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { FaAngleDown } from "react-icons/fa6";
 import Swal from "sweetalert2";

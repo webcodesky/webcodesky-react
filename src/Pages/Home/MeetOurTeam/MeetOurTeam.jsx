@@ -1,8 +1,8 @@
 import { ImFacebook2 } from "react-icons/im";
 import Container from "../../../Components/Ui/Container/Container";
 import mahmud from "../../../assets/teamMember/Mahmudhasan.png";
-import tuhin from "../../../assets/teamMember/tuhin.jpg";
-import shahid from "../../../assets/teamMember/shahid.jpg";
+import tuhin from "../../../assets/teamMember/tahmidtuhin.webp";
+import shahid from "../../../assets/teamMember/shahid.png";
 import { FaInstagram, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -10,7 +10,7 @@ const MeetOurTeam = () => {
   return (
     <Container>
       <div className=" pt-10 pb-5 md:py-20">
-        <h1 className="text-[#252B42] text-center text-[32px] md:text-[40px] font-bold leading-[57px] tracking-[0.2px]">
+        <h1 className="text-[#252B42] text-center text-[18px] md:text-[37px] lg:text-[40px] font-bold leading-[57px] tracking-[0.2px]">
           Meet Our Team
         </h1>
         <p className="mx-auto pt-2.5 text-[#737373] text-center text-[14px] font-medium leading-[20px] tracking-[0.2px] w-full max-w-[600px]">
