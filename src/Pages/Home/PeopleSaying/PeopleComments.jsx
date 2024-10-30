@@ -78,7 +78,7 @@ const PeopleComments = () => {
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
                 22 Years
               </p>
-              <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
+              <p className="text-[#575757] text-[12px] md:text-[14px] lg:text-[18px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
                 The salad is fresh!!! Do not ask about the sauce again, it is
                 really delicious, it is going to be routine. I recommend this
                 salad to all of you guys! because they really take care of the
@@ -118,7 +118,7 @@ const PeopleComments = () => {
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
                 21 Years
               </p>
-              <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
+              <p className="text-[#575757] text-[12px] md:text-[14px] lg:text-[18px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
                 The salad is fresh!!! Do not ask about the sauce again, it is
                 really delicious, it is going to be routine. I recommend this
                 salad to all of you guys! because they really take care of the
@@ -158,7 +158,7 @@ const PeopleComments = () => {
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
                 24 Years
               </p>
-              <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
+              <p className="text-[#575757] text-[12px] md:text-[14px] lg:text-[18px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
                 The salad is fresh!!! Do not ask about the sauce again, it is
                 really delicious, it is going to be routine. I recommend this
                 salad to all of you guys! because they really take care of the
@@ -198,7 +198,7 @@ const PeopleComments = () => {
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
                 22 Years
               </p>
-              <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
+              <p className="text-[#575757] text-[12px] md:text-[14px] lg:text-[18px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
                 The salad is fresh!!! Do not ask about the sauce again, it is
                 really delicious, it is going to be routine. I recommend this
                 salad to all of you guys! because they really take care of the
@@ -238,7 +238,7 @@ const PeopleComments = () => {
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
                 21 Years
               </p>
-              <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
+              <p className="text-[#575757] text-[12px] md:text-[14px] lg:text-[18px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
                 The salad is fresh!!! Do not ask about the sauce again, it is
                 really delicious, it is going to be routine. I recommend this
                 salad to all of you guys! because they really take care of the

@@ -6,7 +6,7 @@ const ServiceDetailsBanner = ({ serviceDetails }) => {
   //   console.log(service.title);
   return (
     <div className="relative bg-[#FFFFFF] md:pt-[168px] pt-[90px] pb-[0px]">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 items-center ">
+      <div className="container mx-auto items-center">
         <h1 className="font-bold text-[28px] text-center md:text-[96px] tracking-[-4%] leading-[100%] ">
           {service.serviceTitle}
           <span className="text-[#FF6600] ">Development</span>

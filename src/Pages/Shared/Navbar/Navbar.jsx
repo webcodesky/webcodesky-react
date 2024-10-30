@@ -52,7 +52,7 @@ const Navbar = () => {
   return (
     <Container>
       <div className="text-white  fixed z-10 bg-[#fff] rounded-3xl">
-        <div className="flex justify-between items-center h-16 w-full px-4 md:gap-[198px] max-sm:w-full gap-5">
+        <div className="flex justify-between items-center h-16 w-full px-4  md:gap-10 lg:gap-[198px] max-sm:w-full gap-5">
           {/* Logo */}
           <div className="">
             <Link to="/" className="text-2xl font-bold text-[#f60] ">
@@ -67,7 +67,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-8 font-medium justify-center items-center">
+          <div className="hidden md:hidden lg:flex md:space-x-3 lg:space-x-6 text-[14px] md:text-[12px] lg:text-[16px] font-medium justify-center items-center">
             <Link to="/" className="text-[#23272E] hover:text-[#f60]">
               Home
             </Link>
@@ -170,20 +170,20 @@ const Navbar = () => {
             </Link>
             <div className="flex gap-2">
               <Link to="/contact">
-                <button className="flex py-[14px] px-[20px] justify-center items-center gap-[10px] rounded-[61px] border border-[rgba(35,39,46,0.3)] text-[#23272e] text-[16px] font-normal leading-[100%]">
+                <button className="dm-sans flex md:py-2 md:px-3 lg:py-[14px] lg:px-[20px] justify-center items-center gap-[10px] rounded-[61px] border border-[rgba(35,39,46,0.3)] text-[#23272e] text-[14px] md:text-[12px] lg:text-[16px]  leading-[100%]">
                   Contact Us{" "}
                 </button>
               </Link>
               <Link to="/getquote">
-                <button className="w-[149px] h-[43px] flex-shrink-0 rounded-full border-[0.5px] border-[#d3d4d5] bg-[#f60] text-white text-[16px] font-normal leading-[100%]">
-                  Get a Quote
+                <button className="dm-sans flex md:py-2 md:px-3 lg:py-[14px] lg:px-[20px] justify-center items-center gap-[10px] rounded-[61px] border border-[#d3d4d5] bg-[#f60] text-white text-[14px] md:text-[12px] lg:text-[16px]  leading-[100%]">
+                  Get a Quote{" "}
                 </button>
               </Link>
             </div>
           </div>
 
           {/* Mobile Hamburger Menu */}
-          <div className="flex md:hidden">
+          <div className="flex md:visible lg:hidden">
             <button
               onClick={toggleMenu}
               className="text-[#23272E] hover:text-[#f60] focus:outline-none focus:text-[#f60]"
@@ -209,7 +209,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden bg-gray-200 rounded-lg p-3">
+          <div className="md:visible lg:hidden bg-gray-200 rounded-lg p-3">
             <Link
               to="/"
               className="block px-2 py-2 text-[#23272E] hover:bg-gray-100 hover:text-[#f60]"
