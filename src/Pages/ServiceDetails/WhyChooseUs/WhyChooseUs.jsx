@@ -1,7 +1,11 @@
 import "./WhyChooseUs.css";
 import Container from "../../../Components/Ui/Container/Container";
 
-const WhyChooseUs = () => {
+const WhyChooseUs = ({ serviceDetails }) => {
+  const services = (serviceDetails && serviceDetails[0]) || {};
+
+  const whyChooseUsData = services.whyChooseUs || [];
+  // console.log(whyChooseUsData);
   return (
     <div className="relative">
       <img
@@ -19,84 +23,32 @@ const WhyChooseUs = () => {
               People choose us because we serve the best for everyone
             </h2>
           </div>
+          {/* why choose box start */}
           <div className="grid md:grid-cols-2 grid-col-1 md:gap-12 gap-4 md:px-28 pt-[92px] pb-[88px] border-b-[1px] border-[#D8D8D8] stoke-[#E7E9ED]">
-            <div className="icon-box flex flex-row md:gap-9 gap-3">
-              <div className="icon-setion w-[30%] ">
-                <img
-                  className="w-full"
-                  src="/src/assets/icon/project-manager.svg"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-              <div className="icon-box-content w-[70%]">
-                <div className="title poppins font-bold text-[22px] pb-2">
-                  Dedicated project manager
+            {whyChooseUsData.map((item, index) => (
+              <div
+                key={index}
+                className="icon-box flex flex-row md:gap-9 gap-3"
+              >
+                <div className="icon-setion w-[30%]">
+                  <img
+                    className="w-full"
+                    src="/src/assets/icon/deadline.svg"
+                    alt={item.title}
+                  />
                 </div>
-                <div className="description poppins font-normal text-[18px]">
-                  With lots of unique blocks, you can easily build a page
-                  without coding. Build your next landing page.
-                </div>
-              </div>
-            </div>
-            <div className="icon-box flex flex-row md:gap-9 gap-3">
-              <div className="icon-setion w-[30%]">
-                <img
-                  className="w-full"
-                  src="/src/assets/icon/task.svg"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-              <div className="icon-box-content w-[70%]">
-                <div className="title poppins font-bold text-[22px] pb-2">
-                  Organized tasks
-                </div>
-                <div className="description poppins font-normal text-[18px]">
-                  With lots of unique blocks, you can easily build a page
-                  without coding. Build your next landing page.
+                <div className="icon-box-content w-[70%]">
+                  <div className="title poppins font-bold text-[22px] pb-2">
+                    {item.title}
+                  </div>
+                  <div className="description poppins font-normal text-[18px]">
+                    {item.description}
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="icon-box flex flex-row md:gap-9 gap-3">
-              <div className="icon-setion w-[30%]">
-                <img
-                  className="w-full"
-                  src="/src/assets/icon/Feedback.svg"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-              <div className="icon-box-content w-[70%]">
-                <div className="title poppins font-bold text-[22px] pb-2">
-                  Easy feedback sharing
-                </div>
-                <div className="description poppins font-normal text-[18px]">
-                  With lots of unique blocks, you can easily build a page
-                  without coding. Build your next landing page.
-                </div>
-              </div>
-            </div>
-            <div className="icon-box flex flex-row md:gap-9 gap-3">
-              <div className="icon-setion w-[30%]">
-                <img
-                  className="w-full"
-                  src="/src/assets/icon/deadline.svg"
-                  alt=""
-                  srcset=""
-                />
-              </div>
-              <div className="icon-box-content w-[70%]">
-                <div className="title poppins font-bold text-[22px] pb-2">
-                  Never miss deadline
-                </div>
-                <div className="description poppins font-normal text-[18px]">
-                  With lots of unique blocks, you can easily build a page
-                  without coding. Build your next landing page.
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
+          {/* why chose box end */}
           <div className="whychooseusCTA flex md:flex-row flex-col md:justify-between items-center w-full md:py-12 py-4">
             <div className="content">
               <h2 className="poppins font-bold text-[32px] pb-2">
