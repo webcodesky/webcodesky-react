@@ -33,7 +33,7 @@ const BannerProject = () => {
           </div>
 
           {/* Absolute positioned images for larger devices */}
-          <div className="absolute -top-[1300px] md:-top-[160px] md:-left-[110px] hidden md:flex flex-col gap-4">
+          <div className="absolute -top-[1300px] md:-top-[160px] md:-left-[110px] hidden md:hidden lg:flex flex-col gap-4">
             <div className="box box11 md:h-[180px] lg:h-[250px] md:w-[123px] lg:w-[194px] 2xl:h-[297px] 2xl:w-[232px] w-full rounded-xl">
               {/* <img src={img4} alt="" className="w-full h-full object-cover" /> */}
             </div>
@@ -42,7 +42,7 @@ const BannerProject = () => {
             </div>
           </div>
 
-          <div className="absolute -top-[650px] md:-top-[160px] md:-right-[110px] hidden md:flex flex-col gap-4">
+          <div className="absolute -top-[650px] md:-top-[160px] md:-right-[110px] hidden md:hidden lg:flex flex-col gap-4">
             <div className="box box13 md:h-[180px] lg:h-[250px] md:w-[123px] lg:w-[194px] 2xl:h-[297px] 2xl:w-[232px] w-full rounded-xl">
               {/* <img src={img3} alt="" className="w-full h-full object-cover" /> */}
             </div>

@@ -10,16 +10,16 @@ const ChooseUs = () => {
         <h1 className="">
           WHY <span className="text-[#F60]">CHOOSE</span> US
         </h1>
-        <p className="mont text-[#737373] mt-4 mb-10 mx-auto w-full max-w-[600px]">
+        <p className="mont text-[#737373] text-[12px] md:text-[14px] mt-4 mb-10 mx-auto w-full max-w-[600px]">
           Problems trying to resolve the conflict between the two major realms
           of Classical physics: Newtonian mechanics.
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row gap-5 md:gap-[30px] justify-center">
-        <div className="md:w-[328px] w-full h-full bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] md:mb-[74px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-5 justify-center">
+        <div className="md:w-[328px] w-full h-fit bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] md:mb-[74px]">
           {/* Icon and title */}
-          <div className="flex justify-center gap-[15px] px-5 md:px-[50px] py-5 md:py-[30px] items-center  rounded-t-[10px]">
+          <div className="flex justify-center gap-[15px] px-5 md:px-[50px] py-5 md:py-[30px] items-center  rounded-t-[10px] ">
             <div className="flex w-[72px] h-[72px] justify-center items-center [23px_20px_22.647px_20px] rounded-[200px] bg-white">
               <img src={img1} alt="" />
             </div>
@@ -29,7 +29,7 @@ const ChooseUs = () => {
           </div>
 
           {/* Card Content */}
-          <div className="p-6 rounded-t-[10px] bg-white space-y-3">
+          <div className="p-6 rounded-t-[10px] h-full  bg-white space-y-3">
             <ul className="text-[#737373] text-[14px] font-semibold leading-[24px] space-y-1 mb-5">
               <li>- The best products start with Figma</li>
               <li>- Design with real data</li>
@@ -42,9 +42,9 @@ const ChooseUs = () => {
             </span>
           </div>
         </div>
-        <div className="md:w-[328px] w-full h-full bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] md:mb-[74px]">
+        <div className="md:w-[328px] w-full h-fit bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] md:mb-[74px]">
           {/* Icon and title */}
-          <div className="flex justify-center gap-[15px] px-5 md:px-[50px] py-5 md:py-[30px] items-center  rounded-t-[10px]">
+          <div className="flex justify-center gap-[15px] px-5 md:px-[50px] py-5 md:py-[30px] items-center  rounded-t-[10px] ">
             <div className="flex w-[72px] h-[72px] justify-center items-center p-[20px] rounded-full bg-white">
               <img src={img2} alt="" />
             </div>
@@ -54,7 +54,7 @@ const ChooseUs = () => {
           </div>
 
           {/* Card Content */}
-          <div className="p-6 rounded-t-[10px] bg-white space-y-3">
+          <div className="p-6 rounded-t-[10px] h-full bg-white space-y-3">
             <ul className="text-[#737373] text-[14px] font-semibold leading-[24px] space-y-1 mb-5">
               <li>- The best products start with Figma</li>
               <li>- Design with real data</li>
@@ -67,9 +67,9 @@ const ChooseUs = () => {
             </span>
           </div>
         </div>
-        <div className="md:w-[328px] w-full h-full bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] md:mb-[74px]">
+        <div className="md:w-[328px] w-full h-fit bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] md:mb-[74px]">
           {/* Icon and title */}
-          <div className="flex justify-center gap-[15px] px-5 md:px-[50px] py-5 md:py-[30px] items-center  rounded-t-[10px]">
+          <div className="flex justify-center gap-[15px] px-5 md:px-[50px] py-5 md:py-[30px] items-center  rounded-t-[10px] ">
             <div className="flex w-[72px] h-[72px] justify-center items-center p-[20px] rounded-full bg-white">
               <img src={img3} alt="" />
             </div>
@@ -79,7 +79,7 @@ const ChooseUs = () => {
           </div>
 
           {/* Card Content */}
-          <div className="p-6 rounded-t-[10px] bg-white space-y-3">
+          <div className="p-6 rounded-t-[10px] h-full bg-white space-y-3">
             <ul className="text-[#737373] text-[14px] font-semibold leading-[24px] space-y-1 mb-5">
               <li>- The best products start with Figma</li>
               <li>- Design with real data</li>

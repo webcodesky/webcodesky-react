@@ -129,7 +129,7 @@ const Appointment = () => {
               </div>
             </div>
             <input
-              className="btn-sm md:btn mt-10"
+              className="btn-sm md:btn mt-10 py-2"
               type="submit"
               value="Book Appointment"
             />

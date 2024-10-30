@@ -9,25 +9,23 @@ import { Link } from "react-router-dom";
 const MeetOurTeam = () => {
   return (
     <Container>
-      <div className=" pt-10 pb-5 md:py-20">
-        <h1 className="text-[#252B42] text-center text-[18px] md:text-[37px] lg:text-[40px] font-bold leading-[57px] tracking-[0.2px]">
-          Meet Our Team
-        </h1>
-        <p className="mx-auto pt-2.5 text-[#737373] text-center text-[14px] font-medium leading-[20px] tracking-[0.2px] w-full max-w-[600px]">
+      <div className=" pt-5 pb-5 md:py-20">
+        <h1 className="text-[#252B42] text-center">Meet Our Team</h1>
+        <p className="mx-auto pt-2.5 text-[#737373] text-center text-[12px] md:text-[14px] font-medium leading-[20px] tracking-[0.2px] w-[250px] md:w-[430px] lg:w-[430px]">
           Problems trying to resolve the conflict between the two major realms
           of Classical physics: Newtonian mechanics
         </p>
 
         <div className="pt-5 md:pt-10">
-          <div className=" flex flex-col md:flex-row md:gap-[30px] justify-center items-center">
-            <div className="flex flex-col items-center w-[270px] rounded-t-xl border border-[#EEE] bg-white p-5 ">
+          <div className=" flex flex-col md:flex-row gap-5 md:gap-[30px] justify-center items-center">
+            <div className="flex flex-col items-center w-[250px] h-[370px] rounded-t-xl border border-[#EEE] bg-white p-5">
               <img
-                className="rounded-t-xl w-full h-[250px]"
+                className="rounded-t-xl w-full h-[240px] md:h-[210px] bg-slate-700"
                 src={mahmud}
                 alt=""
               />
-              <div className="pt-10 pb-5 flex flex-col justify-center items-center">
-                <h2 className="text-[#252B42] text-center text-[16px] font-bold leading-[24px] tracking-[0.1px]">
+              <div className="pt-5 pb-5 flex flex-col justify-center items-center">
+                <h2 className="text-[#252B42] text-center text-[14px] md:text-[14px] lg:text-[16px] font-bold leading-[24px] tracking-[0.1px]">
                   Mahmud Hasan Alif
                 </h2>
                 <h3 className="text-[#737373] text-center text-[14px] font-semibold leading-[24px] tracking-[0.2px] py-2">
@@ -46,14 +44,14 @@ const MeetOurTeam = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col max-sm:my-10 items-center w-[270px] rounded-t-xl border border-[#EEE] bg-white p-5">
+            <div className="flex flex-col items-center w-[250px] h-[370px] rounded-t-xl border border-[#EEE] bg-white p-5">
               <img
-                className="rounded-t-xl w-full h-[250px] bg-slate-700"
+                className="rounded-t-xl w-full h-[240px] md:h-[210px] bg-slate-700"
                 src={tuhin}
                 alt=""
               />
-              <div className="pt-10 pb-5 flex flex-col justify-center items-center">
-                <h2 className="text-[#252B42] text-center text-[16px] font-bold leading-[24px] tracking-[0.1px]">
+              <div className="pt-5 pb-5 flex flex-col justify-center items-center">
+                <h2 className="text-[#252B42] text-center text-[14px] md:text-[14px] lg:text-[16px] font-bold leading-[24px] tracking-[0.1px]">
                   Al Tahmiduzzaman Tuhin
                 </h2>
                 <h3 className="text-[#737373] text-center text-[14px] font-semibold leading-[24px] tracking-[0.2px] py-2">
@@ -72,14 +70,14 @@ const MeetOurTeam = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col items-center w-[270px] rounded-t-xl border border-[#EEE] bg-white p-5 ">
+            <div className="flex flex-col items-center w-[250px] h-[370px] rounded-t-xl border border-[#EEE] bg-white p-5 ">
               <img
-                className="rounded-t-xl w-full h-[250px] bg-slate-700"
+                className="rounded-t-xl w-full h-[240px] md:h-[210px] bg-slate-700"
                 src={shahid}
                 alt=""
               />
-              <div className="pt-10 pb-5 flex flex-col justify-center items-center">
-                <h2 className="text-[#252B42] text-center text-[16px] font-bold leading-[24px] tracking-[0.1px]">
+              <div className="pt-5 pb-5 flex flex-col justify-center items-center">
+                <h2 className="text-[#252B42] text-center text-[14px] md:text-[14px] lg:text-[16px] font-bold leading-[24px] tracking-[0.1px]">
                   MD. Shahid Hasan
                 </h2>
                 <h3 className="text-[#737373] text-center text-[14px] font-semibold leading-[24px] tracking-[0.2px] py-2">

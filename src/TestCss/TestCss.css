@@ -2,42 +2,40 @@
 
 @tailwind components;
 
-
 .dm-sans {
-    font-family: "DM Sans", sans-serif;
-    font-weight: 400px;
-    font-style: normal;
-  }
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+}
 .dm-sans-sb {
-    font-family: "DM Sans", sans-serif;
-    font-weight: 600px;
-    font-style: normal;
-  }
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600px;
+  font-style: normal;
+}
 
-  .dm-sans-b {
-    font-family: "DM Sans", sans-serif;
-    font-weight: 700px;
-    font-style: normal;
-  }
+.dm-sans-b {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700px;
+  font-style: normal;
+}
 
-  .mont {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 14px;
-  }
-  .mont-bold {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
- 
+.mont {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+}
+.mont-bold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
 
-@layer base{
-    h1{
-        @apply font-bold text-black text-[18px] md:text-[37px] lg:text-[40px] md:leading-[57px] tracking-[0.2px];
-    }
-    /* h2{}
+@layer base {
+  h1 {
+    @apply font-bold text-black text-[18px] md:text-[37px] lg:text-[40px] md:leading-[57px] tracking-[0.2px];
+  }
+  /* h2{}
     h3{}
     h4{}
     h5{}
@@ -50,7 +48,7 @@
     @apply text-[14px] font-bold tracking-[0.2px] text-white;
   }
   .btn-sm {
-    @apply flex items-center border-[1px] rounded-[5px] px-6 py-[12px] bg-[#FF6600];
+    @apply flex items-center justify-center border-[1px] rounded-[5px] px-6 py-[12px] bg-[#FF6600];
     @apply text-[10px] font-semibold  tracking-[0.2px] text-white;
   }
   .btn-xs {

@@ -67,7 +67,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex md:space-x-3 lg:space-x-6 text-[14px] md:text-[12px] lg:text-[16px] font-medium justify-center items-center">
+          <div className="hidden md:hidden lg:flex md:space-x-3 lg:space-x-6 text-[14px] md:text-[12px] lg:text-[16px] font-medium justify-center items-center">
             <Link to="/" className="text-[#23272E] hover:text-[#f60]">
               Home
             </Link>
@@ -176,7 +176,7 @@ const Navbar = () => {
               </Link>
               <Link to="/getquote">
                 <button className="dm-sans flex md:py-2 md:px-3 lg:py-[14px] lg:px-[20px] justify-center items-center gap-[10px] rounded-[61px] border border-[#d3d4d5] bg-[#f60] text-white text-[14px] md:text-[12px] lg:text-[16px]  leading-[100%]">
-                Get a Quote{" "}
+                  Get a Quote{" "}
                 </button>
               </Link>
             </div>
