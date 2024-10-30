@@ -5,6 +5,7 @@ import Container from "../../Components/Ui/Container/Container";
 import WhyChooseUs from "./WhyChooseUs/WhyChooseUs";
 import FAQAccordion from "./FAQ/FAQ";
 import PeopleSaying from "../Home/PeopleSaying/PeopleSaying";
+import Facilities from "./Facilities/Facilities";
 
 const ServiceDetails = () => {
   const location = useLocation();
@@ -21,10 +22,10 @@ const ServiceDetails = () => {
         <ServiceDetailsBanner
           serviceDetails={serviceDetails}
         ></ServiceDetailsBanner>
-
         <ServiceFeatures serviceDetails={serviceDetails}></ServiceFeatures>
+        <Facilities serviceDetails={serviceDetails}></Facilities>
       </Container>
-      <WhyChooseUs></WhyChooseUs>
+      <WhyChooseUs serviceDetails={serviceDetails}></WhyChooseUs>
       <Container>
         <FAQAccordion serviceDetails={serviceDetails}></FAQAccordion>
       </Container>

@@ -1,18 +1,20 @@
 import Container from "../../../Components/Ui/Container/Container";
-import blogDetailsImg from "../../../assets/image 1.png";
-import cardImg from "../../../assets/image 1.png";
+import blogDetailsImg from "../../../assets/cardImg/image 1.png";
+// import cardImg from "../../../assets/cardImg/image 1.png";
 import blogImg from "../../../assets/blog-details-img.png";
 import blogMessageImg from "../../../assets/message-img.png";
 import blogFlowerImg from "../../../assets/flower.png";
 import { useLoaderData } from "react-router-dom";
+import RecentPost from "../RecentPost/RecentPost";
 
 const BlogDetails = () => {
   const blogDetails = useLoaderData();
-  console.log(blogDetails);
+  //   console.log(blogDetails);
 
   if (!blogDetails) {
     return <div>Loading...</div>;
   }
+
   return (
     <>
       <div className="md:pt-[210px] pt-[90px]  bg-[#F5F5F5] ">
@@ -24,8 +26,7 @@ const BlogDetails = () => {
                   {blogDetails.article.title}
                 </h1>
                 <p className="text-[#737373] text-[16px] md:text-[20px] font-medium leading-[1.5] tracking-[0.2px] pt-3 pb-4 md:pt-5 md:pb-7">
-                  Provide top-notch web solutions across the globe. Provide
-                  top-notch web solutions across the globe.
+                  {blogDetails.article.description}
                 </p>
 
                 <div className="flex gap-2 items-center">
@@ -33,7 +34,7 @@ const BlogDetails = () => {
                     Portfolio
                   </p>
                   <p className="text-[#757575] text-[13px] font-light leading-normal">
-                    3 min read
+                    {blogDetails.article.read_time}
                   </p>
                   <span className="flex items-center">
                     <svg
@@ -153,131 +154,7 @@ const BlogDetails = () => {
               </div>
 
               {/* Other Topic Section  */}
-              <div className="w-full md:w-[444px] bg-[#F5F5F5] rounded-[15px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] p-4 max-h-[600px] overflow-auto ">
-                <h2 className="text-[#252B42] text-[32px] md:text-[40px] font-bold leading-[40px] md:leading-[57px] tracking-[0.2px] ps-[10px] md:ps-[15px]">
-                  Recent <span className="text-[#F60]">Post</span>
-                </h2>
-
-                {/* Post 1 */}
-                <div className="rounded-[10px] bg-[rgba(255,255,255,0.7)] mb-3">
-                  <div className="flex gap-[12px] md:gap-[18px] items-center">
-                    <img
-                      className="w-[65px] h-[60px] md:w-[88px] md:h-[85px] flex-shrink-0 ms-3 md:ms-5"
-                      src={cardImg}
-                      alt=""
-                    />
-                    <div className="flex flex-col justify-center pb-[12px] md:pb-[16px]">
-                      <h2 className="text-[#191919] text-[18px] md:text-[22px] font-normal leading-normal pt-[10px] md:pt-[12px]">
-                        Your portfolio is stopping you from getting that job
-                      </h2>
-                      <div className="flex gap-4">
-                        <p className="text-[#292929] text-[11px] md:text-[13px] font-light leading-normal w-[55px] md:w-[65px] h-[20px] md:h-[24px] flex-shrink-0 rounded-[10px] bg-[#F2F2F2] flex justify-center items-center">
-                          Portfolio
-                        </p>
-                        <p className="text-[#757575] text-[11px] md:text-[13px] font-light leading-normal">
-                          3 min read
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Repeat same structure for other posts */}
-                <div className="rounded-[10px] bg-[rgba(255,255,255,0.7)] mb-3">
-                  <div className="flex gap-[12px] md:gap-[18px] items-center">
-                    <img
-                      className="w-[65px] h-[60px] md:w-[88px] md:h-[85px] flex-shrink-0 ms-3 md:ms-5"
-                      src={cardImg}
-                      alt=""
-                    />
-                    <div className="flex flex-col justify-center pb-[12px] md:pb-[16px]">
-                      <h2 className="text-[#191919] text-[18px] md:text-[22px] font-normal leading-normal pt-[10px] md:pt-[12px]">
-                        Your portfolio is stopping you from getting that job
-                      </h2>
-                      <div className="flex gap-4">
-                        <p className="text-[#292929] text-[11px] md:text-[13px] font-light leading-normal w-[55px] md:w-[65px] h-[20px] md:h-[24px] flex-shrink-0 rounded-[10px] bg-[#F2F2F2] flex justify-center items-center">
-                          Portfolio
-                        </p>
-                        <p className="text-[#757575] text-[11px] md:text-[13px] font-light leading-normal">
-                          3 min read
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Post 3 */}
-                <div className="rounded-[10px] bg-[rgba(255,255,255,0.7)] mb-3">
-                  <div className="flex gap-[12px] md:gap-[18px] items-center">
-                    <img
-                      className="w-[65px] h-[60px] md:w-[88px] md:h-[85px] flex-shrink-0 ms-3 md:ms-5"
-                      src={cardImg}
-                      alt=""
-                    />
-                    <div className="flex flex-col justify-center pb-[12px] md:pb-[16px]">
-                      <h2 className="text-[#191919] text-[18px] md:text-[22px] font-normal leading-normal pt-[10px] md:pt-[12px]">
-                        Your portfolio is stopping you from getting that job
-                      </h2>
-                      <div className="flex gap-4">
-                        <p className="text-[#292929] text-[11px] md:text-[13px] font-light leading-normal w-[55px] md:w-[65px] h-[20px] md:h-[24px] flex-shrink-0 rounded-[10px] bg-[#F2F2F2] flex justify-center items-center">
-                          Portfolio
-                        </p>
-                        <p className="text-[#757575] text-[11px] md:text-[13px] font-light leading-normal">
-                          3 min read
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Post 4 */}
-                <div className="rounded-[10px] bg-[rgba(255,255,255,0.7)] mb-3">
-                  <div className="flex gap-[12px] md:gap-[18px] items-center">
-                    <img
-                      className="w-[65px] h-[60px] md:w-[88px] md:h-[85px] flex-shrink-0 ms-3 md:ms-5"
-                      src={cardImg}
-                      alt=""
-                    />
-                    <div className="flex flex-col justify-center pb-[12px] md:pb-[16px]">
-                      <h2 className="text-[#191919] text-[18px] md:text-[22px] font-normal leading-normal pt-[10px] md:pt-[12px]">
-                        Your portfolio is stopping you from getting that job
-                      </h2>
-                      <div className="flex gap-4">
-                        <p className="text-[#292929] text-[11px] md:text-[13px] font-light leading-normal w-[55px] md:w-[65px] h-[20px] md:h-[24px] flex-shrink-0 rounded-[10px] bg-[#F2F2F2] flex justify-center items-center">
-                          Portfolio
-                        </p>
-                        <p className="text-[#757575] text-[11px] md:text-[13px] font-light leading-normal">
-                          3 min read
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Post 5 */}
-                <div className="rounded-[10px] bg-[rgba(255,255,255,0.7)] mb-3">
-                  <div className="flex gap-[12px] md:gap-[18px] items-center">
-                    <img
-                      className="w-[65px] h-[60px] md:w-[88px] md:h-[85px] flex-shrink-0 ms-3 md:ms-5"
-                      src={cardImg}
-                      alt=""
-                    />
-                    <div className="flex flex-col justify-center pb-[12px] md:pb-[16px]">
-                      <h2 className="text-[#191919] text-[18px] md:text-[22px] font-normal leading-normal pt-[10px] md:pt-[12px]">
-                        Your portfolio is stopping you from getting that job
-                      </h2>
-                      <div className="flex gap-4">
-                        <p className="text-[#292929] text-[11px] md:text-[13px] font-light leading-normal w-[55px] md:w-[65px] h-[20px] md:h-[24px] flex-shrink-0 rounded-[10px] bg-[#F2F2F2] flex justify-center items-center">
-                          Portfolio
-                        </p>
-                        <p className="text-[#757575] text-[11px] md:text-[13px] font-light leading-normal">
-                          3 min read
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <RecentPost></RecentPost>
             </div>
           </div>
         </Container>

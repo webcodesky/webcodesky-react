@@ -7,12 +7,12 @@ const ServiceDetailsBanner = ({ serviceDetails }) => {
   return (
     <div className="relative bg-[#FFFFFF] md:pt-[168px] pt-[90px] pb-[0px]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 items-center ">
-        <h1 className="font-bold text-[40px] text-center md:text-[96px] tracking-[-4%]">
-          {service.title}
+        <h1 className="font-bold text-[28px] text-center md:text-[96px] tracking-[-4%] leading-[100%] ">
+          {service.serviceTitle}
           <span className="text-[#FF6600] ">Development</span>
         </h1>
         <p className="md:ps-[72px] pt-[30px] leading-5 tracking-[0.2px] text-center">
-          We’ll Design your website with ReactJs, Super Fast , Responsive
+          {service.keyDescription}
         </p>
         <div className="flex justify-center md:gap-5 gap-2 md:flex-row flex-col">
           <button className="flex items-center justify-center mt-[30px] border-[1px] rounded-[50px] hover:bg-[#FF6600] md:gap-5 gap-2">
