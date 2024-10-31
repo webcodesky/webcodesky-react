@@ -18,7 +18,7 @@ const OurWorks = () => {
   };
 
   useEffect(() => {
-    fetch(`http://localhost:5000/works/${activeTab}`)
+    fetch(`https://server.webcodesky.com/works/${activeTab}`)
       .then((res) => res.json())
       .then((data) => {
         setCategory(data);
