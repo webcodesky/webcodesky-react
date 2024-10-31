@@ -31,9 +31,9 @@ const AboutUsBanner = () => {
               Web solutions over the world.
             </p>
 
-            <div className="flex flex-col md:flex-row items-center gap-4 md:gap-[26px] md:pb-[141px]">
+            <div className="flex flex-col md:flex-row items-center gap-x-4 md:gap-[26px] md:pb-[141px] ">
               <div>
-                <button className="w-[180px] h-[50px] md:w-[232px] md:h-[71px] flex-shrink-0 rounded-[50px] border-[0.5px] border-[#D3D4D5] bg-[#F60] text-white text-[18px] md:text-[24px] font-normal leading-[100%] flex justify-center items-center md:gap-4">
+                <button className="w-[180px] h-[50px] md:w-[232px] md:h-[71px] flex-shrink-0 rounded-[50px] border-[0.5px] border-[#D3D4D5] bg-[#F60] text-white hover:text-black text-[18px] md:text-[24px] font-normal leading-[100%] flex justify-center items-center md:gap-4 my-auto hover:bg-[#ff6600de]">
                   <p>Get a Quote</p>
                   <p className="w-[40px] h-[40px] md:w-[48px] md:h-[48px] flex-shrink-0 rounded-[35px] bg-white flex justify-center items-center text-[#F60]">
                     <MdCallMade />

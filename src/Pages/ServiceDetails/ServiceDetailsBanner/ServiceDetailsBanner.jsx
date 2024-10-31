@@ -1,5 +1,5 @@
-import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 import img3 from "../../../assets/popularCard/react-service.png";
+import { MdCallMade } from "react-icons/md";
 
 const ServiceDetailsBanner = ({ serviceDetails }) => {
   const service = (serviceDetails && serviceDetails[0]) || {};
@@ -14,14 +14,14 @@ const ServiceDetailsBanner = ({ serviceDetails }) => {
         <p className="md:px-36 pt-[30px] leading-5 tracking-[0.2px] text-justify">
           {service.keyDescription}
         </p>
-        <div className="flex justify-center md:gap-5 gap-2 md:flex-row flex-col">
-          <button className="flex items-center justify-center mt-[30px] border-[1px] rounded-[50px] hover:bg-[#FF6600] md:gap-5 gap-2">
+        <div className="flex justify-center md:gap-5 gap-2 md:flex-row flex-col text-white hover:text-black">
+          <button className="flex items-center justify-center mt-[30px] border-[1px] rounded-[50px] bg-[#FF6600] md:gap-5 gap-2">
             <span className="dm-sans text-black hover:text-white text-[24px] leading-[100%] md:px-[25px] md:py-[27px]">
               Get a Quote
             </span>
-            <span className="text-[#FF6600] hover:text-black text-[48px] p-3 my-auto">
-              <BsFillArrowUpRightCircleFill />
-            </span>
+            <p className="w-[40px] h-[40px] md:w-[48px] md:h-[48px] flex-shrink-0 rounded-[35px] bg-white flex justify-center items-center text-[#F60]">
+              <MdCallMade />
+            </p>
           </button>
           <button className="flex justify-center md:mt-[30px] mt-[10px] border-[1px] border-[#f5f5f5] rounded-[50px] md:gap-5">
             <span className="dm-sans text-black hover:text-white text-[24px] leading-[100%] px-[25px] py-[27px]">

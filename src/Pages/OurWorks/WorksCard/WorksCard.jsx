@@ -17,7 +17,6 @@ const WorksCard = ({ category }) => {
         <div className="absolute inset-0 bg-[#f60] bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20 gap-3">
           <a
             href={live_site_link}
-            target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-red-600 font-semibold py-2 px-4 rounded-lg shadow-lg hover:bg-gray-200 transition-colors"
           >
@@ -25,7 +24,6 @@ const WorksCard = ({ category }) => {
           </a>
           <Link
             to="/contact"
-            target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-red-600 font-semibold py-2 px-4 rounded-lg shadow-lg hover:bg-gray-200 transition-colors"
           >
@@ -34,7 +32,7 @@ const WorksCard = ({ category }) => {
         </div>
 
         {/* Content */}
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-4 z-10">
+        <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-end p-4 z-10">
           {/* Title */}
           <h2 className="text-white text-lg font-semibold pb-3">{title}</h2>
 

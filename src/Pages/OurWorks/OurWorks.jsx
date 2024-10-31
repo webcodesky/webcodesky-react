@@ -5,10 +5,17 @@ import WorksCard from "./WorksCard/WorksCard";
 const OurWorks = () => {
   const [categorys, setCategory] = useState([]);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [activeTab, setActiveTab] = useState("FullWebsite");
 
   //   console.log(categorys);
 
-  const [activeTab, setActiveTab] = useState("FullWebsite");
+  const [showAll, setShowAll] = useState(false);
+
+  const displayedCategories = showAll ? categorys : categorys.slice(0, 6);
+
+  const toggleShowMore = () => {
+    setShowAll((prev) => !prev);
+  };
 
   useEffect(() => {
     fetch(`http://localhost:5000/works/${activeTab}`)
@@ -109,10 +116,18 @@ const OurWorks = () => {
         {/* Tab Content */}
         <div className="mt-10 text-gray-800 text-center">
           <p className="transition-opacity duration-500 ease-in-out opacity-100 grid grid-cols-1 md:grid-cols-3 gap-4">
-            {categorys.map((category) => (
-              <WorksCard key={category._id} category={category}></WorksCard>
+            {displayedCategories.map((category) => (
+              <WorksCard key={category._id} category={category} />
             ))}
           </p>
+          {categorys.length > 6 && (
+            <button
+              onClick={toggleShowMore}
+              className="mt-4 px-4 py-2 bg-blue-500 text-white rounded"
+            >
+              {showAll ? "Show Less" : "Show More"}
+            </button>
+          )}
         </div>
 
         <hr className="text-orange-400 mt-8" />
