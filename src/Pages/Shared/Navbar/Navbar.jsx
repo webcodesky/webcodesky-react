@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import logo from "../../../assets/webcodesky.png";
+import logo from "../../../assets/logo/logo.png";
 import { Link, useNavigate } from "react-router-dom";
 import Container from "../../../Components/Ui/Container/Container";
 import { RiArrowDropDownLine } from "react-icons/ri";
@@ -55,14 +55,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16 w-full px-4  md:gap-10 lg:gap-[198px] max-sm:w-full gap-5">
           {/* Logo */}
           <div className="">
-            <Link to="/" className="text-2xl font-bold text-[#f60] ">
-              <img
-                className="rounded-md"
-                src={logo}
-                alt="logo"
-                width={208}
-                height={89}
-              />
+            <Link to="/" className="text-2xl font-bold text-[#f60] pt-1">
+              <img className="rounded-md" src={logo} alt="logo" width={150} />
             </Link>
           </div>
 

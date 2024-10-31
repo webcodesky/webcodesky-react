@@ -123,7 +123,7 @@ const OurWorks = () => {
           {categorys.length > 6 && (
             <button
               onClick={toggleShowMore}
-              className="mt-4 px-4 py-2 bg-blue-500 text-white rounded"
+              className="mt-4 px-4 py-2 bg-[#f60] text-white rounded"
             >
               {showAll ? "Show Less" : "Show More"}
             </button>
