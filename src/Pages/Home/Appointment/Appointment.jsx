@@ -11,7 +11,7 @@ const Appointment = () => {
         <div className="grid grid-cols-2 gap-4">
           <div className="">
             <p className="pt-10 mont-bold text-[16px]">Contact Us</p>
-            <h1>Make an Appointment</h1>
+            <h1>Make an Free Discussion</h1>
             <div className="grid md:grid-cols-2 gap-5 mb-10  mt-10">
               <input
                 type="text"

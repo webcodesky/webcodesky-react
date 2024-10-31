@@ -36,7 +36,7 @@ async function run() {
       .collection("allService");
     const allBlogsCollection = client.db("webCodeSky-Db").collection("blogs");
 
-    app.post("/contact-users", async (req, res) => {
+    app.post("/api/contact-users", async (req, res) => {
       const contactUsers = req.body;
       const result = await contactUsersCollection.insertOne(contactUsers);
       res.send(result);
@@ -44,7 +44,7 @@ async function run() {
     });
 
     // service details
-    app.get("/service-details/:text", async (req, res) => {
+    app.get("/api/service-details/:text", async (req, res) => {
       if (
         req.params.text == "EcommerceWebsite" ||
         req.params.text == "WordPressWebsite" ||
@@ -62,7 +62,7 @@ async function run() {
     
 
     // blogs
-    app.get("/blog", async (req, res) => {
+    app.get("/api/blog", async (req, res) => {
       const allBlogs = allBlogsCollection.find();
       const result = await allBlogs.toArray();
       res.send(result);
@@ -71,7 +71,7 @@ async function run() {
 
     // blogs details data
 
-    app.get("/blog/:id", async (req, res) => {
+    app.get("/api/blog/:id", async (req, res) => {
       try {
         const id = req.params.id;
         const query = { _id: new ObjectId(id) };
@@ -99,7 +99,7 @@ async function run() {
 }
 run().catch(console.dir);
 
-app.get("/", (req, res) => {
+app.get("/api/", (req, res) => {
   res.send("WebCodeSky server is running");
 });
 

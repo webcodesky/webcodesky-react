@@ -42,7 +42,7 @@ const router = createBrowserRouter([
         path: "/blog/:id",
         element: <BlogDetails></BlogDetails>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/blog/${params.id}`),
+          fetch(`http://localhost:5000/api/blog/${params.id}`),
       },
       {
         path: "/service",

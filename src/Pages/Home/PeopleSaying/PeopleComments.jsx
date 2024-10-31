@@ -65,16 +65,13 @@ const PeopleComments = () => {
                 </span>
               </div>
               <h2 className="text-[#2B2B2B] text-[24px] font-medium leading-[31.992px]">
-                Selena Gomz
+                Sarah Johnson
               </h2>
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
-                22 Years
+                CEO, Innovate Tech Solutions
               </p>
               <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px]">
-                The salad is fresh!!! Do not ask about the sauce again, it is
-                really delicious, it is going to be routine. I recommend this
-                salad to all of you guys! because they really take care of the
-                quality.
+                Webcodesky exceeded our expectations! They transformed our website into a user-friendly, stunning platform. The team’s dedication and expertise truly shined.
               </p>
             </div>
           </div>
@@ -105,16 +102,13 @@ const PeopleComments = () => {
                 </span>
               </div>
               <h2 className="text-[#2B2B2B] text-[24px] font-medium leading-[31.992px]">
-              Jennifer Sina
+                Emily Carter
               </h2>
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
-                21 Years
+                Founder, Carter Consulting
               </p>
               <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px]">
-                The salad is fresh!!! Do not ask about the sauce again, it is
-                really delicious, it is going to be routine. I recommend this
-                salad to all of you guys! because they really take care of the
-                quality.
+                From the first meeting to the final delivery, Webcodesky provided exceptional service. They built a site that not only looks great but performs perfectly.
               </p>
             </div>
           </div>
@@ -145,16 +139,13 @@ const PeopleComments = () => {
                 </span>
               </div>
               <h2 className="text-[#2B2B2B] text-[24px] font-medium leading-[31.992px]">
-              David Ken
+              Michael Lee
               </h2>
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
-                24 Years
+                MD, Global Ventures
               </p>
               <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px]">
-                The salad is fresh!!! Do not ask about the sauce again, it is
-                really delicious, it is going to be routine. I recommend this
-                salad to all of you guys! because they really take care of the
-                quality.
+                Working with Webcodesky was a fantastic experience. Their creative solutions and attention to detail helped us boost our online presence tremendously.
               </p>
             </div>
           </div>
@@ -185,16 +176,13 @@ const PeopleComments = () => {
                 </span>
               </div>
               <h2 className="text-[#2B2B2B] text-[24px] font-medium leading-[31.992px]">
-                Selena Gomz
+                David Thompson
               </h2>
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
-                22 Years
+                COO, Thrive Online
               </p>
               <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px]">
-                The salad is fresh!!! Do not ask about the sauce again, it is
-                really delicious, it is going to be routine. I recommend this
-                salad to all of you guys! because they really take care of the
-                quality.
+                Their expertise in web development and SEO helped drive more traffic and conversions. A true partner for business growth!
               </p>
             </div>
           </div>
@@ -225,16 +213,50 @@ const PeopleComments = () => {
                 </span>
               </div>
               <h2 className="text-[#2B2B2B] text-[24px] font-medium leading-[31.992px]">
-              Jennifer Sina
+                Laura Mitchell
               </h2>
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
-                21 Years
+                Creative Director, Visionary Studios
               </p>
               <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px]">
-                The salad is fresh!!! Do not ask about the sauce again, it is
-                really delicious, it is going to be routine. I recommend this
-                salad to all of you guys! because they really take care of the
-                quality.
+                Webcodesky delivered beyond our expectations! Their innovative approach and constant communication made the entire process seamless and stress-free.
+              </p>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="relative">
+            <img
+              className="w-[90px] h-[90px] absolute -top-[50px] left-[24px]"
+              src={img2}
+              alt=""
+            />
+            <div className="md:w-[269px] md:h-[402px] flex-shrink-0 rounded-[8px] bg-[#FFF] p-6 mt-20 space-y-2">
+              <div className="flex pt-[45px] pb-6">
+                <span className="text-[#8FD14F]">
+                  <FaStar />
+                </span>
+                <span className="text-[#8FD14F]">
+                  <FaStar />
+                </span>
+                <span className="text-[#8FD14F]">
+                  <FaStar />
+                </span>
+                <span className="text-[#8FD14F]">
+                  <FaStar />
+                </span>
+                <span className="text-[#8FD14F]">
+                  <FaRegStar />
+                </span>
+              </div>
+              <h2 className="text-[#2B2B2B] text-[24px] font-medium leading-[31.992px]">
+                James Walker
+              </h2>
+              <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
+                MD, Tech Savvy Ltd
+              </p>
+              <p className="text-[#575757] text-[16px] font-normal leading-[150%] tracking-[-0.32px]">
+                The Webcodesky team brought our vision to life with a stunning website. Their professionalism and speed were remarkable.
               </p>
             </div>
           </div>

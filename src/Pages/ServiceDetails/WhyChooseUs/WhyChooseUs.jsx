@@ -9,8 +9,8 @@ const WhyChooseUs = () => {
             <Container>
                 <div className='md:py-20 py-5 flex flex-col items-center'>
                     <div className='flex flex-col items-center max-w-[685.605px]'>
-                        <p className='poppins font-bold text-[13px] uppercase text-[#F64B4B]'>Why choose us</p>
-                        <h2 className='poppins font-bold text-[36px] text-center'>People choose us because we serve the best for everyone</h2>
+                        <p className='poppins font-bold text-[13px] uppercase text-[#F64B4B]'>Why choose Webcodesky</p>
+                        <h2 className='poppins font-bold text-[36px] text-center'>With a deep understanding of the latest web technologies, our agency goes beyond just development. We work as an extension of your team, ensuring that every project aligns with your goals and delivers measurable success.</h2>
                     </div>
                     <div className='grid md:grid-cols-2 grid-col-1 md:gap-12 gap-4 md:px-28 pt-[92px] pb-[88px] border-b-[1px] border-[#D8D8D8] stoke-[#E7E9ED]'>
                         

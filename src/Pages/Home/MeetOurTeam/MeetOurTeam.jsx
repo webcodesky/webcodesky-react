@@ -14,8 +14,7 @@ const MeetOurTeam = () => {
           Meet Our Team
         </h1>
         <p className=" pt-2.5 text-[#737373] text-center text-[14px] font-medium leading-[20px] tracking-[0.2px]">
-          Problems trying to resolve the conflict between <br /> the two major
-          realms of Classical physics: Newtonian mechanics
+          A powerhouse of innovation and expertise! Our dynamic team of creative minds, tech innovators, and strategic leaders is dedicated to transforming your ideas into groundbreaking digital solutions.
         </p>
 
         <div className="pt-5 md:pt-10">

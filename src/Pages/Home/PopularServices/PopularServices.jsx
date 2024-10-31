@@ -7,8 +7,7 @@ const PopularServices = () => {
         Our <span className="text-[#FF6600]">Popular</span> Services
       </h1>
       <p className="mont md:w-[470px] text-[#737373] text-center mx-auto">
-        Problems trying to resolve the conflict between the two major realms of
-        Classical physics: Newtonian mechanics{" "}
+                                                We Offer cutting-edge, fully responsive websites and apps to propel your business, combining innovation and technology for exceptional growth and lasting success
       </p>
       <PopularServicesCard />
     </div>

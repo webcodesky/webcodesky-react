@@ -86,9 +86,9 @@ const ContactUs = () => {
             </span>
           </h1>
           <p className="text-[#737373] text-[16px] md:text-[20px] font-medium leading-[24px] md:leading-[28px] tracking-[0.2px] text-center pt-[20px] md:pt-[30px] pb-[40px] md:pb-[73px]">
-            We’ll Design your website with ReactJs,{" "}
+          Let's bring your vision to life—{" "}
             <span className="text-[#737373] text-[16px] md:text-[20px] font-bold">
-              Super Fast, Responsive
+            Reach out to us Today!
             </span>
           </p>
           <div className="flex flex-col md:flex-row gap-[30px] md:gap-[60px] justify-center p-4">

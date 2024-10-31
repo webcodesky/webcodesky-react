@@ -6,14 +6,13 @@ const Banner = () => {
     <div className="relative bg-[#FFFFFF] flex flex-col justify-center">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <p className="text-[12px] md:text-[18px] font-medium pt-[80px] md:pt-[140px] text-left md:pl-28">
-          We Build Your Dream Website
+        A complete Digital Solutions For Your Business
         </p>
         <span className="dm-sans-b font-bold text-[35px] md:text-[145px] 2xl:text-[190px] tracking-[-4%]">
           Web <span className="text-[#FF6600]">Code</span> Sky
         </span>
         <p className="text-[10px] font-medium md:text-[20px] tracking-[0.2px] text-left  md:pl-36 w-[80%] md:w-[650px] 2xl:w-[700px]  text-[#737373] font-montserrat md:leading-[20px]">
-          We believe you re in the right place. Here, we deliver quality work
-          built on honesty and trust
+        We turn ideas into exceptional digital solutions. As a growing web development startup, we specialize in building high-performance websites and applications designed to elevate your business.
         </p>
 
         <div className="flex justify-center">
