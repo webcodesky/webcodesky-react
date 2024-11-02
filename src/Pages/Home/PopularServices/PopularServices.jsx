@@ -9,8 +9,7 @@ const PopularServices = () => {
         Our <span className="text-[#FF6600]">Popular</span> Services
       </h1>
       <p className="mont w-[290px] md:w-[350px] lg:w-[360px] text-[12px] md:text-[14px] text-[#737373] text-center mx-auto">
-        Problems trying to resolve the conflict between the two major realms of
-        Classical physics: Newtonian mechanics{" "}
+        We deliver cutting-edge, fully responsive websites and apps to propel your business{" "}
       </p>
       <PopularServicesCard />
     </div>

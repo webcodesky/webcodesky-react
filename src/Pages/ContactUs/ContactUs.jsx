@@ -29,7 +29,7 @@ const ContactUs = () => {
           };
 
           // Sending the saved user data to the server
-          fetch("http://localhost:5000/contact-users", {
+          fetch("https://server.webcodesky.com/contact-users", {
             method: "POST",
             headers: {
               "content-type": "application/json",
@@ -86,9 +86,9 @@ const ContactUs = () => {
             </span>
           </h1>
           <p className="text-[#737373] text-[16px] md:text-[20px] font-medium leading-[24px] md:leading-[28px] tracking-[0.2px] text-center pt-[20px] md:pt-[30px] pb-[40px] md:pb-[73px]">
-            We’ll Design your website with ReactJs,{" "}
+            We’re excited to help you succeed!{" "}
             <span className="text-[#737373] text-[16px] md:text-[20px] font-bold">
-              Super Fast, Responsive
+              Let's create something exceptional together!
             </span>
           </p>
           <div className="flex flex-col md:flex-row gap-[30px] md:gap-[60px] justify-center p-4">

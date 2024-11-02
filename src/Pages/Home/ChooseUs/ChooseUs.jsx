@@ -11,8 +11,7 @@ const ChooseUs = () => {
           WHY <span className="text-[#F60]">CHOOSE</span> US
         </h1>
         <p className="mont text-[#737373] text-[12px] md:text-[14px] mt-4 mb-10 mx-auto w-full max-w-[600px]">
-          Problems trying to resolve the conflict between the two major realms
-          of Classical physics: Newtonian mechanics.
+          Discover why businesses trust us for innovative solutions that drive real, lasting success.
         </p>
       </div>
 
@@ -24,18 +23,18 @@ const ChooseUs = () => {
               <img src={img1} alt="" />
             </div>
             <div className="mont-bold text-[16px] font-bold leading-[24px] tracking-[0.1px]">
-              Web Development
+             Eye-Catchy Designs
             </div>
           </div>
 
           {/* Card Content */}
           <div className="p-6 rounded-t-[10px] h-full  bg-white space-y-3">
             <ul className="text-[#737373] text-[14px] font-semibold leading-[24px] space-y-1 mb-5">
-              <li>- The best products start with Figma</li>
-              <li>- Design with real data</li>
-              <li>- Lightning fast prototyping</li>
-              <li>- Fastest way to organize</li>
-              <li>- Work at the speed of thought.</li>
+              <li>- Unique, custom layouts that capture attention.</li>
+              <li>- Engaging visuals that enhance user experience.</li>
+              <li>- Seamless blend of design and functionality.</li>
+              <li>- Brand-aligned aesthetics for a strong identity.</li>
+              <li>- User-friendly designs that encourage interaction.</li>
             </ul>
             <span className="text-[#F60] text-[14px] font-semibold leading-[24px] tracking-[0.2px]">
               Learn More
@@ -49,18 +48,18 @@ const ChooseUs = () => {
               <img src={img2} alt="" />
             </div>
             <div className="mont-bold text-[16px] font-bold leading-[24px] tracking-[0.1px]">
-              National top 50 firms
+             Responsive Websites
             </div>
           </div>
 
           {/* Card Content */}
           <div className="p-6 rounded-t-[10px] h-full bg-white space-y-3">
             <ul className="text-[#737373] text-[14px] font-semibold leading-[24px] space-y-1 mb-5">
-              <li>- The best products start with Figma</li>
-              <li>- Design with real data</li>
-              <li>- Lightning fast prototyping</li>
-              <li>- Fastest way to organize</li>
-              <li>- Work at the speed of thought.</li>
+              <li>- Fully optimized for mobile, tablet, and desktop.</li>
+              <li>- Fluid layouts that adjust to all screen sizes.</li>
+              <li>- Fast loading times on all devices.</li>
+              <li>- Consistent performance across different browsers.</li>
+              <li>- Ensures a smooth user experience on any device.</li>
             </ul>
             <span className="text-[#F60] text-[14px] font-semibold leading-[24px] tracking-[0.2px]">
               Learn More
@@ -74,18 +73,18 @@ const ChooseUs = () => {
               <img src={img3} alt="" />
             </div>
             <div className="mont-bold text-[16px] font-bold leading-[24px] tracking-[0.1px]">
-              Digital Marketing
+              SEO-Optimized Solutions
             </div>
           </div>
 
           {/* Card Content */}
           <div className="p-6 rounded-t-[10px] h-full bg-white space-y-3">
             <ul className="text-[#737373] text-[14px] font-semibold leading-[24px] space-y-1 mb-5">
-              <li>- The best products start with Figma</li>
-              <li>- Design with real data</li>
-              <li>- Lightning fast prototyping</li>
-              <li>- Fastest way to organize</li>
-              <li>- Work at the speed of thought.</li>
+              <li>- Clean, optimized code for better search engine ranking.</li>
+              <li>- Mobile-first designs to boost SEO performance.</li>
+              <li>- Fast page speeds for higher search rankings.</li>
+              <li>- SEO-friendly content structure for improved visibility.</li>
+              <li>- Integration of SEO tools for ongoing optimization.</li>
             </ul>
             <span className="text-[#F60] text-[14px] font-semibold leading-[24px] tracking-[0.2px]">
               Learn More

@@ -17,9 +17,7 @@ const PeopleSaying = () => {
                 <span className="text-[#FF6600]"> About Us</span>
               </h1>
               <p className="mont pt-6 lg:pt-[30px] text-[12px] md:text-[14px] pb-6 lg:pb-[32px] text-[#CCCCCC]">
-                We are very happy if you are satisfied with our service and
-                products, let's read pure reviews from customers who bought our
-                products.
+                With expertise in the latest web technologies, we go beyond development, working as your team’s extension to ensure each project aligns with your goals and drives success.
               </p>
               <p>
                 <span className="text-4xl lg:text-[48px] font-bold leading-tight">

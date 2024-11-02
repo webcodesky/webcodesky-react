@@ -27,8 +27,7 @@ const AboutUsBanner = () => {
               Growing <span className="text-[#F60]">Web Agency</span>
             </h1>
             <p className="text-[#737373] text-[16px] md:text-[20px] font-[500] leading-[22px] md:leading-[28px] tracking-[0.2px] w-full md:w-[584px] text-center md:text-left md:pb-[60px] pb-2.5">
-              Provide Top-notch Web solutions over the world. Provide Top-notch
-              Web solutions over the world.
+              Empowering businesses with innovative web solutions that drive growth, inspire creativity, and deliver results<br/><span className="font-[700]">—One website at a time.</span>
             </p>
 
             <div className="flex flex-col md:flex-row items-center gap-4 md:gap-[26px] md:pb-[141px]">

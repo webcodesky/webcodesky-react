@@ -34,7 +34,7 @@ const Navbar = () => {
   const fetchServiceDetails = async (service) => {
     try {
       const response = await fetch(
-        `http://localhost:5000/service-details/${service}`
+        `https://server.webcodesky.com/service-details/${service}`
       );
       if (!response.ok) {
         throw new Error("Network response was not ok");
