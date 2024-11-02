@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import logo from "../../../assets/webcodesky.png";
+import logo from "../../../assets/webcodesky-logo1.png";
 import { Link, useNavigate } from "react-router-dom";
 import Container from "../../../Components/Ui/Container/Container";
 import { RiArrowDropDownLine } from "react-icons/ri";
@@ -60,8 +60,7 @@ const Navbar = () => {
                 className="rounded-md"
                 src={logo}
                 alt="logo"
-                width={208}
-                height={89}
+                width={140}
               />
             </Link>
           </div>
