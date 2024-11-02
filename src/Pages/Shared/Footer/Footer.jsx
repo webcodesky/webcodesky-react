@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../../assets/webcodesky.png";
+import logo from "../../../assets/webcodesky-logo1.png";
 import Container from "../../../Components/Ui/Container/Container";
 import { ImFacebook2 } from "react-icons/im";
 import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
@@ -15,8 +15,7 @@ const Footer = () => {
                 className="rounded-md"
                 src={logo}
                 alt="logo"
-                width={208}
-                height={89}
+                width={150}
               />
             </Link>
           </div>
