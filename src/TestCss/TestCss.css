@@ -33,7 +33,7 @@
 
 @layer base {
   h1 {
-    @apply font-bold text-black text-[18px] md:text-[37px] lg:text-[40px] md:leading-[57px] tracking-[0.2px];
+    @apply font-bold text-black text-[25px] md:text-[37px] lg:text-[40px] md:leading-[57px] tracking-[0.2px];
   }
   /* h2{}
     h3{}

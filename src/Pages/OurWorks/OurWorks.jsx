@@ -34,7 +34,7 @@ const OurWorks = () => {
             </h1>
 
             {/* Description */}
-            <p className="text-[#737373] text-center text-[16px] sm:text-[18px] md:text-[20px] font-medium leading-[24px] md:leading-[28px] tracking-[0.1px] sm:tracking-[0.15px] md:tracking-[0.2px] sm:px-[100px] md:px-[340px] pt-2 pb-8 md:pb-[146px]">
+            <p className="text-[#747272] text-center text-[16px] sm:text-[18px] md:text-[20px] font-medium leading-[24px] md:leading-[28px] tracking-[0.1px] sm:tracking-[0.15px] md:tracking-[0.2px] sm:px-[100px] md:px-[340px] pt-2 pb-8 md:pb-[146px]">
               Provide Top-notch Web solution over the world. Provide Top-notch
               Web solution over the world.
             </p>

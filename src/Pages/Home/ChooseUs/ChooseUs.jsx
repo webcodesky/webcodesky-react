@@ -10,8 +10,9 @@ const ChooseUs = () => {
         <h1 className="">
           WHY <span className="text-[#F60]">CHOOSE</span> US
         </h1>
-        <p className="mont text-[#737373] text-[12px] md:text-[14px] mt-4 mb-10 mx-auto w-full max-w-[600px]">
-          Discover why businesses trust us for innovative solutions that drive real, lasting success.
+        <p className="mont text-[#747272] text-[16px] md:text-[16px] mt-4 mb-10 mx-auto w-full max-w-[600px]">
+          Discover why businesses trust us for innovative solutions that drive
+          real, lasting success.
         </p>
       </div>
 
@@ -23,13 +24,13 @@ const ChooseUs = () => {
               <img src={img1} alt="" />
             </div>
             <div className="mont-bold text-[16px] font-bold leading-[24px] tracking-[0.1px]">
-             Eye-Catchy Designs
+              Eye-Catchy Designs
             </div>
           </div>
 
           {/* Card Content */}
           <div className="p-6 rounded-t-[10px] h-full  bg-white space-y-3">
-            <ul className="text-[#737373] text-[14px] font-semibold leading-[24px] space-y-1 mb-5">
+            <ul className="text-[#747272] text-[14px] font-semibold leading-[24px] space-y-1 mb-5">
               <li>- Unique, custom layouts that capture attention.</li>
               <li>- Engaging visuals that enhance user experience.</li>
               <li>- Seamless blend of design and functionality.</li>
@@ -48,13 +49,13 @@ const ChooseUs = () => {
               <img src={img2} alt="" />
             </div>
             <div className="mont-bold text-[16px] font-bold leading-[24px] tracking-[0.1px]">
-             Responsive Websites
+              Responsive Websites
             </div>
           </div>
 
           {/* Card Content */}
           <div className="p-6 rounded-t-[10px] h-full bg-white space-y-3">
-            <ul className="text-[#737373] text-[14px] font-semibold leading-[24px] space-y-1 mb-5">
+            <ul className="text-[#747272] text-[14px] font-semibold leading-[24px] space-y-1 mb-5">
               <li>- Fully optimized for mobile, tablet, and desktop.</li>
               <li>- Fluid layouts that adjust to all screen sizes.</li>
               <li>- Fast loading times on all devices.</li>
@@ -79,7 +80,7 @@ const ChooseUs = () => {
 
           {/* Card Content */}
           <div className="p-6 rounded-t-[10px] h-full bg-white space-y-3">
-            <ul className="text-[#737373] text-[14px] font-semibold leading-[24px] space-y-1 mb-5">
+            <ul className="text-[#747272] text-[14px] font-semibold leading-[24px] space-y-1 mb-5">
               <li>- Clean, optimized code for better search engine ranking.</li>
               <li>- Mobile-first designs to boost SEO performance.</li>
               <li>- Fast page speeds for higher search rankings.</li>

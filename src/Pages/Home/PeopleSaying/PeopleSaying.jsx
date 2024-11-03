@@ -2,13 +2,13 @@ import { FaArrowRight } from "react-icons/fa";
 
 import { FaArrowLeft } from "react-icons/fa6";
 import PeopleComments from "./PeopleComments";
-import Container from "../../../Components/Ui/Container/Container";
+import Container1 from "../../../Components/Ui/Container/Container1";
 
 const PeopleSaying = () => {
   return (
     <div className="bg-[#FFF6EA]">
       <div className="max-w-[1560px] items-center mx-auto">
-        <Container>
+        <Container1>
           <div className=" flex flex-col lg:flex-row gap-8 lg:gap-[80px] pt-[60px] lg:pt-[120px] pb-[40px] lg:pb-[82px]">
             <div className=" flex-[1] max-w-[415px]">
               <h1 className="">
@@ -16,8 +16,10 @@ const PeopleSaying = () => {
                 Saying
                 <span className="text-[#FF6600]"> About Us</span>
               </h1>
-              <p className="mont pt-6 lg:pt-[30px] text-[12px] md:text-[14px] pb-6 lg:pb-[32px] text-[#CCCCCC]">
-                With expertise in the latest web technologies, we go beyond development, working as your team’s extension to ensure each project aligns with your goals and drives success.
+              <p className="mont pt-6 lg:pt-[30px] text-[16px] md:text-[16px] pb-6 lg:pb-[32px] text-[#747272]">
+                With expertise in the latest web technologies, we go beyond
+                development, working as your team’s extension to ensure each
+                project aligns with your goals and drives success.
               </p>
               <p>
                 <span className="text-4xl lg:text-[48px] font-bold leading-tight">
@@ -38,7 +40,7 @@ const PeopleSaying = () => {
               <PeopleComments />
             </div>
           </div>
-        </Container>
+        </Container1>
       </div>
     </div>
   );

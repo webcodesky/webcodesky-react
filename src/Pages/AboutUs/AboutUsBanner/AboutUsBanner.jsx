@@ -18,16 +18,19 @@ const AboutUsBanner = () => {
   return (
     <div className="pt-[100px] md:pt-[203px] bg-[#F5F5F5]">
       <Container>
-        <div className="max-sm:flex-1 md:flex md:gap-[100px]">
+        <div className="max-sm:flex-1 md:flex-col lg:flex md:gap-[100px]">
           <div>
-            <h2 className="text-[#737373] text-[16px] md:text-[20px] font-[700] leading-[22px] md:leading-[24px] tracking-[0.2px] max-sm:pb-2.5">
+            <h2 className="text-[#747272] text-[16px] md:text-[20px] font-[700] leading-[22px] md:leading-[24px] tracking-[0.2px] max-sm:pb-2.5">
               Who we Are?
             </h2>
             <h1 className="text-[#000] text-[32px] md:text-[64px] font-[700] leading-tight md:leading-normal tracking-[-1px] md:tracking-[-2.56px] text-center md:text-left md:py-[30px] pb-2.5">
               Growing <span className="text-[#F60]">Web Agency</span>
             </h1>
-            <p className="text-[#737373] text-[16px] md:text-[20px] font-[500] leading-[22px] md:leading-[28px] tracking-[0.2px] w-full md:w-[584px] text-center md:text-left md:pb-[60px] pb-2.5">
-              Empowering businesses with innovative web solutions that drive growth, inspire creativity, and deliver results<br/><span className="font-[700]">—One website at a time.</span>
+            <p className="text-[#747272] text-[16px] md:text-[20px] font-[500] leading-[22px] md:leading-[28px] tracking-[0.2px] w-full md:w-[584px] text-center md:text-left md:pb-[60px] pb-2.5">
+              Empowering businesses with innovative web solutions that drive
+              growth, inspire creativity, and deliver results
+              <br />
+              <span className="font-[700]">—One website at a time.</span>
             </p>
 
             <div className="flex flex-col md:flex-row items-center gap-4 md:gap-[26px] md:pb-[141px]">

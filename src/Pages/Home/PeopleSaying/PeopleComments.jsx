@@ -23,11 +23,11 @@ const PeopleComments = () => {
             spaceBetween: 20,
           },
           768: {
-            slidesPerView: 2,
+            slidesPerView: 2.5,
             spaceBetween: 20,
           },
           1024: {
-            slidesPerView: 2,
+            slidesPerView: 2.5,
             spaceBetween: 20,
           },
           1536: {
@@ -78,8 +78,10 @@ const PeopleComments = () => {
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
                 United States
               </p>
-              <p className="text-[#575757] text-[12px] md:text-[14px] lg:text-[18px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
-               "Webcodesky exceeded our expectations! They transformed our website into a user-friendly, stunning platform. The team’s dedication and expertise truly shined."
+              <p className="text-[#575757] text-[16px] md:text-[16px] lg:text-[18px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
+                "Webcodesky exceeded our expectations! They transformed our
+                website into a user-friendly, stunning platform. The team’s
+                dedication and expertise truly shined."
               </p>
             </div>
           </div>
@@ -115,8 +117,10 @@ const PeopleComments = () => {
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
                 Australia
               </p>
-              <p className="text-[#575757] text-[12px] md:text-[14px] lg:text-[18px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
-                "Working with Webcodesky was a fantastic experience. Their creative solutions and attention to detail helped us boost our online presence tremendously."
+              <p className="text-[#575757] text-[16px] md:text-[16px] lg:text-[18px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
+                "Working with Webcodesky was a fantastic experience. Their
+                creative solutions and attention to detail helped us boost our
+                online presence tremendously."
               </p>
             </div>
           </div>
@@ -152,8 +156,10 @@ const PeopleComments = () => {
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
                 United Kingdom
               </p>
-              <p className="text-[#575757] text-[12px] md:text-[14px] lg:text-[18px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
-                "From the first meeting to the final delivery, Webcodesky provided exceptional service. They built a site that not only looks great but performs perfectly."
+              <p className="text-[#575757] text-[16px] md:text-[16px] lg:text-[18px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
+                "From the first meeting to the final delivery, Webcodesky
+                provided exceptional service. They built a site that not only
+                looks great but performs perfectly."
               </p>
             </div>
           </div>
@@ -189,8 +195,9 @@ const PeopleComments = () => {
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
                 Canada
               </p>
-              <p className="text-[#575757] text-[12px] md:text-[14px] lg:text-[18px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
-                "Their expertise in web development and SEO helped drive more traffic and conversions. A true partner for business growth!"
+              <p className="text-[#575757] text-[16px] md:text-[16px] lg:text-[18px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
+                "Their expertise in web development and SEO helped drive more
+                traffic and conversions. A true partner for business growth!"
               </p>
             </div>
           </div>
@@ -226,13 +233,13 @@ const PeopleComments = () => {
               <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
                 Germany
               </p>
-              <p className="text-[#575757] text-[12px] md:text-[14px] lg:text-[18px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
-                "The Webcodesky team brought our vision to life with a stunning website. Their professionalism and speed were remarkable."
+              <p className="text-[#575757] text-[16px] md:text-[16px] lg:text-[18px] font-normal leading-[150%] tracking-[-0.32px] pb-5 md:pb-0">
+                "The Webcodesky team brought our vision to life with a stunning
+                website. Their professionalism and speed were remarkable."
               </p>
             </div>
           </div>
         </SwiperSlide>
-        
       </Swiper>
     </div>
   );
