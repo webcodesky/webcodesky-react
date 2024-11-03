@@ -124,9 +124,9 @@ const Footer = () => {
       </Container>
       <div className="bg-[#604cc34d]">
         <Container>
-          <h6 className="text-[#FFF] text-[11px] md:text-[16px] font-medium md:font-semibold leading-[18px] md:leading-[24px] md:tracking-[0.2px] py-[15px] md:py-[25px]">
+          <p className="text-[#FFF] text-[11px] md:text-[16px] font-medium md:font-semibold leading-[18px] md:leading-[24px] md:tracking-[0.2px] py-[15px] md:py-[25px]">
             Made With Love By WebCodeSky All Right Reserved
-          </h6>
+          </p>
         </Container>
       </div>
     </div>

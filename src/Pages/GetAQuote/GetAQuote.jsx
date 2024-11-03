@@ -79,7 +79,7 @@ const GetAQuote = () => {
     <>
       <div className="bg-[#F5F5F5] max-sm:pt-[100px]">
         <Container>
-          <h1 className="text-[#F60] text-center text-[48px] md:text-[96px] font-bold leading-none tracking-[-1.92px] md:tracking-[-3.84px] md:pt-[120px]">
+          <h1 className="text-[#F60] text-center md:pt-[120px]">
             Get A{" "}
             <span className="text-black text-[48px] md:text-[96px] font-bold leading-none tracking-[-1.92px] md:tracking-[-3.84px]">
               Quote

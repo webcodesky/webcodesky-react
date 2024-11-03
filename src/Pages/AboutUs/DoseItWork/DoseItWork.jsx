@@ -5,15 +5,15 @@ const DoseItWork = () => {
     <Container>
       <div className="pt-8 md:pt-[77px]">
         {/* Title Section */}
-        <h1 className="text-[#161C2D] text-center text-[32px] md:text-[48px] font-bold leading-[40px] md:leading-[58px] tracking-[-1.2px] md:tracking-[-1.8px]">
+        <h1 className="text-[#161C2D] text-center">
           How does it work?
         </h1>
-        <p className="px-4 md:px-[310px] text-[#161C2D] text-center text-[16px] md:text-[19px] font-medium leading-[28px] md:leading-[32px] tracking-[-0.2px] opacity-70 pt-4 md:pt-5 pb-8 md:pb-[80px]">
+        <p className="px-4 md:px-[200px] text-[#161C2D] text-center pt-4 md:pt-5 pb-8 md:pb-[80px]">
           Streamlined, efficient, and focused on delivering results—our process ensures your success from start to finish.{" "}
         </p>
 
         {/* Options Section */}
-        <div className="flex flex-col md:flex-row justify-center gap-6 md:gap-[37px] pb-8 md:pb-[58px] px-4 md:px-[46px]">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-[37px] pb-8 md:pb-[58px] px-4 md:px-[46px]">
           {/* Step 1 */}
           <div className="w-full max-w-[256px] flex flex-col justify-center items-center">
             <div className="w-[73px] h-[73px] rounded-full bg-[#F64B4B] flex justify-center items-center">
@@ -21,12 +21,12 @@ const DoseItWork = () => {
                 1
               </p>
             </div>
-            <h1 className="text-[#161C2D] text-center text-[20px] md:text-[21px] font-bold leading-[28px] md:leading-[32px] tracking-[-0.5px] pt-6 md:pt-[46px] pb-3 md:pb-[14px]">
+            <h2 className="text-[#161C2D] text-center pt-6 md:pt-[46px] pb-3 md:pb-[14px]">
               Discovery & Planning
-            </h1>
-            <p className="text-[#161C2D] text-center text-[16px] md:text-[17px] font-medium leading-[26px] md:leading-[29px] tracking-[-0.2px] opacity-70">
+            </h2>
+            <f5 className="text-[#161C2D] text-center">
               We analyze goals and craft a strategic plan for success.
-            </p>
+            </f5>
           </div>
 
           {/* Step 2 */}
@@ -36,12 +36,12 @@ const DoseItWork = () => {
                 2
               </p>
             </div>
-            <h1 className="text-[#161C2D] text-center text-[20px] md:text-[21px] font-bold leading-[28px] md:leading-[32px] tracking-[-0.5px] pt-6 md:pt-[46px] pb-3 md:pb-[14px]">
+            <h2 className="text-[#161C2D] text-center pt-6 md:pt-[46px] pb-3 md:pb-[14px]">
               Design & Prototyping
-            </h1>
-            <p className="text-[#161C2D] text-center text-[16px] md:text-[17px] font-medium leading-[26px] md:leading-[29px] tracking-[-0.2px] opacity-70">
+            </h2>
+            <f5 className="text-[#161C2D] text-center">
               We create user-focused, visually appealing prototypes aligned with your brand.
-            </p>
+            </f5>
           </div>
 
           {/* Step 3 */}
@@ -51,12 +51,12 @@ const DoseItWork = () => {
                 3
               </p>
             </div>
-            <h1 className="text-[#161C2D] text-center text-[20px] md:text-[21px] font-bold leading-[28px] md:leading-[32px] tracking-[-0.5px] pt-6 md:pt-[46px] pb-3 md:pb-[14px]">
+            <h2 className="text-[#161C2D] text-center pt-6 md:pt-[46px] pb-3 md:pb-[14px]">
               Development & Testing
-            </h1>
-            <p className="text-[#161C2D] text-center text-[16px] md:text-[17px] font-medium leading-[26px] md:leading-[29px] tracking-[-0.2px] opacity-70">
+            </h2>
+            <f5 className="text-[#161C2D] text-center">
               We build, test, and optimize fast, secure, and scalable solutions.
-            </p>
+            </f5>
           </div>
 
           {/* Step 4 */}
@@ -66,12 +66,12 @@ const DoseItWork = () => {
                 4
               </p>
             </div>
-            <h1 className="text-[#161C2D] text-center text-[20px] md:text-[21px] font-bold leading-[28px] md:leading-[32px] tracking-[-0.5px] pt-6 md:pt-[46px] pb-3 md:pb-[14px]">
+            <h2 className="text-[#161C2D] text-center pt-6 md:pt-[46px] pb-3 md:pb-[14px]">
               Launch & Support
-            </h1>
-            <p className="text-[#161C2D] text-center text-[16px] md:text-[17px] font-medium leading-[26px] md:leading-[29px] tracking-[-0.2px] opacity-70">
+            </h2>
+            <f5 className="text-[#161C2D] text-center">
               We launch your project and provide ongoing support for continuous growth.
-            </p>
+            </f5>
           </div>
         </div>
       </div>

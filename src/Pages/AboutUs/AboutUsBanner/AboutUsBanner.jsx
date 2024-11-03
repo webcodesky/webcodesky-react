@@ -20,13 +20,13 @@ const AboutUsBanner = () => {
       <Container>
         <div className="max-sm:flex-1 md:flex-col lg:flex md:gap-[100px]">
           <div>
-            <h2 className="text-[#747272] text-[16px] md:text-[20px] font-[700] leading-[22px] md:leading-[24px] tracking-[0.2px] max-sm:pb-2.5">
+            <p className="text-[#747272] text-center md:text-left text-[16px] md:text-[20px] font-[700] leading-[22px] md:leading-[24px] tracking-[0.2px] max-sm:pb-2.5">
               Who we Are?
-            </h2>
-            <h1 className="text-[#000] text-[32px] md:text-[64px] font-[700] leading-tight md:leading-normal tracking-[-1px] md:tracking-[-2.56px] text-center md:text-left md:py-[30px] pb-2.5">
+            </p>
+            <h1 className="text-[#000] text-[32px] md:text-[64px] font-[700] leading-tight md:leading-normal tracking-[-1px] md:tracking-[-2.56px] text-center md:text-left py-4 md:py-[30px] pb-2.5">
               Growing <span className="text-[#F60]">Web Agency</span>
             </h1>
-            <p className="text-[#747272] text-[16px] md:text-[20px] font-[500] leading-[22px] md:leading-[28px] tracking-[0.2px] w-full md:w-[584px] text-center md:text-left md:pb-[60px] pb-2.5">
+            <p className="text-[#747272] text-[16px] md:text-[20px] font-[500] leading-[22px] md:leading-[28px] tracking-[0.2px] w-full md:w-[584px] text-center md:text-left md:pb-[60px] pb-2.5 py-3">
               Empowering businesses with innovative web solutions that drive
               growth, inspire creativity, and deliver results
               <br />
@@ -78,14 +78,14 @@ const AboutUsBanner = () => {
               allowFullScreen
             ></iframe>
 
-            <div className="absolute left-14 bg-white p-2 rounded-md shadow-md md:top-[-30px] md:left-[-60px]">
+            <p className="absolute left-14 bg-white p-2 rounded-md shadow-md md:top-[-30px] md:left-[-60px]">
               <span className="text-gray-600 text-sm">
                 1,000,000 Happy Clients
               </span>
               <br />
               <span className="text-yellow-500 font-bold">4.9</span> (15k
               Reviews)
-            </div>
+            </p>
           </div>
         </div>
       </Container>
