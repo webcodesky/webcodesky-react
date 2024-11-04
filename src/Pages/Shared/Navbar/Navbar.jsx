@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import logo from "../../../assets/webcodesky-logo1.png";
+import logo from "../../../assets/webcodesky-logo-1.png";
 import { Link, useNavigate } from "react-router-dom";
 import Container from "../../../Components/Ui/Container/Container";
 import { RiArrowDropDownLine } from "react-icons/ri";
@@ -56,7 +56,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="">
             <Link to="/" className="text-2xl font-bold text-[#f60] ">
-              <img className="rounded-md" src={logo} alt="logo" width={140} />
+              <img className="rounded-md w-[90px] h-[45px] md:w-[100px] md:h-[50px]" src={logo} alt="logo"  />
             </Link>
           </div>
 
