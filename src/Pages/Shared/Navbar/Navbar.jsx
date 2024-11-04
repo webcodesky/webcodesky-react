@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import logo from "../../../assets/webcodesky-logo1.png";
+import logo from "../../../assets/webcodesky-logo-1.png";
 import { Link, useNavigate } from "react-router-dom";
 import Container from "../../../Components/Ui/Container/Container";
 import { RiArrowDropDownLine } from "react-icons/ri";
@@ -66,7 +66,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:hidden lg:flex md:space-x-3 lg:space-x-6 text-[14px] md:text-[12px] lg:text-[16px] font-medium justify-center items-center">
+          <div className="hidden md:hidden lg:flex md:space-x-3 lg:space-x-6 text-[14px] md:text-[16px] lg:text-[16px] font-medium justify-center items-center">
             <Link to="/" className="text-[#23272E] hover:text-[#f60]">
               Home
             </Link>
@@ -169,12 +169,12 @@ const Navbar = () => {
             </Link>
             <div className="flex gap-2">
               <Link to="/contact">
-                <button className="dm-sans flex md:py-2 md:px-3 lg:py-[14px] lg:px-[20px] justify-center items-center gap-[10px] rounded-[61px] border border-[rgba(35,39,46,0.3)] text-[#23272e] text-[14px] md:text-[12px] lg:text-[16px]  leading-[100%]">
+                <button className="dm-sans flex md:py-2 md:px-3 lg:py-[14px] lg:px-[20px] justify-center items-center gap-[10px] rounded-[61px] border border-[rgba(35,39,46,0.3)] text-[#23272e] text-[14px] md:text-[16px] lg:text-[16px]  leading-[100%]">
                   Contact Us{" "}
                 </button>
               </Link>
               <Link to="/getquote">
-                <button className="dm-sans flex md:py-2 md:px-3 lg:py-[14px] lg:px-[20px] justify-center items-center gap-[10px] rounded-[61px] border border-[#d3d4d5] bg-[#f60] text-white text-[14px] md:text-[12px] lg:text-[16px]  leading-[100%]">
+                <button className="dm-sans flex md:py-2 md:px-3 lg:py-[14px] lg:px-[20px] justify-center items-center gap-[10px] rounded-[61px] border border-[#d3d4d5] bg-[#f60] text-white text-[14px] md:text-[16px] lg:text-[16px]  leading-[100%]">
                   Get a Quote{" "}
                 </button>
               </Link>

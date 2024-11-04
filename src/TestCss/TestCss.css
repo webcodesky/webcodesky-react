@@ -33,13 +33,16 @@
 
 @layer base {
   h1 {
-    @apply font-bold text-black text-[18px] md:text-[37px] lg:text-[40px] md:leading-[57px] tracking-[0.2px];
+    @apply font-bold text-black text-[25px] md:text-[37px] lg:text-[48px] md:leading-[57px] tracking-[0.2px];
   }
-  /* h2{}
-    h3{}
-    h4{}
-    h5{}
-    p{} */
+  
+  h2 {
+    @apply text-[#737373] font-bold leading-[20px] tracking-[0.2px]  text-[18px] md:text-[21px] md:leading-[24px];
+  }
+
+  p {
+    @apply text-[#737373] font-medium leading-[20px] tracking-[0.2px] text-[16px] md:text-[18px] md:leading-[24px];
+  }
 }
 
 @layer components {

@@ -10,8 +10,9 @@ const ChooseUs = () => {
         <h1 className="">
           WHY <span className="text-[#F60]">CHOOSE</span> US
         </h1>
-        <p className="mont text-[#737373] text-[12px] md:text-[14px] mt-4 mb-10 mx-auto w-full max-w-[600px]">
-          Discover why businesses trust us for innovative solutions that drive real, lasting success.
+        <p className="mont text-[#747272] text-[16px] md:text-[16px] mt-4 mb-10 mx-auto w-full max-w-[600px]">
+          Discover why businesses trust us for innovative solutions that drive
+          real, lasting success.
         </p>
       </div>
 
@@ -23,7 +24,7 @@ const ChooseUs = () => {
               <img src={img1} alt="" />
             </div>
             <div className="mont-bold text-[16px] font-bold leading-[24px] tracking-[0.1px]">
-             Eye-Catchy Designs
+              Eye-Catchy Designs
             </div>
           </div>
 
@@ -48,7 +49,7 @@ const ChooseUs = () => {
               <img src={img2} alt="" />
             </div>
             <div className="mont-bold text-[16px] font-bold leading-[24px] tracking-[0.1px]">
-             Responsive Websites
+              Responsive Websites
             </div>
           </div>
 
