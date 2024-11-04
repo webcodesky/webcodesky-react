@@ -51,12 +51,17 @@ const Navbar = () => {
 
   return (
     <Container>
-      <div className="text-white  fixed z-10 bg-[#fff] rounded-3xl">
+      <div className="text-white max-w-[1520px] mx-auto fixed top-0 left-2 right-2 z-10 bg-[#fff] rounded-3xl">
         <div className="flex justify-between items-center h-16 w-full px-4  md:gap-10 lg:gap-[198px] max-sm:w-full gap-5">
           {/* Logo */}
           <div className="">
             <Link to="/" className="text-2xl font-bold text-[#f60] ">
-              <img className="rounded-md w-[90px] h-[45px] md:w-[100px] md:h-[50px]" src={logo} alt="logo"  />
+              <img
+                className="rounded-md"
+                src={logo}
+                alt="logo"
+                width={100}
+              />
             </Link>
           </div>
 
