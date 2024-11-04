@@ -1,4 +1,5 @@
 import "../ServiceFeatures/ServiceFeatures.css";
+import apiIntegrationImg from "../../..//assets/serviceDetails/API-Integration.png";
 
 const ServiceFeatures = ({ serviceDetails }) => {
   const services = (serviceDetails && serviceDetails[0]) || {};
@@ -27,7 +28,7 @@ const ServiceFeatures = ({ serviceDetails }) => {
 
         <div className="img-div px-10">
           <img
-            src="/src/assets/serviceDetails/API-Integration.png"
+            src={apiIntegrationImg}
             alt="userFriendly"
           />
           <div className="img-div-animation-div"></div>

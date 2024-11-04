@@ -1,3 +1,6 @@
+import userFriendlyImg from "../../../assets/serviceDetails/userFriendly.png";
+
+
 const Facilities = ({ serviceDetails }) => {
   const services = (serviceDetails && serviceDetails[0]) || {};
 
@@ -14,7 +17,7 @@ const Facilities = ({ serviceDetails }) => {
       <div className="flex md:flex-row flex-col-reverse justify-around md:pt-[75px]">
         <div>
           <img
-            src="/src/assets/serviceDetails/userFriendly.png"
+            src={userFriendlyImg}
             alt="userFriendly"
           />
         </div>

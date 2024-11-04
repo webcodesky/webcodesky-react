@@ -1,5 +1,7 @@
 import "./WhyChooseUs.css";
 import Container from "../../../Components/Ui/Container/Container";
+import deadlineIcon from "../../../assets/icon/deadline.svg";
+import dotRectIcon from "../../../assets/icon/dot-rect.svg";
 
 const WhyChooseUs = ({ serviceDetails }) => {
   const services = (serviceDetails && serviceDetails[0]) || {};
@@ -10,7 +12,7 @@ const WhyChooseUs = ({ serviceDetails }) => {
     <div className="relative">
       <img
         className="hidden md:inline-block absolute top-[20%] left-0"
-        src="/src/assets/icon/dot-rect.svg"
+        src={dotRectIcon}
         alt="dot rect"
       />
       <Container>
@@ -33,7 +35,7 @@ const WhyChooseUs = ({ serviceDetails }) => {
                 <div className="icon-setion w-[30%]">
                   <img
                     className="w-full"
-                    src="/src/assets/icon/deadline.svg"
+                    src={deadlineIcon}
                     alt={item.title}
                   />
                 </div>

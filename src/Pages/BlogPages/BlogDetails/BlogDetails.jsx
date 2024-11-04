@@ -25,7 +25,7 @@ const BlogDetails = () => {
                 <h1 className="text-[#191919] text-[28px] md:text-[40px] font-semibold leading-tight">
                   {blogDetails.article.title}
                 </h1>
-                <p className="text-[#737373] text-[16px] md:text-[20px] font-medium leading-[1.5] tracking-[0.2px] pt-3 pb-4 md:pt-5 md:pb-7">
+                <p className="text-[#747272] text-[16px] md:text-[20px] font-medium leading-[1.5] tracking-[0.2px] pt-3 pb-4 md:pt-5 md:pb-7">
                   {blogDetails.article.description}
                 </p>
 
@@ -183,7 +183,7 @@ export default BlogDetails;
 //                 <h1 className="text-[#191919] text-[32px] md:text-[40px] font-semibold leading-none">
 //                   Your portfolio is stopping you from getting that job
 //                 </h1>
-//                 <p className="text-[#737373] text-[18px] md:text-[20px] font-medium leading-[20px] tracking-[0.2px] md:pt-5 md:pb-7">
+//                 <p className="text-[#747272] text-[18px] md:text-[20px] font-medium leading-[20px] tracking-[0.2px] md:pt-5 md:pb-7">
 //                   Provide Top-Notch Web solutions over the world.
 //                 </p>
 //                 <div className="flex gap-[10px] flex-wrap">
@@ -225,7 +225,7 @@ export default BlogDetails;
 //                 alt=""
 //                 className="md:max-w-[80%] max-w-full mx-auto"
 //               />
-//               <p className="text-[#737373] text-[14px] font-medium leading-[20px] text-center md:pt-5 pt-4">
+//               <p className="text-[#747272] text-[14px] font-medium leading-[20px] text-center md:pt-5 pt-4">
 //                 Provide Top-Notch Web solutions over the world.
 //               </p>
 //               <p className="text-[#292929] text-[16px] font-medium leading-[24px] text-center pt-4">
@@ -300,7 +300,7 @@ export default BlogDetails;
 //                     <h1 className="text-[#191919] text-[18px] font-semibold leading-none">
 //                       Lets Talk
 //                     </h1>
-//                     <p className="text-[#737373] text-[14px] font-medium leading-normal">
+//                     <p className="text-[#747272] text-[14px] font-medium leading-normal">
 //                       Have an interesting project?
 //                     </p>
 //                   </div>

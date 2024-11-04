@@ -29,7 +29,7 @@ const ContactUs = () => {
           };
 
           // Sending the saved user data to the server
-          fetch("http://localhost:5000/contact-users", {
+          fetch("https://server.webcodesky.com/contact-users", {
             method: "POST",
             headers: {
               "content-type": "application/json",
@@ -79,18 +79,18 @@ const ContactUs = () => {
     <>
       <div className="bg-[#F5F5F5] max-sm:pt-[100px]">
         <Container>
-          <h1 className="text-[#F60] text-center text-[48px] md:text-[96px] font-bold leading-none tracking-[-1.92px] md:tracking-[-3.84px] md:pt-[120px]">
+          <h1 className="text-[#F60] text-center md:pt-[120px]">
             Contact{" "}
-            <span className="text-black text-[48px] md:text-[96px] font-bold leading-none tracking-[-1.92px] md:tracking-[-3.84px]">
+            <span className="text-black">
               Us
             </span>
           </h1>
-          <p className="text-[#737373] text-[16px] md:text-[20px] font-medium leading-[24px] md:leading-[28px] tracking-[0.2px] text-center pt-[20px] md:pt-[30px] pb-[40px] md:pb-[73px]">
-            We’ll Design your website with ReactJs,{" "}
-            <span className="text-[#737373] text-[16px] md:text-[20px] font-bold">
-              Super Fast, Responsive
+          <h3 className="text-[#747272] text-center pt-[20px] md:pt-[30px] pb-[40px] md:pb-[73px]">
+            We’re excited to help you succeed!{" "}
+            <span className="text-[#747272] text-[16px] md:text-[20px] font-bold">
+              Let us create something exceptional together!
             </span>
-          </p>
+          </h3>
           <div className="flex flex-col md:flex-row gap-[30px] md:gap-[60px] justify-center p-4">
             <div className="flex gap-4">
               <span className="text-[#FF6600] w-[50.886px] h-[54px] flex-shrink-0">
@@ -115,15 +115,14 @@ const ContactUs = () => {
                 </svg>
               </span>
               <div>
-                <h1 className="text-[#161C2D] text-[20px] md:text-[24px] font-bold leading-[28px] md:leading-[34px] tracking-[-0.5px]">
+                <h2 className="text-[#161C2D]">
                   Call Us
-                </h1>
-                <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
+                </h2>
+                <p className="text-[#161C2D]">
                   +880 1860-861105
                 </p>
-                {/* <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
-                  +1-940-394-2948
-                </p> */}
+                {/* <h4 c5assName="text-[#161C2D] te                  +1-940-394-2948
+                </h4> */}
               </div>
             </div>
             <div className="flex gap-4">
@@ -153,15 +152,14 @@ const ContactUs = () => {
                 </svg>
               </span>
               <div>
-                <h1 className="text-[#161C2D] text-[20px] md:text-[24px] font-bold leading-[28px] md:leading-[34px] tracking-[-0.5px]">
+                <h2 className="text-[#161C2D]">
                   Email us
-                </h1>
-                <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
+                </h2>
+                <p className="text-[#161C2D]">
                   webcodesky1@gmail.com
                 </p>
-                {/* <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
-                  contact@brainwave.io
-                </p> */}
+                {/* <h4 c5assName="text-[#161C2D] te                  contact@brainwave.io
+                </h4> */}
               </div>
             </div>
             {/* <div className="flex gap-4">
@@ -187,15 +185,15 @@ const ContactUs = () => {
                 </svg>
               </span>
               <div>
-                <h1 className="text-[#161C2D] text-[20px] md:text-[24px] font-bold leading-[28px] md:leading-[34px] tracking-[-0.5px]">
+                <h2 className="text-[#161C2D]">
                   Visit us
-                </h1>
-                <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
+                </h2>
+                <54 className="text-[#161C2D0">
                   34 Madison Street,
-                </p>
-                <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
+                </54>
+                <54 className="text-[#161C2D0">
                   NY, USA 10005
-                </p>
+                </54>
               </div>
             </div> */}
           </div>
