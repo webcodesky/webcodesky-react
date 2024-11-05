@@ -34,7 +34,6 @@ const WhyChooseUs = ({ serviceDetails }) => {
               >
                 <div className="icon-setion w-[30%]">
                   <img className="w-full" src={deadlineIcon} alt={item.title} />
-                  <img className="w-full" src={deadline} alt={item.title} />
                 </div>
                 <div className="icon-box-content w-[70%]">
                   <div className="title poppins font-bold text-[22px] pb-2">
