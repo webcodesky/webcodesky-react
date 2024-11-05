@@ -1,3 +1,4 @@
+import userFriendly from "../../../assets/serviceDetails/userFriendly.png";
 const Facilities = ({ serviceDetails }) => {
   const services = (serviceDetails && serviceDetails[0]) || {};
 
@@ -13,10 +14,7 @@ const Facilities = ({ serviceDetails }) => {
       {/* Facilities we provide */}
       <div className="flex md:flex-row flex-col-reverse justify-around md:pt-[75px] pt-10">
         <div>
-          <img
-            src="/src/assets/serviceDetails/userFriendly.png"
-            alt="userFriendly"
-          />
+          <img src={userFriendly} alt="userFriendly" />
         </div>
         <div className="content max-w-[375px] flex flex-col gap-5">
           {facilities.map((facility, index) => (

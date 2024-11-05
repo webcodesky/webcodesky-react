@@ -1,5 +1,6 @@
 import "./WhyChooseUs.css";
 import Container from "../../../Components/Ui/Container/Container";
+import deadline from "../../../assets/icon/deadline.svg";
 
 const WhyChooseUs = ({ serviceDetails }) => {
   const services = (serviceDetails && serviceDetails[0]) || {};
@@ -31,11 +32,7 @@ const WhyChooseUs = ({ serviceDetails }) => {
                 className="icon-box flex flex-row md:gap-9 gap-3"
               >
                 <div className="icon-setion w-[30%]">
-                  <img
-                    className="w-full"
-                    src="/src/assets/icon/deadline.svg"
-                    alt={item.title}
-                  />
+                  <img className="w-full" src={deadline} alt={item.title} />
                 </div>
                 <div className="icon-box-content w-[70%]">
                   <div className="title poppins font-bold text-[22px] pb-2">

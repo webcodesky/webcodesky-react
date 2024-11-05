@@ -2,7 +2,7 @@ import { ImFacebook2 } from "react-icons/im";
 import Container from "../../../Components/Ui/Container/Container";
 import mahmud from "../../../assets/teamMember/Mahmudhasan.png";
 import tuhin from "../../../assets/teamMember/tahmidtuhin.webp";
-import shahid from "../../../assets/teamMember/shahid.png";
+import shahid from "../../../assets/teamMember/shahid .png";
 import { FaInstagram, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
