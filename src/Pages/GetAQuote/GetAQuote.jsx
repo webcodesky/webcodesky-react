@@ -79,15 +79,15 @@ const GetAQuote = () => {
     <>
       <div className="bg-[#F5F5F5] max-sm:pt-[100px]">
         <Container>
-          <h1 className="text-[#F60] text-center text-[48px] md:text-[96px] font-bold leading-none tracking-[-1.92px] md:tracking-[-3.84px] md:pt-[120px]">
+          <h1 className="text-[#F60] text-center md:pt-[120px]">
             Get A{" "}
             <span className="text-black text-[48px] md:text-[96px] font-bold leading-none tracking-[-1.92px] md:tracking-[-3.84px]">
               Quote
             </span>
           </h1>
-          <p className="text-[#737373] text-[16px] md:text-[20px] font-medium leading-[24px] md:leading-[28px] tracking-[0.2px] text-center pt-[20px] md:pt-[30px] pb-[40px] md:pb-[73px]">
+          <p className="text-[#747272] text-[16px] md:text-[20px] font-medium leading-[24px] md:leading-[28px] tracking-[0.2px] text-center pt-[20px] md:pt-[30px] pb-[40px] md:pb-[73px]">
             We’ll Design your website with ReactJs,{" "}
-            <span className="text-[#737373] text-[16px] md:text-[20px] font-bold">
+            <span className="text-[#747272] text-[16px] md:text-[20px] font-bold">
               Super Fast, Responsive
             </span>
           </p>
