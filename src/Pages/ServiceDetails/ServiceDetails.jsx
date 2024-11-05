@@ -6,30 +6,35 @@ import WhyChooseUs from "./WhyChooseUs/WhyChooseUs";
 import FAQAccordion from "./FAQ/FAQ";
 import PeopleSaying from "../Home/PeopleSaying/PeopleSaying";
 import Facilities from "./Facilities/Facilities";
+import useScrollToTop from "../../Hooks/useScrollToTop";
 
 const ServiceDetails = () => {
+  useScrollToTop();
   const location = useLocation();
   const { serviceDetails } = location.state || {};
-
-  // Check if data is available
-  if (!serviceDetails) {
-    return <p>No service details available.</p>;
-  }
 
   return (
     <div>
       <Container>
-        <ServiceDetailsBanner
-          serviceDetails={serviceDetails}
-        ></ServiceDetailsBanner>
-        <ServiceFeatures serviceDetails={serviceDetails}></ServiceFeatures>
-        <Facilities serviceDetails={serviceDetails}></Facilities>
+        {!serviceDetails ? (
+          <p>No service details available.</p>
+        ) : (
+          <>
+            <ServiceDetailsBanner serviceDetails={serviceDetails} />
+            <ServiceFeatures serviceDetails={serviceDetails} />
+            <Facilities serviceDetails={serviceDetails} />
+          </>
+        )}
       </Container>
-      <WhyChooseUs serviceDetails={serviceDetails}></WhyChooseUs>
-      <Container>
-        <FAQAccordion serviceDetails={serviceDetails}></FAQAccordion>
-      </Container>
-      <PeopleSaying />
+      {serviceDetails && (
+        <>
+          <WhyChooseUs serviceDetails={serviceDetails} />
+          <Container>
+            <FAQAccordion serviceDetails={serviceDetails} />
+          </Container>
+          <PeopleSaying />
+        </>
+      )}
     </div>
   );
 };

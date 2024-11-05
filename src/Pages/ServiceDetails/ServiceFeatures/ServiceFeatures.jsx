@@ -1,5 +1,5 @@
 import "../ServiceFeatures/ServiceFeatures.css";
-import apiIntegrationImg from "../../..//assets/serviceDetails/API-Integration.png";
+import apiIntegration from "../../../assets/serviceDetails/API-Integration.png";
 
 const ServiceFeatures = ({ serviceDetails }) => {
   const services = (serviceDetails && serviceDetails[0]) || {};
@@ -10,11 +10,11 @@ const ServiceFeatures = ({ serviceDetails }) => {
       <p className="poppins font-bold text-[13px] uppercase text-[#F64B4B] text-center">
         Features We Offer
       </p>
-      <h1 className="text-center text-[36px] font-bold leading-[48px] tracking-[-1.2px] text-[#161C2D] md:px-80 md:pt-5">
+      <h1 className="text-center md:text-[36px] text-[24px] font-bold md:leading-[48px] leading-[32px] tracking-[-1.2px] text-[#161C2D] md:px-80 pt-5">
         Key Features for Fast, Scalable, Dynamic Web Applications
       </h1>
       {/* Features we offer */}
-      <div className="features-wrapper flex md:flex-row-reverse flex-col-reverse justify-around md:gap-10 md:pt-16">
+      <div className="features-wrapper flex md:flex-row-reverse flex-col-reverse justify-around md:gap-10 pt-16">
         <div className="content max-w-[375px] flex flex-col gap-5">
           {features.slice(0, 3).map((feature, index) => (
             <div key={index}>
@@ -27,10 +27,7 @@ const ServiceFeatures = ({ serviceDetails }) => {
         </div>
 
         <div className="img-div px-10">
-          <img
-            src={apiIntegrationImg}
-            alt="userFriendly"
-          />
+          <img src={apiIntegration} alt="userFriendly" />
           <div className="img-div-animation-div"></div>
         </div>
         <div className="content max-w-[375px] flex flex-col gap-5">

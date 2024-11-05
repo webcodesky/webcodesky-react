@@ -63,7 +63,7 @@ const PopularServicesCard = () => {
             </span>
             <span className="font-semibold text-[14px]">4.9 (1000)</span>
           </div>
-          <ul className="list-disc list-inside pl-2 space-y-1 leading-[20px] font-medium mt-2.5 text-[14px]">
+          <ul className="list-disc list-inside pl-2 space-y-1 leading-[20px] font-medium mt-2.5 text-[14px] ">
             <li className="text-black">Fully Responsive Ecommerce Website</li>
             <li className="text-black">Mobile & User-friendly</li>
             <li className="text-black">
