@@ -8,7 +8,7 @@ import { useLoaderData } from "react-router-dom";
 import RecentPost from "../RecentPost/RecentPost";
 
 const BlogDetails = () => {
-  const blogDetails = useLoaderData();
+  const blogDetails = useLoaderData() || {};
   //   console.log(blogDetails);
 
   if (!blogDetails) {
@@ -23,7 +23,7 @@ const BlogDetails = () => {
             <div className="md:flex md:gap-[109px]">
               <div className="md:w-1/2">
                 <h1 className="text-[#191919] text-[28px] md:text-[40px] font-semibold leading-tight">
-                  {blogDetails.article.title}
+                  {blogDetails.article?.title}
                 </h1>
                 <p className="text-[#747272] text-[16px] md:text-[20px] font-medium leading-[1.5] tracking-[0.2px] pt-3 pb-4 md:pt-5 md:pb-7">
                   {blogDetails.article.description}
