@@ -38,13 +38,13 @@ const PeopleSaying = () => {
               <div className="flex gap-4 pt-6">
                 <button
                   onClick={handlePrev}
-                  className="w-12 h-12 lg:w-[56px] lg:h-[56px] text-white flex items-center justify-center rounded-lg bg-[rgba(255,102,0,0.5)]"
+                  className="w-12 h-12 hover:bg-[rgba(255,102,0,0.5)] lg:w-[56px] lg:h-[56px] text-white flex items-center justify-center rounded-lg bg-[#F60]"
                 >
                   <FaArrowLeft />
                 </button>
                 <button
                   onClick={handleNext}
-                  className="w-12 h-12 lg:w-[56px] lg:h-[56px] text-white flex items-center justify-center rounded-lg bg-[#F60]"
+                  className="w-12 h-12 hover:bg-[rgba(255,102,0,0.5)] lg:w-[56px] lg:h-[56px] text-white flex items-center justify-center rounded-lg bg-[#F60]"
                 >
                   <FaArrowRight />
                 </button>

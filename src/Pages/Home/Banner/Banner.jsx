@@ -20,7 +20,7 @@ const Banner = () => {
 
         <div className="flex justify-center">
           <Link to="/getquote">
-            <button className="flex justify-center text-white hover:text-black items-center mt-6 sm:mt-8 border-[1px] rounded-full bg-[#FF6600] md:gap-2 lg:gap-3 sm:gap-5">
+            <button className="flex justify-center hover:bg-black text-white items-center mt-6 sm:mt-8 border-[1px] rounded-full bg-[#FF6600] md:gap-2 lg:gap-3 sm:gap-5">
               <span className="dm-sans  text-[16px] sm:text-[24px] leading-[100%] px-4 md:px-4 lg:px-5 py-3 md:py-4 lg:py-5">
                 Get a Quote
               </span>
