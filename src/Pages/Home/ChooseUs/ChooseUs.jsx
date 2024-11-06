@@ -16,7 +16,7 @@ const ChooseUs = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-5 justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-5 justify-center pb-10 sm:pb-16 md:pb-0">
         <div className="md:w-[328px] w-full h-fit bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] md:mb-[74px]">
           {/* Icon and title */}
           <div className="flex justify-center gap-[15px] px-5 md:px-[50px] py-5 md:py-[30px] items-center  rounded-t-[10px] ">
@@ -37,9 +37,7 @@ const ChooseUs = () => {
               <li>- Brand-aligned, strong identity</li>  
               <li>- User-friendly, Interactive designs</li>
             </ul>
-            <span className="text-[#F60] text-[14px] font-semibold leading-[24px] tracking-[0.2px]">
-              Learn More
-            </span>
+           
           </div>
         </div>
         <div className="md:w-[328px] w-full h-fit bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] md:mb-[74px]">
@@ -62,9 +60,7 @@ const ChooseUs = () => {
               <li>- Consistent cross-browser performance</li>
               <li>- Smooth experience on any device</li>
             </ul>
-            <span className="text-[#F60] text-[14px] font-semibold leading-[24px] tracking-[0.2px]">
-              Learn More
-            </span>
+           
           </div>
         </div>
         <div className="md:w-[328px] w-full h-fit bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] md:mb-[74px]">
@@ -87,9 +83,7 @@ const ChooseUs = () => {
               <li>- SEO-friendly content structure visibility</li>
               <li>- Integrated tools for ongoing optimization</li>
             </ul>
-            <span className="text-[#F60] text-[14px] font-semibold leading-[24px] tracking-[0.2px]">
-              Learn More
-            </span>
+           
           </div>
         </div>
       </div>

@@ -27,7 +27,7 @@ const FAQAccordion = () => {
     <div className="max-w-[780px] mx-auto p-6 pb-20">
       <div className='flex flex-col items-center'>
         <h2 className="poppins font-bold text-[48px] text-center">Frequently <span className="text-[#FF6600]">Asked</span> Questions</h2>
-        <p className='poppins font-normal text-[18px] text-center max-w-[510px] pt-2 pb-10'>With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within few minutes.</p>
+        <p className='poppins font-normal text-[18px] text-center max-w-[510px] pt-8 pb-10'>With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within few minutes.</p>
       </div>
 
       <div className="space-y-4">
