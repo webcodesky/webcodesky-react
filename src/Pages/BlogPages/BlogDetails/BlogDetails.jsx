@@ -9,7 +9,7 @@ import RecentPost from "../RecentPost/RecentPost";
 
 const BlogDetails = () => {
   const blogDetails = useLoaderData() || {};
-  console.log(blogDetails.description?.content[0].paragraph);
+  // console.log(blogDetails.description?.content[0].paragraph);
 
   if (!blogDetails) {
     return <div>Loading...</div>;

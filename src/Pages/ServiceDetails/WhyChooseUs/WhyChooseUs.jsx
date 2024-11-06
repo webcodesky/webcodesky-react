@@ -49,7 +49,7 @@ const WhyChooseUs = ({ serviceDetails }) => {
           {/* why chose box end */}
           <div className="whychooseusCTA flex md:flex-row flex-col md:justify-between items-center w-full md:py-12 py-4">
             <div className="content">
-              <h2 className="poppins font-bold text-[32px] pb-2">
+              <h2 className="poppins font-bold text-[32px] pb-2 leading-none">
                 Ready to launch your next project?
               </h2>
               <p className="poppins font-normal text-[18px]">

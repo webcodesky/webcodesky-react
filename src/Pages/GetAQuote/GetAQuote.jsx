@@ -2,6 +2,7 @@ import emailjs from "@emailjs/browser";
 import Container from "../../Components/Ui/Container/Container";
 import { useRef } from "react";
 import Swal from "sweetalert2";
+import { Link } from "react-router-dom";
 
 const GetAQuote = () => {
   const form = useRef();
@@ -42,7 +43,7 @@ const GetAQuote = () => {
                 // After data is successfully saved, show only one alert
                 Swal.fire({
                   icon: "success",
-                  title: "Email Sent Successfully!",
+                  title: "Thank You for Request a Quote!",
                   //   text: "Your message has been sent and data has been saved.",
                   showClass: {
                     popup:
@@ -93,34 +94,40 @@ const GetAQuote = () => {
           </p>
           <div className="flex flex-col md:flex-row gap-[30px] md:gap-[60px] justify-center p-4">
             <div className="flex gap-4">
-              <span className="text-[#FF6600] w-[50.886px] h-[54px] flex-shrink-0">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="51"
-                  height="54"
-                  viewBox="0 0 51 54"
-                  fill="none"
-                >
-                  <ellipse
-                    cx="25.4428"
-                    cy="27"
-                    rx="25.4428"
-                    ry="27"
-                    fill="white"
-                  />
-                  <path
-                    d="M29.5488 30.2045L27.7824 32.5479C25.0464 30.8418 22.7663 28.4225 21.1584 25.5192L23.3662 23.6447C23.8986 23.1928 24.0767 22.4166 23.7997 21.7556L21.7869 16.9465C21.4887 16.2339 20.7483 15.8552 20.0372 16.0515L16.2063 17.1054C15.4662 17.3102 14.9876 18.0703 15.0925 18.8743C16.4745 29.3133 24.2061 37.518 34.0433 38.9848C34.8009 39.0959 35.517 38.5881 35.7103 37.8029L36.7033 33.7366C36.8876 32.9823 36.5309 32.1971 35.86 31.8804L31.3291 29.7471C30.7066 29.4529 29.9755 29.6408 29.5488 30.2045Z"
-                    fill="#FF6600"
-                  />
-                </svg>
-              </span>
+              
+              <Link to="tel:+8801860861105">
+                <span className="text-[#FF6600] w-[50.886px] h-[54px] flex-shrink-0">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="51"
+                    height="54"
+                    viewBox="0 0 51 54"
+                    fill="none"
+                  >
+                    <ellipse
+                      cx="25.4428"
+                      cy="27"
+                      rx="25.4428"
+                      ry="27"
+                      fill="white"
+                    />
+                    <path
+                      d="M29.5488 30.2045L27.7824 32.5479C25.0464 30.8418 22.7663 28.4225 21.1584 25.5192L23.3662 23.6447C23.8986 23.1928 24.0767 22.4166 23.7997 21.7556L21.7869 16.9465C21.4887 16.2339 20.7483 15.8552 20.0372 16.0515L16.2063 17.1054C15.4662 17.3102 14.9876 18.0703 15.0925 18.8743C16.4745 29.3133 24.2061 37.518 34.0433 38.9848C34.8009 39.0959 35.517 38.5881 35.7103 37.8029L36.7033 33.7366C36.8876 32.9823 36.5309 32.1971 35.86 31.8804L31.3291 29.7471C30.7066 29.4529 29.9755 29.6408 29.5488 30.2045Z"
+                      fill="#FF6600"
+                    />
+                  </svg>
+                </span>
+              </Link>
               <div>
                 <h1 className="text-[#161C2D] text-[20px] md:text-[24px] font-bold leading-[28px] md:leading-[34px] tracking-[-0.5px]">
                   Call Us
                 </h1>
-                <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
-                  +880 1860-861105
-                </p>
+                
+                <Link to="tel:+8801860861105">
+                  <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
+                    +880 1860-861105
+                  </p>
+                </Link>
                 {/* <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
                   +1-940-394-2948
                 </p> */}
@@ -128,13 +135,14 @@ const GetAQuote = () => {
             </div>
             <div className="flex gap-4">
               <span className="text-[#FF6600] w-[50.886px] h-[54px] flex-shrink-0">
+              <Link to="mailto:webcodesky1@gmail.com" target="_blank">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="51"
-                  height="54"
-                  viewBox="0 0 51 54"
-                  fill="none"
-                >
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="51"
+                    height="54"
+                    viewBox="0 0 51 54"
+                    fill="none"
+                  >
                   <ellipse
                     cx="25.5268"
                     cy="27"
@@ -151,14 +159,18 @@ const GetAQuote = () => {
                     fill="#FF6600"
                   />
                 </svg>
+              </Link>
               </span>
               <div>
                 <h1 className="text-[#161C2D] text-[20px] md:text-[24px] font-bold leading-[28px] md:leading-[34px] tracking-[-0.5px]">
                   Email us
                 </h1>
-                <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
-                  webcodesky1@gmail.com
-                </p>
+                
+                <Link to="mailto:webcodesky1@gmail.com" target="_blank">
+                  <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
+                    webcodesky1@gmail.com
+                  </p>
+                </Link>
                 {/* <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
                   contact@brainwave.io
                 </p> */}

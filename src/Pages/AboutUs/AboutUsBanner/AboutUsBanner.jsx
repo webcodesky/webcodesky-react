@@ -2,6 +2,7 @@ import { MdCallMade } from "react-icons/md";
 import Container from "../../../Components/Ui/Container/Container";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 
 const AboutUsBanner = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -35,13 +36,15 @@ const AboutUsBanner = () => {
             </p>
 
             <div className="flex flex-col md:flex-row items-center gap-x-4 md:gap-[26px] md:pb-[141px] ">
-              <div>
+              <div className="mb-2">
                 <Link to="/getquote">
-                  <button className="w-[180px] hover:bg-black text-white h-[50px] md:w-[232px] md:h-[71px] flex-shrink-0 rounded-[50px] border-[0.5px] border-[#D3D4D5] bg-[#F60] text-[18px] md:text-[24px] font-normal leading-[100%] flex justify-center items-center md:gap-4 my-auto">
-                    <span>Get a Quote</span>
-                    <p className="w-[40px] h-[40px] md:w-[48px] md:h-[48px] flex-shrink-0 rounded-[35px] bg-white flex justify-center items-center text-[#F60]">
-                      <MdCallMade />
-                    </p>
+                  <button className="flex justify-center hover:bg-black text-white items-center mt-6 sm:mt-8 border-[1px] rounded-full bg-[#FF6600] md:gap-2 lg:gap-3 sm:gap-5">
+                    <span className="dm-sans  text-[16px] sm:text-[24px] leading-[100%] px-4 md:px-4 lg:px-5 py-3 md:py-4 lg:py-5">
+                      Get a Quote
+                    </span>
+                    <span className=" text-[40px] md:text-[24px] lg:text-[40px] p-2 md:p-2 my-auto">
+                      <BsFillArrowUpRightCircleFill />
+                    </span>
                   </button>
                 </Link>
               </div>
@@ -72,7 +75,7 @@ const AboutUsBanner = () => {
             </div>
           </div>
           {/* Video Section */}
-          <div className="relative flex-1 max-sm:pt-2.5">
+          <div className="relative flex-1 max-sm:pt-2.5 mt-12 md:mt-0">
             <iframe
               className="w-[100%] h-[auto] md:w-[500px] md:h-[346px] rounded-[10px] bg-gradient-to-b from-transparent to-[rgba(56,56,56,0.84)]"
               src={videoSrc} // Use the videoSrc based on isPlaying state
@@ -81,12 +84,12 @@ const AboutUsBanner = () => {
               allowFullScreen
             ></iframe>
 
-            <p className="absolute left-14 bg-white p-2 rounded-md shadow-md md:top-[-30px] md:left-[-60px]">
+            <p className="absolute bg-white p-2 rounded-md shadow-md top-[-35px] md:top-[-30px] md:left-[-60px]">
               <span className="text-gray-600 text-sm">
                 1,000,000 Happy Clients
               </span>
               <br />
-              <span className="text-yellow-500 font-bold">4.9</span> (15k
+              <span className="text-yellow-500 font-bold">⭐4.9</span> (15k
               Reviews)
             </p>
           </div>
