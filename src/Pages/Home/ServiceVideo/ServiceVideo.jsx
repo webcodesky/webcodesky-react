@@ -15,7 +15,7 @@ const ServiceVideo = () => {
 
           <div className="flex justify-center items-center pt-[30px] md:pt-[50px]">
             <iframe
-              className="w-full h-full md:w-[90%] md:h-[420px] lg:w-[877px] lg:h-[442px] rounded-[10px] md:rounded-[20px] bg-gradient-to-b from-transparent to-[rgba(56,56,56,0.84)]"
+              className="w-full h-full sm:w-[90%] sm:h-[320px] md:w-[90%] md:h-[420px] lg:w-[877px] lg:h-[442px] rounded-[10px] md:rounded-[20px] bg-gradient-to-b from-transparent to-[rgba(56,56,56,0.84)]"
               src="https://www.youtube.com/embed/DFmhX5h6Lig?rel=0"
               title="YouTube Video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
