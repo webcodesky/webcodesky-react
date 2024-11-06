@@ -323,11 +323,11 @@ const Navbar = () => {
               </button>
               <button className="btn-xs">
                 <Link
-                  to="/contact"
+                  to="/getquote"
                   className=" text-[#23272E]"
                   onClick={() => setIsOpen(false)}
                 >
-                  Contact
+                  Get a Quote
                 </Link>
               </button>
             </div>

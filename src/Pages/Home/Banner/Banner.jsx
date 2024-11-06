@@ -1,5 +1,6 @@
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 import BannerProject from "../BannerProject/BannerProject";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -18,14 +19,16 @@ const Banner = () => {
         </p>
 
         <div className="flex justify-center">
-          <button className="flex justify-center text-white hover:text-black items-center mt-6 sm:mt-8 border-[1px] rounded-full bg-[#FF6600] md:gap-2 lg:gap-3 sm:gap-5">
-            <span className="dm-sans  text-[16px] sm:text-[24px] leading-[100%] px-4 md:px-4 lg:px-5 py-3 md:py-4 lg:py-5">
-              Get a Quote
-            </span>
-            <span className=" text-[40px] md:text-[24px] lg:text-[40px] p-2 md:p-2 my-auto">
-              <BsFillArrowUpRightCircleFill />
-            </span>
-          </button>
+          <Link to="/getquote">
+            <button className="flex justify-center text-white hover:text-black items-center mt-6 sm:mt-8 border-[1px] rounded-full bg-[#FF6600] md:gap-2 lg:gap-3 sm:gap-5">
+              <span className="dm-sans  text-[16px] sm:text-[24px] leading-[100%] px-4 md:px-4 lg:px-5 py-3 md:py-4 lg:py-5">
+                Get a Quote
+              </span>
+              <span className=" text-[40px] md:text-[24px] lg:text-[40px] p-2 md:p-2 my-auto">
+                <BsFillArrowUpRightCircleFill />
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
 

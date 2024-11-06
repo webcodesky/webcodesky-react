@@ -29,7 +29,7 @@ const RecentPost = () => {
   const recentPosts = blogs.slice(-4).reverse();
   // console.log(recentPosts);
   return (
-    <div className="w-full md:w-[444px] bg-[#F5F5F5] rounded-[15px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] p-4 max-h-[550px] overflow-auto">
+    <div className="w-full md:w-[444px] bg-[#F5F5F5] rounded-[15px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] p-4 max-h-[550px] overflow-y-hidden">
       <h2 className="text-[#252B42] text-[32px] md:text-[40px] font-bold leading-[40px] md:leading-[57px] tracking-[0.2px] ps-[10px] md:ps-[15px]">
         Recent <span className="text-[#F60]">Post</span>
       </h2>
@@ -44,7 +44,7 @@ const RecentPost = () => {
         </div>
       ) : (
         <div className="rounded-[10px] bg-[rgba(255,255,255,0.7)] mb-3">
-          {recentPosts.slice(0, 4).map((post, index) => (
+          {recentPosts.slice(0, 3).map((post, index) => (
             <div
               key={index}
               className="flex gap-[12px] md:gap-[18px] items-center"

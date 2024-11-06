@@ -12,7 +12,8 @@ const BlogBanner = () => {
 
           {/* Description */}
           <p className="text-[#747272] text-center px-[10px] md:px-[20px] pt-2 pb-8 md:pb-[146px]">
-            Provide Top-noch Web solution over the world.
+            Stay Ahead with the Latest in Web Development and Digital Trends to
+            Drive Business Growth
           </p>
         </div>
       </Container>
