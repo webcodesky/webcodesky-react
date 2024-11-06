@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const FAQAccordion = () => {
   const [activeIndex, setActiveIndex] = useState(null);

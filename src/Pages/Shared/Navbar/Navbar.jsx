@@ -164,12 +164,12 @@ const Navbar = () => {
             </Link>
             <div className="flex gap-2">
               <Link to="/contact">
-                <button className="dm-sans flex md:py-2 md:px-3 lg:py-[14px] lg:px-[20px] justify-center items-center gap-[10px] rounded-[61px] border border-[rgba(35,39,46,0.3)] text-[#23272e] text-[14px] md:text-[16px] lg:text-[16px]  leading-[100%]">
+                <button className="dm-sans flex hover:border-[#f60] md:py-2 md:px-3 lg:py-[14px] lg:px-[20px] justify-center items-center gap-[10px] rounded-[61px] border border-[rgba(35,39,46,0.3)] text-[#23272e] text-[14px] md:text-[16px] lg:text-[16px]  leading-[100%]">
                   Contact Us{" "}
                 </button>
               </Link>
               <Link to="/getquote">
-                <button className="dm-sans flex md:py-2 md:px-3 lg:py-[14px] lg:px-[20px] justify-center items-center gap-[10px] rounded-[61px] border border-[#d3d4d5] bg-[#f60] text-white text-[14px] md:text-[16px] lg:text-[16px]  leading-[100%]">
+                <button className="dm-sans flex md:py-2 hover:bg-black text-white md:px-3 lg:py-[14px] lg:px-[20px] justify-center items-center gap-[10px] rounded-[61px] border border-[#d3d4d5] bg-[#f60] text-[14px] md:text-[16px] lg:text-[16px]  leading-[100%]">
                   Get a Quote{" "}
                 </button>
               </Link>
@@ -214,7 +214,7 @@ const Navbar = () => {
             <div className="relative" ref={dropdownRef}>
               <button
                 onClick={toggleDropdown}
-                className="text-[#23272E] hover:text-[#f60] font-medium flex justify-center items-center gap-2"
+                className="text-[#23272E] hover:text-[#f60] p-2 font-medium flex justify-center items-center gap-2"
               >
                 Services <RiArrowDropDownLine />
               </button>
@@ -315,7 +315,7 @@ const Navbar = () => {
               <button className="btn-xs">
                 <Link
                   to="/contact"
-                  className="text-[#23272E]"
+                  className="text-[#23272E] text-[16px]"
                   onClick={() => setIsOpen(false)}
                 >
                   Contact Us
@@ -323,11 +323,11 @@ const Navbar = () => {
               </button>
               <button className="btn-xs">
                 <Link
-                  to="/contact"
-                  className=" text-[#23272E]"
+                  to="/getquote"
+                  className=" text-[#23272E] text-[16px]"
                   onClick={() => setIsOpen(false)}
                 >
-                  Contact
+                  Get a Quote
                 </Link>
               </button>
             </div>
