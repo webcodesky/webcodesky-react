@@ -2,6 +2,7 @@ import emailjs from "@emailjs/browser";
 import Container from "../../Components/Ui/Container/Container";
 import { useRef } from "react";
 import Swal from "sweetalert2";
+import { Link } from "react-router-dom";
 
 const ContactUs = () => {
   const form = useRef();
@@ -42,7 +43,7 @@ const ContactUs = () => {
                 // After data is successfully saved, show only one alert
                 Swal.fire({
                   icon: "success",
-                  title: "Email Sent Successfully!",
+                  title: "Thank You For Contact Us!",
                   //   text: "Your message has been sent and data has been saved.",
                   showClass: {
                     popup:
@@ -113,7 +114,9 @@ const ContactUs = () => {
               </span>
               <div>
                 <h2 className="text-[#161C2D]">Call Us</h2>
-                <p className="text-[#161C2D]">+880 1860-861105</p>
+                <Link to="tel:+8801860861105">
+                  <p className="text-[#161C2D]">+880 1860-861105</p>
+                </Link>
                 {/* <h4 c5assName="text-[#161C2D] te                  +1-940-394-2948
                 </h4> */}
               </div>
@@ -146,7 +149,9 @@ const ContactUs = () => {
               </span>
               <div>
                 <h2 className="text-[#161C2D]">Email us</h2>
-                <p className="text-[#161C2D]">webcodesky1@gmail.com</p>
+                <Link to="mailto:webcodesky1@gmail.com" target="_blank">
+                  <p className="text-[#161C2D]">webcodesky1@gmail.com</p>
+                </Link>
                 {/* <h4 c5assName="text-[#161C2D] te                  contact@brainwave.io
                 </h4> */}
               </div>

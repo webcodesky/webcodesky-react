@@ -315,7 +315,7 @@ const Navbar = () => {
               <button className="btn-xs">
                 <Link
                   to="/contact"
-                  className="text-[#23272E] text-[16px]"
+                  className="text-white text-[14px]"
                   onClick={() => setIsOpen(false)}
                 >
                   Contact Us
@@ -324,7 +324,7 @@ const Navbar = () => {
               <button className="btn-xs">
                 <Link
                   to="/getquote"
-                  className=" text-[#23272E] text-[16px]"
+                  className=" text-white text-[14px]"
                   onClick={() => setIsOpen(false)}
                 >
                   Get a Quote

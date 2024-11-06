@@ -29,7 +29,7 @@ const ChooseUs = () => {
           </div>
 
           {/* Card Content */}
-          <div className="p-6 rounded-t-[10px] h-full  bg-white space-y-3">
+          <div className="p-6 rounded-t-[10px] h-full  bg-white space-y-3 rounded-[8px]">
             <ul className="text-[#737373] text-[14px] font-semibold leading-[24px] space-y-1 mb-5">
               <li>- Unique, attention-grabbing layouts</li>
               <li>- Designed for Great user experience</li>
@@ -51,7 +51,7 @@ const ChooseUs = () => {
           </div>
 
           {/* Card Content */}
-          <div className="p-6 rounded-t-[10px] h-full bg-white space-y-3">
+          <div className="p-6 rounded-t-[10px] h-full bg-white space-y-3  rounded-[8px]">
             <ul className="text-[#737373] text-[14px] font-semibold leading-[24px] space-y-1 mb-5">
               <li>- Optimized for all devices</li>
               <li>- Fluid layouts for all screens</li>
@@ -73,7 +73,7 @@ const ChooseUs = () => {
           </div>
 
           {/* Card Content */}
-          <div className="p-6 rounded-t-[10px] h-full bg-white space-y-3">
+          <div className="p-6 rounded-t-[10px] h-full bg-white space-y-3  rounded-[8px]">
             <ul className="text-[#737373] text-[14px] font-semibold leading-[24px] space-y-1 mb-5">
               <li>- Clean code for better SEO</li>
               <li>- Mobile-first design boosts SEO</li>

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../../assets/webcodesky-logo1.png";
+import logo from "../../../assets/logo/webcodesky-logo-orange-white.png";
 import Container from "../../../Components/Ui/Container/Container";
 import { ImFacebook2 } from "react-icons/im";
 import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
@@ -8,23 +8,23 @@ const Footer = () => {
   return (
     <div className="bg-[#252B42]">
       <Container>
-        <div className="flex flex-col max-sm:justify-center max-sm:items-center md:flex-row py-[40px] justify-between ">
+        <div className="flex flex-col max-sm:justify-center max-sm:items-center md:flex-row py-[40px] justify-between items-center ">
           <div className="">
             <Link to="/" className="text-2xl font-bold text-blue-600">
-              <img className="rounded-md" src={logo} alt="logo" width={150} />
+              <img className="rounded-md" src={logo} alt="logo" width={100} />
             </Link>
           </div>
           <div className="flex gap-[20px] md:px-10 max-sm:pt-10 max-sm:justify-center max-sm:items-center">
-            <Link>
+            <Link to={'https://www.facebook.com/WebCodeSky'}>
               <ImFacebook2 className="text-[#335BF5] w-[24px] h-[24px]" />
             </Link>
-            <Link>
+            <Link to={'#'}>
               <FaInstagram className="text-[#E51F5A] w-[24px] h-[24px]" />
             </Link>
-            <Link>
+            <Link to={'#'}>
               <FaTwitter className="text-[#21A6DF] w-[24px] h-[24px]" />
             </Link>
-            <Link>
+            <Link to={'#'}>
               <FaYoutube className="text-[#E42F08] w-[24px] h-[24px]" />
             </Link>
           </div>
@@ -117,7 +117,7 @@ const Footer = () => {
             </div>
 
             <p className="text-[#BDBDBD] text-[14px] font-semibold leading-[24px] tracking-[0.2px] pt-2.5">
-              Lorem impsum dolor amit
+              Subscribe to get updates
             </p>
           </div>
         </div>
