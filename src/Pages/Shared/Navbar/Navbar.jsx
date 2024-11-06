@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import logo from "../../../assets/webcodesky-logo-1.png";
+import logo from "../../../assets/logo/logo.png";
 import { Link, useNavigate } from "react-router-dom";
 import Container from "../../../Components/Ui/Container/Container";
 import { RiArrowDropDownLine } from "react-icons/ri";
@@ -51,12 +51,12 @@ const Navbar = () => {
 
   return (
     <Container>
-      <div className="text-white  fixed z-10 bg-[#fff] rounded-3xl">
+      <div className="text-white max-w-[1520px] mx-auto fixed top-0 left-2 right-2 z-10 bg-[#fff] rounded-3xl">
         <div className="flex justify-between items-center h-16 w-full px-4  md:gap-10 lg:gap-[198px] max-sm:w-full gap-5">
           {/* Logo */}
           <div className="">
-            <Link to="/" className="text-2xl font-bold text-[#f60] ">
-              <img className="rounded-md w-[90px] h-[45px] md:w-[100px] md:h-[50px]" src={logo} alt="logo"  />
+            <Link to="/" className="text-2xl font-bold text-[#f60] pt-1">
+              <img className="rounded-md" src={logo} alt="logo" width={150} />
             </Link>
           </div>
 
@@ -223,14 +223,14 @@ const Navbar = () => {
                 <div className="absolute mt-2 w-48 bg-white border rounded shadow-lg">
                   <a
                     onClick={() => {
-                      fetchServiceDetails("EcommerceWebsite");
+                      fetchServiceDetails("ReactDevelopment");
                       toggleDropdown();
                     }}
                     role="button"
                     tabIndex={0}
                     className="block px-4 py-2 text-sm text-[#23272E] hover:bg-[#f60] hover:text-white"
                   >
-                    Ecommerce Website
+                    React Development
                   </a>
                   <a
                     onClick={() => {
@@ -245,14 +245,47 @@ const Navbar = () => {
                   </a>
                   <a
                     onClick={() => {
-                      fetchServiceDetails("WebDesign");
+                      fetchServiceDetails("BusinessWebsite");
                       toggleDropdown();
                     }}
                     role="button"
                     tabIndex={0}
                     className="block px-4 py-2 text-sm text-[#23272E] hover:bg-[#f60] hover:text-white"
                   >
-                    Web Design
+                    Business Website
+                  </a>
+                  <a
+                    onClick={() => {
+                      fetchServiceDetails("FrontendDevelopment");
+                      toggleDropdown();
+                    }}
+                    role="button"
+                    tabIndex={0}
+                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-[#f60] hover:text-white"
+                  >
+                    Frontend Development
+                  </a>
+                  <a
+                    onClick={() => {
+                      fetchServiceDetails("FullStackDevelopment");
+                      toggleDropdown();
+                    }}
+                    role="button"
+                    tabIndex={0}
+                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-[#f60] hover:text-white"
+                  >
+                    FullStack Development
+                  </a>
+                  <a
+                    onClick={() => {
+                      fetchServiceDetails("EcommerceWebsite");
+                      toggleDropdown();
+                    }}
+                    role="button"
+                    tabIndex={0}
+                    className="block px-4 py-2 text-sm text-[#23272E] hover:bg-[#f60] hover:text-white"
+                  >
+                    Ecommerce Website
                   </a>
                 </div>
               )}

@@ -2,7 +2,7 @@ import { ImFacebook2 } from "react-icons/im";
 import Container from "../../../Components/Ui/Container/Container";
 import mahmud from "../../../assets/teamMember/Mahmudhasan.png";
 import tuhin from "../../../assets/teamMember/tahmidtuhin.webp";
-import shahid from "../../../assets/teamMember/shahid.png";
+import shahid from "../../../assets/teamMember/shahid .png";
 import { FaInstagram, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -11,10 +11,8 @@ const MeetOurTeam = () => {
     <Container>
       <div className=" pt-5 pb-5 md:py-20">
         <h1 className="text-[#252B42] text-center">Meet Our Team</h1>
-        <p className="mx-auto pt-2.5 text-[#747272] text-center text-[16px] md:text-[16px] font-medium leading-[20px] tracking-[0.2px] w-[250px] md:w-[430px] lg:w-[430px]">
-          A powerhouse of innovation and expertise! Our dynamic team of creative
-          minds, tech innovators, and strategic leaders is dedicated to
-          transforming your ideas into groundbreaking digital solutions.
+        <p className="mx-auto pt-2.5 text-[#737373] text-center text-[12px] md:text-[14px] font-medium leading-[20px] tracking-[0.2px] w-[250px] md:w-[430px] lg:w-[430px]">
+          Our dynamic team of creative minds, tech innovators, and strategic leaders is dedicated to transforming your ideas into groundbreaking digital solutions.
         </p>
 
         <div className="pt-5 md:pt-10">

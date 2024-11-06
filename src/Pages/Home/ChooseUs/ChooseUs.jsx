@@ -30,12 +30,12 @@ const ChooseUs = () => {
 
           {/* Card Content */}
           <div className="p-6 rounded-t-[10px] h-full  bg-white space-y-3">
-            <ul className="text-[#747272] text-[14px] font-semibold leading-[24px] space-y-1 mb-5">
-              <li>- Unique, custom layouts that capture attention.</li>
-              <li>- Engaging visuals that enhance user experience.</li>
-              <li>- Seamless blend of design and functionality.</li>
-              <li>- Brand-aligned aesthetics for a strong identity.</li>
-              <li>- User-friendly designs that encourage interaction.</li>
+            <ul className="text-[#737373] text-[14px] font-semibold leading-[24px] space-y-1 mb-5">
+              <li>- Unique, attention-grabbing layouts</li>  
+              <li>- Designed for Great user experience</li>  
+              <li>- Seamless design and functionality</li>  
+              <li>- Brand-aligned, strong identity</li>  
+              <li>- User-friendly, Interactive designs</li>
             </ul>
            
           </div>
@@ -53,12 +53,12 @@ const ChooseUs = () => {
 
           {/* Card Content */}
           <div className="p-6 rounded-t-[10px] h-full bg-white space-y-3">
-            <ul className="text-[#747272] text-[14px] font-semibold leading-[24px] space-y-1 mb-5">
-              <li>- Fully optimized for mobile, tablet, and desktop.</li>
-              <li>- Fluid layouts that adjust to all screen sizes.</li>
-              <li>- Fast loading times on all devices.</li>
-              <li>- Consistent performance across different browsers.</li>
-              <li>- Ensures a smooth user experience on any device.</li>
+            <ul className="text-[#737373] text-[14px] font-semibold leading-[24px] space-y-1 mb-5">
+              <li>- Optimized for all devices</li>
+              <li>- Fluid layouts for all screens</li>
+              <li>- Fast loading on all devices</li>
+              <li>- Consistent cross-browser performance</li>
+              <li>- Smooth experience on any device</li>
             </ul>
            
           </div>
@@ -76,12 +76,12 @@ const ChooseUs = () => {
 
           {/* Card Content */}
           <div className="p-6 rounded-t-[10px] h-full bg-white space-y-3">
-            <ul className="text-[#747272] text-[14px] font-semibold leading-[24px] space-y-1 mb-5">
-              <li>- Clean, optimized code for better search engine ranking.</li>
-              <li>- Mobile-first designs to boost SEO performance.</li>
-              <li>- Fast page speeds for higher search rankings.</li>
-              <li>- SEO-friendly content structure for improved visibility.</li>
-              <li>- Integration of SEO tools for ongoing optimization.</li>
+            <ul className="text-[#737373] text-[14px] font-semibold leading-[24px] space-y-1 mb-5">
+              <li>- Clean code for better SEO</li>
+              <li>- Mobile-first design boosts SEO</li>
+              <li>- Fast pages for higher ranking</li>
+              <li>- SEO-friendly content structure visibility</li>
+              <li>- Integrated tools for ongoing optimization</li>
             </ul>
            
           </div>
