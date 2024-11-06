@@ -79,18 +79,15 @@ const ContactUs = () => {
     <>
       <div className="bg-[#F5F5F5] max-sm:pt-[100px]">
         <Container>
-          <h1 className="text-[#F60] text-center md:pt-[120px]">
-            Contact{" "}
-            <span className="text-black">
-              Us
-            </span>
-          </h1>
-          <h3 className="text-[#747272] text-center pt-[20px] md:pt-[30px] pb-[40px] md:pb-[73px]">
+          <h3 className="text-[#F60] text-center md:pt-[120px] pb-[40px]">
+            Contact <span className="text-black">Us</span>
+          </h3>
+          <h2 className="text-[#747272] text-center  md:pt-[30px] pb-[40px] md:pb-[73px]">
             We’re excited to help you succeed!{" "}
             <span className="text-[#747272] text-[16px] md:text-[20px] font-bold">
               Let us create something exceptional together!
             </span>
-          </h3>
+          </h2>
           <div className="flex flex-col md:flex-row gap-[30px] md:gap-[60px] justify-center p-4">
             <div className="flex gap-4">
               <span className="text-[#FF6600] w-[50.886px] h-[54px] flex-shrink-0">
@@ -115,12 +112,8 @@ const ContactUs = () => {
                 </svg>
               </span>
               <div>
-                <h2 className="text-[#161C2D]">
-                  Call Us
-                </h2>
-                <p className="text-[#161C2D]">
-                  +880 1860-861105
-                </p>
+                <h2 className="text-[#161C2D]">Call Us</h2>
+                <p className="text-[#161C2D]">+880 1860-861105</p>
                 {/* <h4 c5assName="text-[#161C2D] te                  +1-940-394-2948
                 </h4> */}
               </div>
@@ -152,12 +145,8 @@ const ContactUs = () => {
                 </svg>
               </span>
               <div>
-                <h2 className="text-[#161C2D]">
-                  Email us
-                </h2>
-                <p className="text-[#161C2D]">
-                  webcodesky1@gmail.com
-                </p>
+                <h2 className="text-[#161C2D]">Email us</h2>
+                <p className="text-[#161C2D]">webcodesky1@gmail.com</p>
                 {/* <h4 c5assName="text-[#161C2D] te                  contact@brainwave.io
                 </h4> */}
               </div>
@@ -301,7 +290,7 @@ const ContactUs = () => {
                   <button
                     type="submit"
                     value="send"
-                    className="flex w-full max-w-[203.789px] h-[59px] justify-center items-center flex-shrink-0 bg-[#FF6600] text-white text-center font-poppins text-[17px] font-bold leading-[32px] tracking-[-0.6px] shadow-[0px_34px_33px_-23px_rgba(22,28,45,0.13)] rounded-[8px] transition duration-300 ease-in-out hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-300"
+                    className="flex w-full hover:bg-black text-white max-w-[203.789px] h-[59px] justify-center items-center flex-shrink-0 bg-[#FF6600]  text-center font-poppins text-[17px] font-bold leading-[32px] tracking-[-0.6px] shadow-[0px_34px_33px_-23px_rgba(22,28,45,0.13)] rounded-[8px] transition duration-300 ease-in-out  focus:outline-none focus:ring-2 focus:ring-orange-300"
                   >
                     Send
                   </button>
