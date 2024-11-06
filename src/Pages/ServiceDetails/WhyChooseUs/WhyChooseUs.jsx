@@ -21,9 +21,9 @@ const WhyChooseUs = ({ serviceDetails }) => {
             <p className="poppins font-bold text-[13px] uppercase text-[#F64B4B]">
               Why choose us
             </p>
-            <h2 className="poppins font-bold text-[36px] text-center">
+            <h1 className="poppins font-bold text-[36px] text-center">
               People choose us because we serve the best for everyone
-            </h2>
+            </h1>
           </div>
           {/* why choose box start */}
           <div className="grid md:grid-cols-2 grid-col-1 md:gap-12 gap-4 md:px-28 pt-[92px] pb-[88px] border-b-[1px] border-[#D8D8D8] stoke-[#E7E9ED]">
@@ -33,11 +33,7 @@ const WhyChooseUs = ({ serviceDetails }) => {
                 className="icon-box flex flex-row md:gap-9 gap-3"
               >
                 <div className="icon-setion w-[30%]">
-                  <img
-                    className="w-full"
-                    src={deadlineIcon}
-                    alt={item.title}
-                  />
+                  <img className="w-full" src={deadlineIcon} alt={item.title} />
                 </div>
                 <div className="icon-box-content w-[70%]">
                   <div className="title poppins font-bold text-[22px] pb-2">

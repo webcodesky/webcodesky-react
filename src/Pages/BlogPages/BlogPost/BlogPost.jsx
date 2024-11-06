@@ -83,9 +83,10 @@ const BlogPost = () => {
           </div>
         ) : (
           <>
-            <div className=" mx-auto flex flex-col md:flex-row md:gap-[47px] gap-5 ">
+            <div className="mx-auto grid grid-cols-12 md:gap-8 gap-5 ">
               {/* Card Section (75% width) */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+              <div className="col-span-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Card 1 */}
                 {currentPosts.map((blog) => (
                   <Link to={`/blog-details/${blog._id}`} key={blog._id}>
@@ -175,9 +176,12 @@ const BlogPost = () => {
                   </Link>
                 ))}
               </div>
+              </div>
 
               {/* Other Topic Section (25% width) */}
+              <div className="col-span-4">
               <RecentPost></RecentPost>
+              </div>
             </div>
           </>
         )}

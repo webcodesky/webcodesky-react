@@ -57,7 +57,7 @@ const PeopleComments = forwardRef((_, ref) => {
           640: { slidesPerView: 2.5, spaceBetween: 20 },
           768: { slidesPerView: 2.5, spaceBetween: 20 },
           1024: { slidesPerView: 2.5, spaceBetween: 20 },
-          1536: { slidesPerView: 3, spaceBetween: 30 },
+          1536: { slidesPerView: 3, spaceBetween: 20 },
         }}
         centeredSlides={true}
         pagination={{ clickable: true }}

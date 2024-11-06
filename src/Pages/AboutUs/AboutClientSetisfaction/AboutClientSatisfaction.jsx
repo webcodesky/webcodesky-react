@@ -21,8 +21,9 @@ const AboutClientSatisfaction = () => {
                 100+
               </h1>
               <p className=" text-[#161C2D] text-center opacity-70 text-[16px] md:text-[19px] font-[500] leading-[28px] md:leading-[32px] tracking-[-0.2px]">
-                Happy Clients Trust Us Worldwide.
+                Happy Clients Trust Us  <br /> Worldwide.
               </p>
+             
             </div>
             {/* Satisfaction Metric 3 */}
             <div className="flex-1 min-w-[250px]">
