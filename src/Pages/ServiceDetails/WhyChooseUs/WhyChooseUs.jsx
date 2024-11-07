@@ -39,7 +39,7 @@ const WhyChooseUs = ({ serviceDetails }) => {
                   <div className="title poppins font-bold text-[22px] pb-2">
                     {item.title}
                   </div>
-                  <div className="description poppins font-normal text-[18px]">
+                  <div className="description poppins font-normal text-[18px] text-justify">
                     {item.description}
                   </div>
                 </div>

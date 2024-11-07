@@ -295,7 +295,7 @@ const Navbar = () => {
               className="block px-2 py-2 text-[#23272E] hover:bg-gray-100 hover:text-[#f60]"
               onClick={() => setIsOpen(false)}
             >
-              About
+              About Us
             </Link>
             <Link
               to="/works"

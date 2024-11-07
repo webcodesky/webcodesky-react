@@ -14,14 +14,16 @@ const ServiceFeatures = ({ serviceDetails }) => {
         Key Features for Fast, Scalable, Dynamic Web Applications
       </h1>
       {/* Features we offer */}
-      <div className="features-wrapper flex md:flex-row-reverse flex-col-reverse justify-around md:gap-10 pt-16">
+      <div className="features-wrapper flex md:flex-row-reverse flex-col-reverse justify-around gap-10 pt-16">
         <div className="content max-w-[375px] flex flex-col gap-5">
           {features.slice(0, 3).map((feature, index) => (
             <div key={index}>
               <div className="sub-title poppins font-bold text-[21px]">
                 {feature.title}
               </div>
-              <p className="poppins text-[19px]">{feature.description}</p>
+              <p className="poppins text-[19px] text-justify">
+                {feature.description}
+              </p>
             </div>
           ))}
         </div>
@@ -36,7 +38,9 @@ const ServiceFeatures = ({ serviceDetails }) => {
               <div className="sub-title poppins font-bold text-[21px]">
                 {feature.title}
               </div>
-              <p className="poppins text-[19px]">{feature.description}</p>
+              <p className="poppins text-[19px] text-justify">
+                {feature.description}
+              </p>
             </div>
           ))}
         </div>
