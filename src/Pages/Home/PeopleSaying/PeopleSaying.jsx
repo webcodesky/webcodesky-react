@@ -30,7 +30,7 @@ const PeopleSaying = () => {
                 Saying
                 <span className="text-[#FF6600]"> About Us</span>
               </h1>
-              <p className="mont pt-6 lg:pt-[30px] text-[16px] md:text-[16px] pb-6 lg:pb-[32px] text-[#747272]">
+              <p className="mont pt-6 lg:pt-[30px] pb-6 lg:pb-[32px]">
                 With expertise in the latest web technologies, we go beyond
                 development, working as your team’s extension to ensure each
                 project aligns with your goals and drives success.

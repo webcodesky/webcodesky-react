@@ -23,7 +23,6 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 14px;
 }
 .mont-bold {
   font-family: "Montserrat", sans-serif;
@@ -45,7 +44,7 @@
   }
 
   p {
-    @apply text-[#737373] font-medium leading-[20px] tracking-[0.2px] text-[16px] md:text-[18px] md:leading-[24px];
+    @apply text-[#737373] font-medium leading-[20px] tracking-[0.2px] text-[16px] md:text-[18px] lg:text-[20px] md:leading-[24px];
   }
 }
 

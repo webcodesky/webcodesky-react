@@ -31,7 +31,7 @@ const PopularServicesCard = () => {
             </span>
             <span className="font-semibold text-[14px]">4.7 (30)</span>
           </div>
-          <ul className="list-disc list-inside pl-2 space-y-1 leading-[20px] font-medium mt-2.5 text-[14px]">
+          <ul className="list-disc list-inside pl-2 space-y-1 leading-[25px] font-medium mt-2.5 text-[16px]">
             <li className="text-black">Fully Responsive Ecommerce Website</li>
             <li className="text-black">Mobile & User-friendly</li>
             <li className="text-black">
@@ -50,7 +50,7 @@ const PopularServicesCard = () => {
 
       <div className="w-full border-2 bg-[#F5F5F5] rounded-lg shadow-2xl">
         <img src={img2} alt="" />
-        <div className="p-4">
+        <div className="px-4 pt-5 pb-8">
           <div className="flex justify-between items-center">
             <span className="text-[20px] md:text-[24px] font-semibold leading-[27px]">
               WordPress Website
@@ -63,7 +63,7 @@ const PopularServicesCard = () => {
             </span>
             <span className="font-semibold text-[14px]">4.9 (1000)</span>
           </div>
-          <ul className="list-disc list-inside pl-2 space-y-1 leading-[20px] font-medium mt-2.5 text-[14px] ">
+          <ul className="list-disc list-inside pl-2 space-y-1 leading-[25px] font-medium mt-2.5 text-[16px] ">
             <li className="text-black">Fully Responsive Ecommerce Website</li>
             <li className="text-black">Mobile & User-friendly</li>
             <li className="text-black">
@@ -95,7 +95,7 @@ const PopularServicesCard = () => {
             </span>
             <span className="font-semibold text-[14px]">4.6 (65)</span>
           </div>
-          <ul className="list-disc list-inside pl-2 space-y-1 leading-[20px] font-medium mt-2.5 text-[14px]">
+          <ul className="list-disc list-inside pl-2 space-y-1 leading-[25px] font-medium mt-2.5 text-[16px]">
             <li className="text-black">Fully Responsive Ecommerce Website</li>
             <li className="text-black">Mobile & User-friendly</li>
             <li className="text-black">

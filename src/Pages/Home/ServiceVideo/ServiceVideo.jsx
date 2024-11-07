@@ -8,7 +8,7 @@ const ServiceVideo = () => {
           <h1 className="px- md:px-20 lg:px-48 text-center mt-10 md:mt-auto">
             We are providing the best business service.
           </h1>
-          <p className="md:px-[100px] lg:px-[310px] text-[#747272] text-center text-[16px] md:text-[16px] font-medium leading-[18px] md:leading-[20px] tracking-[0.2px] pt-2.5">
+          <p className="md:px-[100px] lg:px-[310px] text-center pt-2.5">
             Problems trying to resolve the conflict between <br /> the two major
             realms of Classical physics: Newtonian mechanics
           </p>

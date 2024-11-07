@@ -11,7 +11,7 @@ const Banner = () => {
         <span className="dm-sans-b font-bold text-[42px] md:text-[80px] lg:text-[145px] 2xl:text-[190px] tracking-[-4%]">
           Web <span className="text-[#FF6600]">Code</span> Sky
         </span>
-        <p className="text-[16px] font-medium md:text-[16px] lg:text-[20px] tracking-[0.2px] text-left  md:pl-36 w-[98%] md:w-[600px] lg:w-[900px] 2xl:w-[900px] text-[#747272] font-montserrat md:leading-[20px]">
+        <p className="text-left  md:pl-36 w-[98%] md:w-[600px] lg:w-[900px] 2xl:w-[900px] font-montserrat md:leading-[20px]">
           We turn ideas into exceptional digital solutions. As a growing web
           development startup, we specialize in building high-performance
           websites and applications designed to elevate your business.
