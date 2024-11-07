@@ -8,7 +8,7 @@ const ServiceDetailsBanner = ({ serviceDetails }) => {
   return (
     <div className="relative bg-[#FFFFFF] md:pt-[120px] pt-[90px] pb-[0px]">
       <div className="container mx-auto sm:px-6 lg:px-8 items-center ">
-        <h1 className="font-bold text-[28px] text-center text-[36px] md:text-[96px] md:tracking-[-4%] md:leading-[100%] ">
+        <h1 className="font-bold text-center text-[36px] md:text-[96px] md:tracking-[-4%] md:leading-[100%] ">
           {service.serviceTitle}
           <span className="text-[#FF6600] ">Development</span>
         </h1>
@@ -33,11 +33,10 @@ const ServiceDetailsBanner = ({ serviceDetails }) => {
               </span>
             </button>
           </Link>
-          
         </div>
         <div className="my-10 relative flex flex-col items-center">
           <img src={img3} alt="react" srcset="" />
-          <div className="py-[5px] md:py-[15px] pl-[15px] md:pr-[35px] pr-[15px] bg-[#fff] rounded-lg shadow-lg absolute top-[-40px] right-[-30px]">
+          <div className="py-[5px] md:py-[15px] pl-[15px] md:pr-[35px] pr-[15px] bg-[#fff] rounded-lg shadow-lg absolute top-[-30px] right-[0px]">
             <p>1000,000 Happy Clients</p>
             <p>⭐ 4.9 (15k Reviews)</p>
           </div>

@@ -1,4 +1,3 @@
-import { MdCallMade } from "react-icons/md";
 import Container from "../../../Components/Ui/Container/Container";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -18,9 +17,9 @@ const AboutUsBanner = () => {
     : "https://www.youtube.com/embed/DFmhX5h6Lig?rel=0";
 
   return (
-    <div className="pt-[100px] md:pt-[203px] bg-[#F5F5F5]">
+    <div className="pt-[100px] md:pt-[150px] bg-[#F5F5F5]">
       <Container>
-        <div className="grid grid-cols-1 md:grid-cols-2 items-center md:gap-[100px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-[100px]">
           <div>
             <p className="text-[#747272] text-center md:text-left text-[16px] md:text-[20px] font-[700] leading-[22px] md:leading-[24px] tracking-[0.2px] max-sm:pb-2.5">
               Who we Are?
@@ -75,11 +74,10 @@ const AboutUsBanner = () => {
             </div>
           </div>
           {/* Video Section */}
-          <div className="relative flex-1 max-sm:pt-2.5 mt-12 md:mt-0">
+          <div className="relative flex-1 max-sm:pt-2.5 mt-12 md:mt-20">
             <iframe
               className="w-[100%] h-[auto] md:w-[500px] md:h-[346px] rounded-[10px] bg-gradient-to-b from-transparent to-[rgba(56,56,56,0.84)]"
-              src={videoSrc} // Use the videoSrc based on isPlaying state
-              title="YouTube Video"
+              src={videoSrc}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
