@@ -94,7 +94,6 @@ const GetAQuote = () => {
           </p>
           <div className="flex flex-col md:flex-row gap-[30px] md:gap-[60px] justify-center p-4">
             <div className="flex gap-4">
-              
               <Link to="tel:+8801860861105">
                 <span className="text-[#FF6600] w-[50.886px] h-[54px] flex-shrink-0">
                   <svg
@@ -122,7 +121,7 @@ const GetAQuote = () => {
                 <h1 className="text-[#161C2D] text-[20px] md:text-[24px] font-bold leading-[28px] md:leading-[34px] tracking-[-0.5px]">
                   Call Us
                 </h1>
-                
+
                 <Link to="tel:+8801860861105">
                   <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
                     +880 1860-861105
@@ -135,37 +134,37 @@ const GetAQuote = () => {
             </div>
             <div className="flex gap-4">
               <span className="text-[#FF6600] w-[50.886px] h-[54px] flex-shrink-0">
-              <Link to="mailto:webcodesky1@gmail.com" target="_blank">
-                <svg
+                <Link to="mailto:webcodesky1@gmail.com" target="_blank">
+                  <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="51"
                     height="54"
                     viewBox="0 0 51 54"
                     fill="none"
                   >
-                  <ellipse
-                    cx="25.5268"
-                    cy="27"
-                    rx="25.4428"
-                    ry="27"
-                    fill="white"
-                  />
-                  <path
-                    d="M34.4798 17H17.5179C16.2168 17 15.1621 18.1233 15.1621 19.5091V21.5163C15.1621 21.7 15.2562 21.869 15.4076 21.9569L25.7732 27.9787C25.9138 28.0604 26.0839 28.0604 26.2245 27.9787L36.5901 21.9569C36.7415 21.869 36.8356 21.7 36.8356 21.5163V19.5091C36.8356 18.1233 35.7809 17 34.4798 17Z"
-                    fill="#FF6600"
-                  />
-                  <path
-                    d="M26.6759 29.2346C26.2544 29.4749 25.7452 29.4749 25.3237 29.2346L15.1729 23.4399L15.1621 23.4473V33.8539C15.1621 35.2159 16.2168 36.3199 17.5179 36.3199H34.4798C35.7809 36.3199 36.8356 35.2159 36.8356 33.8539V23.4473L36.8248 23.4404L26.6759 29.2346Z"
-                    fill="#FF6600"
-                  />
-                </svg>
-              </Link>
+                    <ellipse
+                      cx="25.5268"
+                      cy="27"
+                      rx="25.4428"
+                      ry="27"
+                      fill="white"
+                    />
+                    <path
+                      d="M34.4798 17H17.5179C16.2168 17 15.1621 18.1233 15.1621 19.5091V21.5163C15.1621 21.7 15.2562 21.869 15.4076 21.9569L25.7732 27.9787C25.9138 28.0604 26.0839 28.0604 26.2245 27.9787L36.5901 21.9569C36.7415 21.869 36.8356 21.7 36.8356 21.5163V19.5091C36.8356 18.1233 35.7809 17 34.4798 17Z"
+                      fill="#FF6600"
+                    />
+                    <path
+                      d="M26.6759 29.2346C26.2544 29.4749 25.7452 29.4749 25.3237 29.2346L15.1729 23.4399L15.1621 23.4473V33.8539C15.1621 35.2159 16.2168 36.3199 17.5179 36.3199H34.4798C35.7809 36.3199 36.8356 35.2159 36.8356 33.8539V23.4473L36.8248 23.4404L26.6759 29.2346Z"
+                      fill="#FF6600"
+                    />
+                  </svg>
+                </Link>
               </span>
               <div>
                 <h1 className="text-[#161C2D] text-[20px] md:text-[24px] font-bold leading-[28px] md:leading-[34px] tracking-[-0.5px]">
                   Email us
                 </h1>
-                
+
                 <Link to="mailto:webcodesky1@gmail.com" target="_blank">
                   <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
                     webcodesky1@gmail.com

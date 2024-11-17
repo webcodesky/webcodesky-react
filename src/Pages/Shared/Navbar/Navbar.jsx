@@ -43,7 +43,9 @@ const Navbar = () => {
       // setServiceDetails(data);
 
       // Navigate to the service details page with state
-      navigate("/service-details", { state: { serviceDetails: data } });
+      navigate(`/service-details/${service}`, {
+        state: { serviceDetails: data },
+      });
     } catch (error) {
       console.error("Error fetching service details:", error);
     }

@@ -26,7 +26,7 @@ const BlogDetails = () => {
                   {blogDetails.article?.title}
                 </h1>
                 <p className="text-[#747272] text-[16px] md:text-[20px] font-medium leading-[1.5] tracking-[0.2px] pt-3 pb-4 md:pt-5 md:pb-7">
-                  {blogDetails.article.description}
+                  {blogDetails?.article?.description}
                 </p>
 
                 <div className="flex gap-2 items-center">
@@ -34,7 +34,7 @@ const BlogDetails = () => {
                     Portfolio
                   </p>
                   <p className="text-[#757575] text-[13px] font-light leading-normal">
-                    {blogDetails.article.read_time}
+                    {blogDetails?.article?.read_time}
                   </p>
                   <span className="flex items-center">
                     <svg
