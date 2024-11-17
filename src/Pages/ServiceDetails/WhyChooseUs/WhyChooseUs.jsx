@@ -1,6 +1,7 @@
 import "./WhyChooseUs.css";
 import Container from "../../../Components/Ui/Container/Container";
-import deadline from "../../../assets/icon/deadline.svg";
+import deadlineIcon from "../../../assets/icon/deadline.svg";
+import dotRectIcon from "../../../assets/icon/dot-rect.svg";
 
 const WhyChooseUs = ({ serviceDetails }) => {
   const services = (serviceDetails && serviceDetails[0]) || {};
@@ -11,7 +12,7 @@ const WhyChooseUs = ({ serviceDetails }) => {
     <div className="relative">
       <img
         className="hidden md:inline-block absolute top-[20%] left-0"
-        src="/src/assets/icon/dot-rect.svg"
+        src={dotRectIcon}
         alt="dot rect"
       />
       <Container>
@@ -20,9 +21,9 @@ const WhyChooseUs = ({ serviceDetails }) => {
             <p className="poppins font-bold text-[13px] uppercase text-[#F64B4B]">
               Why choose us
             </p>
-            <h2 className="text-center md:text-[36px] text-[24px] font-bold md:leading-[48px] leading-[32px] tracking-[-1.2px] text-[#161C2D] pt-5">
+            <h1 className="poppins font-bold text-[36px] text-center">
               People choose us because we serve the best for everyone
-            </h2>
+            </h1>
           </div>
           {/* why choose box start */}
           <div className="grid md:grid-cols-2 grid-col-1 md:gap-12 gap-4 md:px-28 pt-[92px] pb-[88px] border-b-[1px] border-[#D8D8D8] stoke-[#E7E9ED]">
@@ -32,13 +33,13 @@ const WhyChooseUs = ({ serviceDetails }) => {
                 className="icon-box flex flex-row md:gap-9 gap-3"
               >
                 <div className="icon-setion w-[30%]">
-                  <img className="w-full" src={deadline} alt={item.title} />
+                  <img className="w-full" src={deadlineIcon} alt={item.title} />
                 </div>
                 <div className="icon-box-content w-[70%]">
                   <div className="title poppins font-bold text-[22px] pb-2">
                     {item.title}
                   </div>
-                  <div className="description poppins font-normal text-[18px]">
+                  <div className="description poppins font-normal text-[18px] text-justify">
                     {item.description}
                   </div>
                 </div>
@@ -48,7 +49,7 @@ const WhyChooseUs = ({ serviceDetails }) => {
           {/* why chose box end */}
           <div className="whychooseusCTA flex md:flex-row flex-col md:justify-between items-center w-full md:py-12 py-4">
             <div className="content">
-              <h2 className="poppins font-bold text-[32px] pb-2">
+              <h2 className="poppins font-bold text-[32px] pb-2 leading-none">
                 Ready to launch your next project?
               </h2>
               <p className="poppins font-normal text-[18px]">

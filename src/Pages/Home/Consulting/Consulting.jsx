@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Container from "../../../Components/Ui/Container/Container";
 
 const Consulting = () => {
@@ -7,14 +8,16 @@ const Consulting = () => {
         <div>
           {" "}
           <h1 className="pt-10 pb-2.5">Consulting Agency For Your Business</h1>
-          <p className="mont pb-[45px] text-[12px] md:text-[14px]">
+          <p className="mont pb-[45px] text-[16px] md:text-[16px]">
             the quick fox jumps over the lazy dog
           </p>
         </div>
         <div>
-          <button className="btn-sm md:btn mb-10 md:mb-0 py-2">
-            Contact Us
-          </button>
+          <Link to="/contact">
+            <button className="btn-sm md:btn mb-10 md:mb-0 py-2">
+              Contact Us
+            </button>
+          </Link>
         </div>
       </div>
     </Container>

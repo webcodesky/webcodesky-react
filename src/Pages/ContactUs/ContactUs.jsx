@@ -2,6 +2,7 @@ import emailjs from "@emailjs/browser";
 import Container from "../../Components/Ui/Container/Container";
 import { useRef } from "react";
 import Swal from "sweetalert2";
+import { Link } from "react-router-dom";
 
 const ContactUs = () => {
   const form = useRef();
@@ -42,7 +43,7 @@ const ContactUs = () => {
                 // After data is successfully saved, show only one alert
                 Swal.fire({
                   icon: "success",
-                  title: "Email Sent Successfully!",
+                  title: "Thank You For Contact Us!",
                   //   text: "Your message has been sent and data has been saved.",
                   showClass: {
                     popup:
@@ -79,18 +80,15 @@ const ContactUs = () => {
     <>
       <div className="bg-[#F5F5F5] max-sm:pt-[100px]">
         <Container>
-          <h1 className="text-[#F60] text-center text-[48px] md:text-[96px] font-bold leading-none tracking-[-1.92px] md:tracking-[-3.84px] md:pt-[120px]">
-            Contact{" "}
-            <span className="text-black text-[48px] md:text-[96px] font-bold leading-none tracking-[-1.92px] md:tracking-[-3.84px]">
-              Us
+          <h3 className="text-[#F60] text-center md:pt-[120px] pb-[40px]">
+            Contact <span className="text-black">Us</span>
+          </h3>
+          <h2 className="text-[#747272] text-center  md:pt-[30px] pb-[40px] md:pb-[73px]">
+            We’re excited to help you succeed!{" "}
+            <span className="text-[#747272] text-[16px] md:text-[20px] font-bold">
+              Let us create something exceptional together!
             </span>
-          </h1>
-          <p className="text-[#737373] text-[16px] md:text-[20px] font-medium leading-[24px] md:leading-[28px] tracking-[0.2px] text-center pt-[20px] md:pt-[30px] pb-[40px] md:pb-[73px]">
-            We’ll Design your website with ReactJs,{" "}
-            <span className="text-[#737373] text-[16px] md:text-[20px] font-bold">
-              Super Fast, Responsive
-            </span>
-          </p>
+          </h2>
           <div className="flex flex-col md:flex-row gap-[30px] md:gap-[60px] justify-center p-4">
             <div className="flex gap-4">
               <span className="text-[#FF6600] w-[50.886px] h-[54px] flex-shrink-0">
@@ -115,15 +113,12 @@ const ContactUs = () => {
                 </svg>
               </span>
               <div>
-                <h1 className="text-[#161C2D] text-[20px] md:text-[24px] font-bold leading-[28px] md:leading-[34px] tracking-[-0.5px]">
-                  Call Us
-                </h1>
-                <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
-                  +880 1860-861105
-                </p>
-                {/* <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
-                  +1-940-394-2948
-                </p> */}
+                <h2 className="text-[#161C2D]">Call Us</h2>
+                <Link to="tel:+8801860861105">
+                  <p className="text-[#161C2D]">+880 1860-861105</p>
+                </Link>
+                {/* <h4 c5assName="text-[#161C2D] te                  +1-940-394-2948
+                </h4> */}
               </div>
             </div>
             <div className="flex gap-4">
@@ -153,15 +148,12 @@ const ContactUs = () => {
                 </svg>
               </span>
               <div>
-                <h1 className="text-[#161C2D] text-[20px] md:text-[24px] font-bold leading-[28px] md:leading-[34px] tracking-[-0.5px]">
-                  Email us
-                </h1>
-                <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
-                  webcodesky1@gmail.com
-                </p>
-                {/* <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
-                  contact@brainwave.io
-                </p> */}
+                <h2 className="text-[#161C2D]">Email us</h2>
+                <Link to="mailto:webcodesky1@gmail.com" target="_blank">
+                  <p className="text-[#161C2D]">webcodesky1@gmail.com</p>
+                </Link>
+                {/* <h4 c5assName="text-[#161C2D] te                  contact@brainwave.io
+                </h4> */}
               </div>
             </div>
             {/* <div className="flex gap-4">
@@ -187,15 +179,15 @@ const ContactUs = () => {
                 </svg>
               </span>
               <div>
-                <h1 className="text-[#161C2D] text-[20px] md:text-[24px] font-bold leading-[28px] md:leading-[34px] tracking-[-0.5px]">
+                <h2 className="text-[#161C2D]">
                   Visit us
-                </h1>
-                <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
+                </h2>
+                <54 className="text-[#161C2D0">
                   34 Madison Street,
-                </p>
-                <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
+                </54>
+                <54 className="text-[#161C2D0">
                   NY, USA 10005
-                </p>
+                </54>
               </div>
             </div> */}
           </div>
@@ -303,7 +295,7 @@ const ContactUs = () => {
                   <button
                     type="submit"
                     value="send"
-                    className="flex w-full max-w-[203.789px] h-[59px] justify-center items-center flex-shrink-0 bg-[#FF6600] text-white text-center font-poppins text-[17px] font-bold leading-[32px] tracking-[-0.6px] shadow-[0px_34px_33px_-23px_rgba(22,28,45,0.13)] rounded-[8px] transition duration-300 ease-in-out hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-300"
+                    className="flex w-full hover:bg-black text-white max-w-[203.789px] h-[59px] justify-center items-center flex-shrink-0 bg-[#FF6600]  text-center font-poppins text-[17px] font-bold leading-[32px] tracking-[-0.6px] shadow-[0px_34px_33px_-23px_rgba(22,28,45,0.13)] rounded-[8px] transition duration-300 ease-in-out  focus:outline-none focus:ring-2 focus:ring-orange-300"
                   >
                     Send
                   </button>

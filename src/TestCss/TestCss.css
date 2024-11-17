@@ -33,29 +33,36 @@
 
 @layer base {
   h1 {
-    @apply font-bold text-black text-[18px] md:text-[37px] lg:text-[40px] md:leading-[57px] tracking-[0.2px];
+    @apply font-bold text-black text-[25px] md:text-[37px] lg:text-[48px] md:leading-[57px] tracking-[0.2px];
   }
-  /* h2{}
-    h3{}
-    h4{}
-    h5{}
-    p{} */
+
+  h2 {
+    @apply text-[#737373] font-bold leading-[20px] tracking-[0.2px]  text-[18px] md:text-[21px] md:leading-[24px];
+  }
+
+  h3 {
+    @apply font-bold text-black text-[48px] lg:text-[96px] md:leading-[57px] tracking-[0.2px];
+  }
+
+  p {
+    @apply text-[#737373] font-medium leading-[20px] tracking-[0.2px] text-[16px] md:text-[18px] md:leading-[24px];
+  }
 }
 
 @layer components {
   .btn {
     @apply border-[1px] rounded-[5px] px-10 py-[15px] bg-[#FF6600];
-    @apply text-[14px] font-bold tracking-[0.2px] text-white;
+    @apply text-[14px] hover:bg-black font-bold tracking-[0.2px] text-white;
   }
   .btn-sm {
-    @apply flex items-center justify-center border-[1px] rounded-[5px] px-6 py-[12px] bg-[#FF6600];
+    @apply flex items-center justify-center border-[1px] rounded-[5px] px-6 py-[12px] hover:bg-black bg-[#FF6600];
     @apply text-[10px] font-semibold  tracking-[0.2px] text-white;
   }
   .btn-xs {
-    @apply flex justify-center items-center border-[1px] rounded-[5px] px-3 py-2 bg-[#FF6600];
+    @apply flex justify-center items-center border-[1px] rounded-[5px] px-3 py-4 hover:bg-black bg-[#FF6600];
     @apply text-[10px] font-semibold leading-[14px] tracking-[0.2px] text-white;
   }
   .btn-rounded {
-    @apply border-[1px] rounded-3xl px-5 py-[14px] hover:bg-[#FF6600];
+    @apply border-[1px] rounded-3xl px-5 py-[14px] hover:bg-black hover:bg-[#FF6600];
   }
 }

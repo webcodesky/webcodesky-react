@@ -8,14 +8,14 @@ const ServiceVideo = () => {
           <h1 className="px- md:px-20 lg:px-48 text-center mt-10 md:mt-auto">
             We are providing the best business service.
           </h1>
-          <p className="md:px-[100px] lg:px-[310px] text-[#737373] text-center text-[12px] md:text-[14px] font-medium leading-[18px] md:leading-[20px] tracking-[0.2px] pt-2.5">
+          <p className="md:px-[100px] lg:px-[310px] text-[#747272] text-center text-[16px] md:text-[16px] font-medium leading-[18px] md:leading-[20px] tracking-[0.2px] pt-2.5">
             Problems trying to resolve the conflict between <br /> the two major
             realms of Classical physics: Newtonian mechanics
           </p>
 
           <div className="flex justify-center items-center pt-[30px] md:pt-[50px]">
             <iframe
-              className="w-full h-full md:w-[877px] md:h-[442px] rounded-[10px] md:rounded-[20px] bg-gradient-to-b from-transparent to-[rgba(56,56,56,0.84)]"
+              className="w-full h-full sm:w-[90%] sm:h-[320px] md:w-[90%] md:h-[420px] lg:w-[877px] lg:h-[442px] rounded-[10px] md:rounded-[20px] bg-gradient-to-b from-transparent to-[rgba(56,56,56,0.84)]"
               src="https://www.youtube.com/embed/DFmhX5h6Lig?rel=0"
               title="YouTube Video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

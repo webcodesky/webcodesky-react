@@ -37,21 +37,28 @@ const router = createBrowserRouter([
         path: "/blog",
         element: <BlogPage></BlogPage>,
       },
+      // {
+      //   path: "/blog-details/:title",
+      //   element: <BlogDetails></BlogDetails>,
+      //   loader: ({ params }) =>
+      //     fetch(`https://server.webcodesky.com/blog-details/${params.title}`),
+      // },
 
       {
-        path: "/blog/:id",
+        path: "/blog-details/:id",
         element: <BlogDetails></BlogDetails>,
         loader: ({ params }) =>
-          fetch(`https://server.webcodesky.com/blog/${params.id}`),
+          fetch(`https://server.webcodesky.com/blog-details/${params.id}`),
       },
       {
         path: "/service",
         element: <Service></Service>,
       },
       {
-        path: "/service-details",
-        element: <ServiceDetails></ServiceDetails>,
+        path: "/service-details/:serviceTitle",
+        element: <ServiceDetails />,
       },
+
       {
         path: "/works",
         element: <OurWorks></OurWorks>,
