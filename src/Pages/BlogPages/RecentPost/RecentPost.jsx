@@ -46,11 +46,11 @@ const RecentPost = () => {
       ) : (
         <div className="rounded-[10px] bg-[rgba(255,255,255,0.7)] mb-3">
           {recentPosts.slice(0, 3).map((post, index) => (
-            
             <Link to={`/blog-details/${post._id}`} key={index}>
               <div
                 key={index}
-                className="flex gap-[12px] md:gap-[18px] items-center">
+                className="flex gap-[12px] md:gap-[18px] items-center"
+              >
                 <img
                   className="w-[65px] h-[60px] md:w-[88px] md:h-[85px] flex-shrink-0 ms-3 md:ms-5"
                   src={cardImg}

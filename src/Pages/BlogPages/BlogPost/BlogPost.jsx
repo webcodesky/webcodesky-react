@@ -11,6 +11,12 @@ const BlogPost = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 4; //
   const [loading, setLoading] = useState(true);
+  // const slugify = (title) => {
+  //   return title
+  //     .toLowerCase()
+  //     .replace(/[^a-z0-9]+/g, "-")
+  //     .replace(/^-|-$/g, "");
+  // };
 
   //   console.log(blogs);
 
