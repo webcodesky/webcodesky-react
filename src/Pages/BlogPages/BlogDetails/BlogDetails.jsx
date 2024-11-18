@@ -9,7 +9,7 @@ import RecentPost from "../RecentPost/RecentPost";
 
 const BlogDetails = () => {
   const blogDetails = useLoaderData() || {};
-  //   console.log(blogDetails);
+  // console.log(blogDetails.description?.content[0].paragraph);
 
   if (!blogDetails) {
     return <div>Loading...</div>;
@@ -26,7 +26,7 @@ const BlogDetails = () => {
                   {blogDetails.article?.title}
                 </h1>
                 <p className="text-[#747272] text-[16px] md:text-[20px] font-medium leading-[1.5] tracking-[0.2px] pt-3 pb-4 md:pt-5 md:pb-7">
-                  {blogDetails.article.description}
+                  {blogDetails?.article?.description}
                 </p>
 
                 <div className="flex gap-2 items-center">
@@ -34,7 +34,7 @@ const BlogDetails = () => {
                     Portfolio
                   </p>
                   <p className="text-[#757575] text-[13px] font-light leading-normal">
-                    {blogDetails.article.read_time}
+                    {blogDetails?.article?.read_time}
                   </p>
                   <span className="flex items-center">
                     <svg
@@ -77,23 +77,11 @@ const BlogDetails = () => {
             <div className=" flex flex-col md:flex-row md:gap-[65px] gap-5">
               <div className="md:w-[724px] max-sm:pb-10">
                 <p className="text-[#292929] text-[20px] font-light leading-[24px] text-justify pt-2">
-                  An intense way to learn about the process and practice your
-                  designs skills — My 1st hackathon Hackathons have been on my
-                  mind since I heard it was a good way to gain experience as a
-                  junior UX designer. As my portfolio. An intense way to learn
-                  about the process and practice your designs skills — My 1st
-                  hackathon Hackathons have been on my mind since I heard it was
-                  a good way to gain experience as a junior UX designer.{" "}
+                  {blogDetails.description?.content[0]?.paragraph}
                 </p>
                 <img className="pt-[18px] pb-[24px]" src={blogImg} alt="" />
                 <p className="text-[#292929] text-[20px] font-light leading-[24px] text-justify">
-                  An intense way to learn about the process and practice your
-                  designs skills — My 1st hackathon Hackathons have been on my
-                  mind since I heard it was a good way to gain experience as a
-                  junior UX designer. As my portfolio. An intense way to learn
-                  about the process and practice your designs skills — My 1st
-                  hackathon Hackathons have been on my mind since I heard it was
-                  a good way to gain experience as a junior UX designer.{" "}
+                  {blogDetails.description?.content[0]?.paragraph}
                 </p>
                 <div className="py-10 md:px-[43px] flex flex-col justify-center items-center md:flex-row md:gap-3 ">
                   <div>
@@ -117,25 +105,12 @@ const BlogDetails = () => {
                   </div>
                 </div>
                 <p className="text-[#292929] text-[20px] font-light leading-[24px] pb-[13px] text-justify">
-                  An intense way to learn about the process and practice your
-                  designs skills — My 1st hackathon Hackathons have been on my
-                  mind since I heard it was a good way to gain experience as a
-                  junior UX designer. As my portfolio. An intense way to learn
-                  about the process and practice your designs skills — My 1st
-                  hackathon Hackathons have been on my mind since I heard it was
-                  a good way to gain experience as a junior UX designer.
+                  {blogDetails.description?.content[1]?.paragraph}
                 </p>
                 <div className="md:flex md:gap-[22px] md:py-[13px]">
                   <div className="md:w-[60%]">
                     <p className="text-[#292929] text-[20px] font-light leading-[24px] md:py-[14px] text-justify">
-                      An intense way to learn about the process and practice
-                      your designs skills — My 1st hackathon Hackathons have
-                      been on my mind since I heard it was a good way to gain
-                      experience as a junior UX designer. As my portfolio. An
-                      intense way to learn about the process and practice your
-                      designs skills — My 1st hackathon Hackathons have been on
-                      my mind since I heard it was a good way to gain experience
-                      as a junior UX designer.{" "}
+                      {blogDetails.description?.content[1]?.paragraph1}
                     </p>
                   </div>
                   <div>
@@ -143,13 +118,7 @@ const BlogDetails = () => {
                   </div>
                 </div>
                 <p className="text-[#292929] text-[20px] font-light leading-[24px] text-justify">
-                  An intense way to learn about the process and practice your
-                  designs skills — My 1st hackathon Hackathons have been on my
-                  mind since I heard it was a good way to gain experience as a
-                  junior UX designer. As my portfolio. An intense way to learn
-                  about the process and practice your designs skills — My 1st
-                  hackathon Hackathons have been on my mind since I heard it was
-                  a good way to gain experience as a junior UX designer.{" "}
+                  {blogDetails.description?.content[1]?.paragraph2}
                 </p>
               </div>
 

@@ -2,6 +2,7 @@ import emailjs from "@emailjs/browser";
 import Container from "../../Components/Ui/Container/Container";
 import { useRef } from "react";
 import Swal from "sweetalert2";
+import { Link } from "react-router-dom";
 
 const ContactUs = () => {
   const form = useRef();
@@ -42,7 +43,7 @@ const ContactUs = () => {
                 // After data is successfully saved, show only one alert
                 Swal.fire({
                   icon: "success",
-                  title: "Email Sent Successfully!",
+                  title: "Thank You For Contact Us!",
                   //   text: "Your message has been sent and data has been saved.",
                   showClass: {
                     popup:

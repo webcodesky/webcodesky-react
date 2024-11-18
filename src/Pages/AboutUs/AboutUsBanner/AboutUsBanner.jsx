@@ -1,6 +1,7 @@
-import { MdCallMade } from "react-icons/md";
 import Container from "../../../Components/Ui/Container/Container";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 
 const AboutUsBanner = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -16,9 +17,9 @@ const AboutUsBanner = () => {
     : "https://www.youtube.com/embed/DFmhX5h6Lig?rel=0";
 
   return (
-    <div className="pt-[100px] md:pt-[203px] bg-[#F5F5F5]">
+    <div className="pt-[100px] md:pt-[150px] bg-[#F5F5F5]">
       <Container>
-        <div className="grid grid-cols-1 md:grid-cols-2 items-center md:gap-[100px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-[100px]">
           <div>
             <p className="text-[#747272] text-center md:text-left text-[16px] md:text-[20px] font-[700] leading-[22px] md:leading-[24px] tracking-[0.2px] max-sm:pb-2.5">
               Who we Are?
@@ -69,7 +70,7 @@ const AboutUsBanner = () => {
             </div>
           </div>
           {/* Video Section */}
-          <div className="relative flex-1 max-sm:pt-2.5">
+          <div className="relative flex-1 max-sm:pt-2.5 mt-12 md:mt-20">
             <iframe
               className="w-[100%] h-[auto] sm:w-full sm:h-[346px] md:w-[500px] md:h-[346px] rounded-[10px] bg-gradient-to-b from-transparent to-[rgba(56,56,56,0.84)]"
               src={videoSrc} // Use the videoSrc based on isPlaying state
@@ -78,12 +79,12 @@ const AboutUsBanner = () => {
               allowFullScreen
             ></iframe>
 
-            <p className="absolute left-14 bg-white p-2 rounded-md shadow-md md:top-[-30px] md:left-[-60px]">
+            <p className="absolute bg-white p-2 rounded-md shadow-md top-[-35px] md:top-[-30px] md:left-[-60px]">
               <span className="text-gray-600 text-sm">
                 1,000,000 Happy Clients
               </span>
               <br />
-              <span className="text-yellow-500 font-bold">4.9</span> (15k
+              <span className="text-yellow-500 font-bold">⭐4.9</span> (15k
               Reviews)
             </p>
           </div>

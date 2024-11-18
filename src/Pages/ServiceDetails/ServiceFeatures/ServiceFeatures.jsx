@@ -21,7 +21,9 @@ const ServiceFeatures = ({ serviceDetails }) => {
               <div className="sub-title poppins font-bold text-[21px]">
                 {feature.title}
               </div>
-              <p className="poppins text-[19px]">{feature.description}</p>
+              <p className="poppins text-[19px] text-justify">
+                {feature.description}
+              </p>
             </div>
           ))}
         </div>
@@ -36,7 +38,9 @@ const ServiceFeatures = ({ serviceDetails }) => {
               <div className="sub-title poppins font-bold text-[21px]">
                 {feature.title}
               </div>
-              <p className="poppins text-[19px]">{feature.description}</p>
+              <p className="poppins text-[19px] text-justify">
+                {feature.description}
+              </p>
             </div>
           ))}
         </div>

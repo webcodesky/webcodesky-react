@@ -19,7 +19,7 @@ const MeetOurTeam = () => {
 
         <div className="pt-5 md:pt-10">
           <div className=" flex flex-col md:flex-row gap-5 md:gap-[30px] justify-center items-center">
-            <div className="flex flex-col items-center w-[250px] h-[370px] rounded-t-xl border border-[#EEE] bg-white p-5">
+            <div className="flex flex-col items-center w-[250px] h-auto rounded-t-xl border border-[#EEE] bg-white p-5 pb-0">
               <img
                 className="rounded-t-xl w-full h-[240px] md:h-[210px] bg-slate-700"
                 src={mahmud}
@@ -31,8 +31,13 @@ const MeetOurTeam = () => {
                 </h1>
                 <h1 className="text-[#747272] text-center text-[14px] font-semibold leading-[24px] tracking-[0.2px] py-2">
                   CO Founder
+<<<<<<< HEAD
                 </h1>
                 <div className="flex gap-[15px] text-[#604CC3]">
+=======
+                </h3>
+                {/* <div className="flex gap-[15px] text-[#604CC3]">
+>>>>>>> 422d006bf3a494a20966f348ab5c3f0099e1823c
                   <Link>
                     <ImFacebook2 />
                   </Link>
@@ -42,10 +47,10 @@ const MeetOurTeam = () => {
                   <Link>
                     <FaTwitter />
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
-            <div className="flex flex-col items-center w-[250px] h-[370px] rounded-t-xl border border-[#EEE] bg-white p-5">
+            <div className="flex flex-col items-center w-[250px] h-auto rounded-t-xl border border-[#EEE] bg-white p-5 pb-0">
               <img
                 className="rounded-t-xl w-full h-[240px] md:h-[210px] bg-slate-700"
                 src={tuhin}
@@ -57,8 +62,13 @@ const MeetOurTeam = () => {
                 </h1>
                 <h1 className="text-[#747272] text-center text-[14px] font-semibold leading-[24px] tracking-[0.2px] py-2">
                   CO Founder
+<<<<<<< HEAD
                 </h1>
                 <div className="flex gap-[15px] text-[#604CC3]">
+=======
+                </h3>
+                {/* <div className="flex gap-[15px] text-[#604CC3]">
+>>>>>>> 422d006bf3a494a20966f348ab5c3f0099e1823c
                   <Link>
                     <ImFacebook2 />
                   </Link>
@@ -68,10 +78,10 @@ const MeetOurTeam = () => {
                   <Link>
                     <FaTwitter />
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
-            <div className="flex flex-col items-center w-[250px] h-[370px] rounded-t-xl border border-[#EEE] bg-white p-5 ">
+            <div className="flex flex-col items-center w-[250px] h-auto rounded-t-xl border border-[#EEE] bg-white p-5 pb-0  ">
               <img
                 className="rounded-t-xl w-full h-[240px] md:h-[210px] bg-slate-700"
                 src={shahid}
@@ -83,8 +93,13 @@ const MeetOurTeam = () => {
                 </h1>
                 <h1 className="text-[#747272] text-center text-[14px] font-semibold leading-[24px] tracking-[0.2px] py-2">
                   CEO
+<<<<<<< HEAD
                 </h1>
                 <div className="flex gap-[15px] text-[#604CC3]">
+=======
+                </h3>
+                {/* <div className="flex gap-[15px] text-[#604CC3]">
+>>>>>>> 422d006bf3a494a20966f348ab5c3f0099e1823c
                   <Link>
                     <ImFacebook2 />
                   </Link>
@@ -94,7 +109,7 @@ const MeetOurTeam = () => {
                   <Link>
                     <FaTwitter />
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

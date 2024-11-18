@@ -43,7 +43,9 @@ const Navbar = () => {
       // setServiceDetails(data);
 
       // Navigate to the service details page with state
-      navigate("/service-details", { state: { serviceDetails: data } });
+      navigate(`/service-details/${service}`, {
+        state: { serviceDetails: data },
+      });
     } catch (error) {
       console.error("Error fetching service details:", error);
     }
@@ -295,7 +297,7 @@ const Navbar = () => {
               className="block px-2 py-2 text-[#23272E] hover:bg-gray-100 hover:text-[#f60]"
               onClick={() => setIsOpen(false)}
             >
-              About
+              About Us
             </Link>
             <Link
               to="/works"
@@ -315,7 +317,7 @@ const Navbar = () => {
               <button className="btn-xs">
                 <Link
                   to="/contact"
-                  className="text-[#23272E] text-[16px]"
+                  className="text-white text-[14px]"
                   onClick={() => setIsOpen(false)}
                 >
                   Contact Us
@@ -323,11 +325,11 @@ const Navbar = () => {
               </button>
               <button className="btn-xs">
                 <Link
-                  to="/contact"
-                  className=" text-[#23272E] text-[16px]"
+                  to="/getquote"
+                  className=" text-white text-[14px]"
                   onClick={() => setIsOpen(false)}
                 >
-                  Contact
+                  Get a Quote
                 </Link>
               </button>
             </div>

@@ -41,9 +41,9 @@ const Appointment = () => {
         (result) => {
           console.log(result.text);
           Swal.fire({
-            position: "top-end",
+            position: "top-center",
             icon: "success",
-            title: "Thanks for reminding me",
+            title: "Meeting Scheduled Successfully",
             showConfirmButton: false,
             timer: 2000,
           });

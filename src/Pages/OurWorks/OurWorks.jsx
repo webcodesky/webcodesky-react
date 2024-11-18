@@ -65,7 +65,8 @@ const OurWorks = () => {
 
             {/* Description */}
             <p className="text-[#747272] text-center px-[10px] md:px-[140px] lg:px-[340px] pt-2 pb-8 md:pb-[120px]">
-              Provide Top-notch Web solution over the world.
+              Innovative Solutions, Creative Designs, and Proven Success in
+              Every Project
             </p>
           </div>
         </Container>
