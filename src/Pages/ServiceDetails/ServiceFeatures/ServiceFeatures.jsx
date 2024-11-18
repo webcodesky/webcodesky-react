@@ -10,12 +10,12 @@ const ServiceFeatures = ({ serviceDetails }) => {
       <p className="poppins font-bold text-[13px] uppercase text-[#F64B4B] text-center">
         Features We Offer
       </p>
-      <h1 className="text-center md:text-[36px] text-[24px] font-bold md:leading-[48px] leading-[32px] tracking-[-1.2px] text-[#161C2D] md:px-80 pt-5">
+      <h2 className="text-center text-[#161C2D] sm:px-40 md:px-48 pt-5">
         Key Features for Fast, Scalable, Dynamic Web Applications
-      </h1>
+      </h2>
       {/* Features we offer */}
       <div className="features-wrapper flex md:flex-row-reverse flex-col-reverse justify-around md:gap-10 pt-16">
-        <div className="content max-w-[375px] flex flex-col gap-5">
+        <div className="content max-w-[375px] flex flex-col gap-5 sm:mb-20">
           {features.slice(0, 3).map((feature, index) => (
             <div key={index}>
               <div className="sub-title poppins font-bold text-[21px]">

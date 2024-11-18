@@ -5,9 +5,9 @@ const ServiceVideo = () => {
     <>
       <Container>
         <div className="md:pt-20 max-sm:pb-10">
-          <h1 className="px- md:px-20 lg:px-48 text-center mt-10 md:mt-auto">
+          <h2 className="px- md:px-20 lg:px-48 text-center mt-10 md:mt-auto">
             We are providing the best business service.
-          </h1>
+          </h2>
           <p className="md:px-[100px] lg:px-[310px] text-center pt-2.5">
             Problems trying to resolve the conflict between <br /> the two major
             realms of Classical physics: Newtonian mechanics

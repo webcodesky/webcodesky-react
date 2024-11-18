@@ -115,9 +115,9 @@ const GetAQuote = () => {
                 </svg>
               </span>
               <div>
-                <h1 className="text-[#161C2D] text-[20px] md:text-[24px] font-bold leading-[28px] md:leading-[34px] tracking-[-0.5px]">
+                <h3 className="text-[#161C2D] text-[20px] md:text-[24px] font-bold leading-[28px] md:leading-[34px] tracking-[-0.5px]">
                   Call Us
-                </h1>
+                </h3>
                 <p className="text-[#161C2D] text-[18px] md:text-[21px] font-medium leading-[26px] md:leading-[32px] tracking-[-0.5px] opacity-70">
                   +880 1860-861105
                 </p>

@@ -16,8 +16,8 @@ const PopularServicesCard = () => {
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 justify-center gap-5 md:gap-5 2xl:[31px] mx-auto mt-10 pb-[77px]">
-      <div className="w-full  border-2 bg-[#F5F5F5] rounded-lg shadow-2xl">
-        <img src={img1} alt="" />
+      <div className="w-full  border-2 bg-[#F5F5F5] rounded-3xl shadow-2xl">
+        <img className="w-full" src={img1} alt="" />
         <div className="p-4">
           <div className="flex justify-between items-center">
             <span className="text-[20px] md:text-[24px] font-semibold leading-[27px]">
@@ -48,8 +48,8 @@ const PopularServicesCard = () => {
         </div>
       </div>
 
-      <div className="w-full border-2 bg-[#F5F5F5] rounded-lg shadow-2xl">
-        <img src={img2} alt="" />
+      <div className="w-full border-2 bg-[#F5F5F5] rounded-3xl shadow-2xl">
+        <img className="w-full" src={img2} alt="" />
         <div className="px-4 pt-5 pb-8">
           <div className="flex justify-between items-center">
             <span className="text-[20px] md:text-[24px] font-semibold leading-[27px]">
@@ -80,8 +80,8 @@ const PopularServicesCard = () => {
         </div>
       </div>
 
-      <div className="w-full border-2 bg-[#F5F5F5] rounded-lg shadow-2xl">
-        <img src={img3} alt="" />
+      <div className="w-full border-2 bg-[#F5F5F5] rounded-3xl shadow-2xl">
+        <img className="w-full" src={img3} alt="" />
         <div className="p-4">
           <div className="flex justify-between items-center">
             <span className="text-[20px] md:text-[24px] font-semibold leading-[27px]">

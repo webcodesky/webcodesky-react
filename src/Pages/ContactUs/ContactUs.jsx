@@ -79,15 +79,15 @@ const ContactUs = () => {
     <>
       <div className="bg-[#F5F5F5] max-sm:pt-[100px]">
         <Container>
-          <h3 className="text-[#F60] text-center md:pt-[120px] pb-[40px]">
+          <h1 className="text-[#F60] text-center md:pt-[120px] pb-[40px]">
             Contact <span className="text-black">Us</span>
-          </h3>
-          <h2 className="text-[#747272] text-center  md:pt-[30px] pb-[40px] md:pb-[73px]">
+          </h1>
+          <p className="text-[#747272] text-center  md:pt-[30px] pb-[40px] md:pb-[73px]">
             We’re excited to help you succeed!{" "}
             <span className="text-[#747272] text-[16px] md:text-[20px] font-bold">
               Let us create something exceptional together!
             </span>
-          </h2>
+          </p>
           <div className="flex flex-col md:flex-row gap-[30px] md:gap-[60px] justify-center p-4">
             <div className="flex gap-4">
               <span className="text-[#FF6600] w-[50.886px] h-[54px] flex-shrink-0">
@@ -112,7 +112,7 @@ const ContactUs = () => {
                 </svg>
               </span>
               <div>
-                <h2 className="text-[#161C2D]">Call Us</h2>
+                <h3 className="text-[#161C2D]">Call Us</h3>
                 <p className="text-[#161C2D]">+880 1860-861105</p>
                 {/* <h4 c5assName="text-[#161C2D] te                  +1-940-394-2948
                 </h4> */}
@@ -145,7 +145,7 @@ const ContactUs = () => {
                 </svg>
               </span>
               <div>
-                <h2 className="text-[#161C2D]">Email us</h2>
+                <h3 className="text-[#161C2D]">Email us</h3>
                 <p className="text-[#161C2D]">webcodesky1@gmail.com</p>
                 {/* <h4 c5assName="text-[#161C2D] te                  contact@brainwave.io
                 </h4> */}
@@ -174,9 +174,9 @@ const ContactUs = () => {
                 </svg>
               </span>
               <div>
-                <h2 className="text-[#161C2D]">
+                <h1 className="text-[#161C2D]">
                   Visit us
-                </h2>
+                </h1>
                 <54 className="text-[#161C2D0">
                   34 Madison Street,
                 </54>

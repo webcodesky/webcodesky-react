@@ -85,12 +85,12 @@ const BlogPost = () => {
           <>
             <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-12 md:gap-8 gap-5 ">
               {/* Card Section (75% width) */}
-              <div className="sm:cols-1 md:col-span-7">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="sm:cols-1 md:col-span-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {/* Card 1 */}
                   {currentPosts.map((blog) => (
                     <Link to={`/blog-details/${blog._id}`} key={blog._id}>
-                      <div className="w-full md:w-[359px] rounded-[15px] bg-[#F5F5F5] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] flex-shrink-0 p-4 h-auto md:h-[525px] ">
+                      <div className="w-full md:w-[100%] rounded-[15px] bg-[#F5F5F5] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] flex-shrink-0 p-4 h-auto md:h-auto">
                         <div>
                           {/* Main Image */}
                           <img
@@ -116,9 +116,9 @@ const BlogPost = () => {
                         </div>
 
                         {/* Title */}
-                        <h2 className="text-[#191919] text-[18px] md:text-[22px] font-normal leading-normal pt-[12px]">
+                        <h1 className="text-[#191919] text-[18px] md:text-[22px] font-normal leading-normal pt-[12px]">
                           {blog.article.title}
-                        </h2>
+                        </h1>
 
                         {/* Description */}
                         <p className="text-[#292929] text-[14px] font-light leading-normal py-[13px]">
@@ -179,7 +179,7 @@ const BlogPost = () => {
               </div>
 
               {/* Other Topic Section (25% width) */}
-              <div className="sm:col-span-1 md:col-span-5">
+              <div className="sm:col-span-1 md:col-span-4">
                 <RecentPost></RecentPost>
               </div>
             </div>
@@ -196,7 +196,7 @@ const BlogPost = () => {
           disabled={currentPage === 1}
         >
           <MdOutlineArrowBack />
-          <h3 className="hidden md:block">Previous</h3>
+          <p className="hidden md:block">Previous</p>
         </button>
 
         {/* Pagination Numbers */}
@@ -210,7 +210,7 @@ const BlogPost = () => {
           className="text-[#667085] text-[18px] md:text-[24px] font-medium leading-[20px] flex gap-2 justify-center items-center pt-4 md:pt-0"
           disabled={currentPage === totalPages}
         >
-          <h3 className="hidden md:block">Next</h3>
+          <p className="hidden md:block">Next</p>
           <MdOutlineArrowForward />
         </button>
       </div>

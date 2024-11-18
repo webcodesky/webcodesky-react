@@ -10,9 +10,11 @@ const MeetOurTeam = () => {
   return (
     <Container>
       <div className=" pt-5 pb-5 md:py-20">
-        <h1 className="text-[#252B42] text-center">Meet Our Team</h1>
+        <h2 className="text-[#252B42] text-center">Meet Our Team</h2>
         <p className="mx-auto pt-2.5  text-center w-[250px] md:w-[430px] lg:w-[430px] md:leading-[24px]">
-          Our dynamic team of creative minds, tech innovators, and strategic leaders is dedicated to transforming your ideas into groundbreaking digital solutions.
+          Our dynamic team of creative minds, tech innovators, and strategic
+          leaders is dedicated to transforming your ideas into groundbreaking
+          digital solutions.
         </p>
 
         <div className="pt-5 md:pt-10">
@@ -24,12 +26,12 @@ const MeetOurTeam = () => {
                 alt=""
               />
               <div className="pt-5 pb-5 flex flex-col justify-center items-center">
-                <h2 className="text-[#252B42] text-center text-[14px] md:text-[16px] lg:text-[16px] font-bold leading-[24px] tracking-[0.1px]">
+                <h1 className="text-[#252B42] text-center text-[14px] md:text-[16px] lg:text-[16px] font-bold leading-[24px] tracking-[0.1px]">
                   Mahmud Hasan Alif
-                </h2>
-                <h3 className="text-[#747272] text-center text-[14px] font-semibold leading-[24px] tracking-[0.2px] py-2">
+                </h1>
+                <h1 className="text-[#747272] text-center text-[14px] font-semibold leading-[24px] tracking-[0.2px] py-2">
                   CO Founder
-                </h3>
+                </h1>
                 <div className="flex gap-[15px] text-[#604CC3]">
                   <Link>
                     <ImFacebook2 />
@@ -50,12 +52,12 @@ const MeetOurTeam = () => {
                 alt=""
               />
               <div className="pt-5 pb-5 flex flex-col justify-center items-center">
-                <h2 className="text-[#252B42] text-center text-[14px] md:text-[16px] lg:text-[16px] font-bold leading-[24px] tracking-[0.1px]">
+                <h1 className="text-[#252B42] text-center text-[14px] md:text-[16px] lg:text-[16px] font-bold leading-[24px] tracking-[0.1px]">
                   Al Tahmiduzzaman Tuhin
-                </h2>
-                <h3 className="text-[#747272] text-center text-[14px] font-semibold leading-[24px] tracking-[0.2px] py-2">
+                </h1>
+                <h1 className="text-[#747272] text-center text-[14px] font-semibold leading-[24px] tracking-[0.2px] py-2">
                   CO Founder
-                </h3>
+                </h1>
                 <div className="flex gap-[15px] text-[#604CC3]">
                   <Link>
                     <ImFacebook2 />
@@ -76,12 +78,12 @@ const MeetOurTeam = () => {
                 alt=""
               />
               <div className="pt-5 pb-5 flex flex-col justify-center items-center">
-                <h2 className="text-[#252B42] text-center text-[14px] md:text-[16px] lg:text-[16px] font-bold leading-[24px] tracking-[0.1px]">
+                <h1 className="text-[#252B42] text-center text-[14px] md:text-[16px] lg:text-[16px] font-bold leading-[24px] tracking-[0.1px]">
                   MD. Shahid Hasan
-                </h2>
-                <h3 className="text-[#747272] text-center text-[14px] font-semibold leading-[24px] tracking-[0.2px] py-2">
+                </h1>
+                <h1 className="text-[#747272] text-center text-[14px] font-semibold leading-[24px] tracking-[0.2px] py-2">
                   CEO
-                </h3>
+                </h1>
                 <div className="flex gap-[15px] text-[#604CC3]">
                   <Link>
                     <ImFacebook2 />

@@ -30,9 +30,9 @@ const RecentPost = () => {
   // console.log(recentPosts);
   return (
     <div className="w-full md:w-full bg-[#F5F5F5] rounded-[15px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] p-4 max-h-[550px] overflow-auto">
-      <h2 className="text-[#252B42] text-[32px] md:text-[40px] font-bold leading-[40px] md:leading-[57px] tracking-[0.2px] ps-[10px] md:ps-[15px]">
+      <h1 className="text-[#252B42] text-[32px] md:text-[40px] font-bold leading-[40px] md:leading-[57px] tracking-[0.2px] ps-[10px] md:ps-[15px]">
         Recent <span className="text-[#F60]">Post</span>
-      </h2>
+      </h1>
 
       {/* Post 1 */}
       {loading ? (
@@ -55,9 +55,9 @@ const RecentPost = () => {
                 alt=""
               />
               <div className="flex flex-col justify-center pb-[12px] md:pb-[16px]">
-                <h2 className="text-[#191919] text-[18px] md:text-[22px] font-normal leading-normal pt-[10px] md:pt-[12px]">
+                <h4 className="text-[#191919] pt-[10px] md:pt-[12px]">
                   {post.article.title}
-                </h2>
+                </h4>
                 <div className="flex gap-4">
                   <p className="text-[#292929] text-[11px] md:text-[13px] font-light leading-normal w-[55px] md:w-[65px] h-[20px] md:h-[24px] flex-shrink-0 rounded-[10px] bg-[#F2F2F2] flex justify-center items-center">
                     Portfolio

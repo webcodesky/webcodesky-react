@@ -7,9 +7,9 @@ const ChooseUs = () => {
   return (
     <Container>
       <div className="md:pt-[74px] pb-10 text-center">
-        <h1 className="">
+        <h2 className="">
           WHY <span className="text-[#F60]">CHOOSE</span> US
-        </h1>
+        </h2>
         <p className="mont mt-4 mb-10 mx-auto w-full max-w-[600px]">
           Discover why businesses trust us for innovative solutions that drive
           real, lasting success.
@@ -17,7 +17,7 @@ const ChooseUs = () => {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-5 justify-center justify-items-center pb-10 sm:pb-16 md:pb-0">
-        <div className="lg:w-[370px] md:w-[370px] sm:w-[370px] w-full h-fit bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] md:mb-[74px]">
+        <div className="lg:w-[370px] md:w-[370px] sm:w-[350px] w-full h-fit bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] md:mb-[74px]">
           {/* Icon and title */}
           <div className="flex justify-center gap-[15px] px-5 md:px-[50px] py-5 md:py-[30px] items-center  rounded-t-[10px] ">
             <div className="flex w-[72px] h-[72px] justify-center items-center [23px_20px_22.647px_20px] rounded-[200px] bg-white">
@@ -39,7 +39,7 @@ const ChooseUs = () => {
             </ul>
           </div>
         </div>
-        <div className="md:w-[370px] w-full h-fit bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] md:mb-[74px]">
+        <div className="md:w-[370px] sm:w-[350px] w-full h-fit bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] md:mb-[74px]">
           {/* Icon and title */}
           <div className="flex justify-center gap-[15px] px-5 md:px-[50px] py-5 md:py-[30px] items-center  rounded-t-[10px] ">
             <div className="flex w-[72px] h-[72px] justify-center items-center p-[20px] rounded-full bg-white">
@@ -61,7 +61,7 @@ const ChooseUs = () => {
             </ul>
           </div>
         </div>
-        <div className="md:w-[370px] w-full h-fit bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] md:mb-[74px]">
+        <div className="md:w-[370px] sm:w-[350px] w-full h-fit bg-[rgba(96,76,195,0.3)] border border-[#A9D6FF] rounded-[10px] md:mb-[74px]">
           {/* Icon and title */}
           <div className="flex justify-center gap-[15px] px-5 md:px-[50px] py-5 md:py-[30px] items-center  rounded-t-[10px] ">
             <div className="flex w-[72px] h-[72px] justify-center items-center p-[20px] rounded-full bg-white">

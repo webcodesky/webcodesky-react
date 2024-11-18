@@ -6,7 +6,7 @@ const Consulting = () => {
       <div className="flex flex-col md:flex-row justify-between items-center">
         <div>
           {" "}
-          <h1 className="pt-10 pb-2.5">Consulting Agency For Your Business</h1>
+          <h2 className="pt-10 pb-2.5">Consulting Agency For Your Business</h2>
           <p className="mont pb-[45px]">
             the quick fox jumps over the lazy dog
           </p>

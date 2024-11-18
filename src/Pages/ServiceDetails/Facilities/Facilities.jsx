@@ -8,9 +8,9 @@ const Facilities = ({ serviceDetails }) => {
       <p className="poppins font-bold text-[13px] uppercase text-[#F64B4B] text-center pt-10">
         Facilities We Provide
       </p>
-      <h1 className="text-center md:text-[36px] text-[24px] font-bold md:leading-[48px] leading-[32px] tracking-[-1.2px] text-[#161C2D] md:px-56 pt-5">
+      <h2 className="text-center text-[#161C2D] sm:px-20 md:px-56 pt-5">
         Comprehensive Facilities for Seamless Development and Ongoing Support
-      </h1>
+      </h2>
       {/* Facilities we provide */}
       <div className="flex md:flex-row flex-col-reverse justify-around md:pt-[75px] pt-10">
         <div>

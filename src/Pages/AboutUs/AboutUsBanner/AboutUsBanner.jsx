@@ -23,9 +23,9 @@ const AboutUsBanner = () => {
             <p className="text-[#747272] text-center md:text-left text-[16px] md:text-[20px] font-[700] leading-[22px] md:leading-[24px] tracking-[0.2px] max-sm:pb-2.5">
               Who we Are?
             </p>
-            <h1 className="text-[#000] text-[32px] md:text-[64px] font-[700] leading-tight md:leading-normal tracking-[-1px] md:tracking-[-2.56px] text-center md:text-left py-4 md:py-[30px] pb-2.5">
+            <h2 className="text-center md:text-left py-4 md:py-[30px] pb-2.5">
               Growing <span className="text-[#F60]">Web Agency</span>
-            </h1>
+            </h2>
             <p className="text-[#747272] text-[16px] md:text-[20px] font-[500] leading-[22px] md:leading-[28px] tracking-[0.2px] w-full md:w-[584px] text-center md:text-left md:pb-[60px] pb-2.5 py-3">
               Empowering businesses with innovative web solutions that drive
               growth, inspire creativity, and deliver results
@@ -33,7 +33,7 @@ const AboutUsBanner = () => {
               <span className="font-[700]">—One website at a time.</span>
             </p>
 
-            <div className="flex flex-col md:flex-row items-center gap-x-4 md:gap-[26px] md:pb-[141px] ">
+            <div className="flex flex-col sm:flex-row sm:justify-center md:flex-row items-center gap-4 md:gap-[26px] sm:pb-8 md:pb-[141px] ">
               <div>
                 <button className="w-[180px] hover:bg-black text-white h-[50px] md:w-[232px] md:h-[71px] flex-shrink-0 rounded-[50px] border-[0.5px] border-[#D3D4D5] bg-[#F60] text-[18px] md:text-[24px] font-normal leading-[100%] flex justify-center items-center md:gap-4 my-auto">
                   <span>Get a Quote</span>
@@ -71,7 +71,7 @@ const AboutUsBanner = () => {
           {/* Video Section */}
           <div className="relative flex-1 max-sm:pt-2.5">
             <iframe
-              className="w-[100%] h-[auto] md:w-[500px] md:h-[346px] rounded-[10px] bg-gradient-to-b from-transparent to-[rgba(56,56,56,0.84)]"
+              className="w-[100%] h-[auto] sm:w-full sm:h-[346px] md:w-[500px] md:h-[346px] rounded-[10px] bg-gradient-to-b from-transparent to-[rgba(56,56,56,0.84)]"
               src={videoSrc} // Use the videoSrc based on isPlaying state
               title="YouTube Video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

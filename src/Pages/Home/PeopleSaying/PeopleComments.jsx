@@ -90,9 +90,9 @@ const PeopleComments = forwardRef((_, ref) => {
                     </span>
                   ))}
                 </div>
-                <h2 className="text-[#2B2B2B] text-[20px] font-medium leading-[31.992px]">
+                <h1 className="text-[#2B2B2B] text-[20px] font-medium leading-[31.992px]">
                   {testimonial.name}
-                </h2>
+                </h1>
                 <p className="text-[#575757] text-[14px] font-medium leading-[150%]">
                   {testimonial.location}
                 </p>

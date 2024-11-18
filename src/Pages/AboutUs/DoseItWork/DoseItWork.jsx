@@ -5,11 +5,10 @@ const DoseItWork = () => {
     <Container>
       <div className="pt-8 md:pt-[77px]">
         {/* Title Section */}
-        <h1 className="text-[#161C2D] text-center">
-          How does it work?
-        </h1>
-        <p className="px-4 md:px-[200px] text-[#161C2D] text-center pt-4 md:pt-5 pb-8 md:pb-[80px]">
-          Streamlined, efficient, and focused on delivering results—our process ensures your success from start to finish.{" "}
+        <h2 className="text-[#161C2D] text-center">How does it work?</h2>
+        <p className="px-4 sm:px-20 md:px-[200px] text-[#161C2D] text-center pt-4 md:pt-5 pb-8 md:pb-[80px]">
+          Streamlined, efficient, and focused on delivering results—our process
+          ensures your success from start to finish.{" "}
         </p>
 
         {/* Options Section */}
@@ -21,9 +20,9 @@ const DoseItWork = () => {
                 1
               </p>
             </div>
-            <h2 className="text-[#161C2D] text-center pt-6 md:pt-[46px] pb-3 md:pb-[14px]">
+            <h3 className="text-[#161C2D] text-center pt-6 md:pt-[46px] pb-3 md:pb-[14px]">
               Discovery & Planning
-            </h2>
+            </h3>
             <f5 className="text-[#161C2D] text-center">
               We analyze goals and craft a strategic plan for success.
             </f5>
@@ -36,11 +35,12 @@ const DoseItWork = () => {
                 2
               </p>
             </div>
-            <h2 className="text-[#161C2D] text-center pt-6 md:pt-[46px] pb-3 md:pb-[14px]">
+            <h3 className="text-[#161C2D] text-center pt-6 md:pt-[46px] pb-3 md:pb-[14px]">
               Design & Prototyping
-            </h2>
+            </h3>
             <f5 className="text-[#161C2D] text-center">
-              We create user-focused, visually appealing prototypes aligned with your brand.
+              We create user-focused, visually appealing prototypes aligned with
+              your brand.
             </f5>
           </div>
 
@@ -51,9 +51,9 @@ const DoseItWork = () => {
                 3
               </p>
             </div>
-            <h2 className="text-[#161C2D] text-center pt-6 md:pt-[46px] pb-3 md:pb-[14px]">
+            <h3 className="text-[#161C2D] text-center pt-6 md:pt-[46px] pb-3 md:pb-[14px]">
               Development & Testing
-            </h2>
+            </h3>
             <f5 className="text-[#161C2D] text-center">
               We build, test, and optimize fast, secure, and scalable solutions.
             </f5>
@@ -66,11 +66,12 @@ const DoseItWork = () => {
                 4
               </p>
             </div>
-            <h2 className="text-[#161C2D] text-center pt-6 md:pt-[46px] pb-3 md:pb-[14px]">
+            <h3 className="text-[#161C2D] text-center pt-6 md:pt-[46px] pb-3 md:pb-[14px]">
               Launch & Support
-            </h2>
+            </h3>
             <f5 className="text-[#161C2D] text-center">
-              We launch your project and provide ongoing support for continuous growth.
+              We launch your project and provide ongoing support for continuous
+              growth.
             </f5>
           </div>
         </div>

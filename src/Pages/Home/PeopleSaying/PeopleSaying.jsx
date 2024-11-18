@@ -25,11 +25,11 @@ const PeopleSaying = () => {
         <Container1>
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-[80px] pt-[60px] lg:pt-[120px] pb-[40px] lg:pb-[82px]">
             <div className="flex-[1] max-w-[415px]">
-              <h1>
+              <h2>
                 What Are People <br />
                 Saying
                 <span className="text-[#FF6600]"> About Us</span>
-              </h1>
+              </h2>
               <p className="mont pt-6 lg:pt-[30px] pb-6 lg:pb-[32px]">
                 With expertise in the latest web technologies, we go beyond
                 development, working as your team’s extension to ensure each
